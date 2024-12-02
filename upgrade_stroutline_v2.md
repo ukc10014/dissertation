@@ -2,6 +2,8 @@
 
 title: Reasons for Persons, or the Good Successor Problem
 date: \today
+---
+
 abstract: \noindent Recent advances in AI may have increased the risk of human extinction or disempowerment. However, they have also made tangible our possible evolution into a machine-based species.  Many may feel that a world from which our biological descendants have disappeared would be a worse one, in some irreducible or objective sense.  But what about a world where certain values could be passed on to a superintelligence - values that seem to be convergently present amongst human cultures, such as respect for artistic creativity or for ecological diversity?  Would this still be a terrible outcome, and if so, precisely why?  The topic is controversial and confusing, yet it seems useful to set out the relevant views from philosophy, ecology and astrobiology, as well as conceptual AI. The ambition is to construct a thought experiment that asks why and how humanity's technological successor should carry the torch of intelligence forward throughout our lightcone.
 
 

@@ -1,0 +1,38 @@
+\usepackage{longtable}
+\usepackage{titlesec}
+\usepackage{setspace}  % Added for line spacing control
+
+% Times New Roman-like font
+\usepackage{newtxtext}
+
+% Set up selective spacing
+\newenvironment{abstractspacing}
+  {\begin{singlespace}}
+  {\end{singlespace}}
+
+% Define a new command for the centered title
+\newcommand{\chaptertitle}[1]{%
+  \newpage
+  \vfill
+  {\centering\Huge\bfseries #1}
+  \vfill
+  \thispagestyle{empty}
+  \newpage
+}
+
+\titleformat{\section}
+    {\centering\Huge\bfseries}
+    {Chapter \thesection}
+    {1em}
+    {\chaptertitle}
+
+% Load hyperref last
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+    filecolor=blue,
+    linktoc=all
+}
