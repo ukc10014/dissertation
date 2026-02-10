@@ -16,6 +16,8 @@
 
 # Build outputs (choose whether to track PDFs)
 *.pdf
+!milestones/*.pdf
+
 
 # Common temp folders
 build/
