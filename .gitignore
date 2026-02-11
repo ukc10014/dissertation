@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Build outputs
+build/
+
+# LaTeX / Pandoc auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.dvi
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# Rendered outputs (tracked only if explicitly desired)
+*.pdf
+*.html
+
+# Temp / scratch
+tmp/
