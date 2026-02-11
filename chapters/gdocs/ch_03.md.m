@@ -1,6 +1,6 @@
 # Meta
 
-11/2/26: this doc is source-of-truth for LLM experiments w/ CH. ORIGINAL CONSTELLATION WORK IS IN ~/projects/ and an older google doc [here](https://docs.google.com/document/d/1k2gF4X5qwPTtKBJ7Q0yAPOZwYHAh5nbIZdEM0WReRU0/edit?usp=sharing)
+11/2/26: this doc is mo longer source-of-truth for LLM experiments w/ CH. See [disso repo](https://github.com/ukc10014/dissertation) or ~/projects/
 
 # Introduction
 
