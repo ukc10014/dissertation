@@ -36,5 +36,6 @@ Both scripts use `defaults.yaml` for Pandoc configuration and glob `chapters/*.m
 - **Before modifying any source file** (`.md`, `.bib`, `.sh`, or similar data/code files), make a backup copy with a `~` suffix (e.g., `ch_03.md` → `ch_03.md~`). This follows the Unix convention for backup files.
 - All thesis content is authored in Markdown with Pandoc-flavored extensions (citations, LaTeX math, cross-references).
 - Build artifacts (PDF, HTML, LaTeX aux files) are gitignored.
+- **Abstract**: The source of truth for the abstract is `abstract.md` (repo root). Its content is duplicated into the `abstract` field in `defaults.yaml` so Pandoc renders it on the title page. If the abstract changes, update both places (or update `abstract.md` and copy into `defaults.yaml`).
 - Chapter files are named with `ch_` prefix and ordered alphabetically for correct Pandoc concatenation.
 - Commits tend to be checkpoint-style rather than continuous.

@@ -29,6 +29,7 @@ Rendered outputs are written to `build/` and are not tracked by default.
 ## Repository conventions
 
 * **Source of truth**: Markdown chapters, bibliography files, assets.
+* **Abstract**: `abstract.md` (repo root) is the canonical abstract. Its text is also in the `abstract` field of `defaults.yaml` for Pandoc rendering — keep them in sync.
 * **Build artefacts**: PDFs, HTML, and LaTeX auxiliary files are ignored.
 * **Milestone PDFs** (submitted drafts) may be tracked separately if needed.
 * Chapters live in `chapters/`.

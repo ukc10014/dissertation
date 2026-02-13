@@ -352,13 +352,28 @@ Standard arguments for why extinction is bad, reframed as objections the obsoles
   - **The contemplative perspective**: Insistence on human cultural uniqueness as another form of clinging.
 - **The line-drawing problem surfaces again**: Whether culture must be preserved depends on whether you think autotelic surplus is cosmically necessary (Wolfendale's line), instrumentally useful for understanding (the thesis's proposed line), or unnecessary (the nihilist's line). Each is a defensible position with identifiable commitments.
 
-### 2.6 The Evaluative Standpoint: Information, Complexity, and the Thermodynamic Corridor
+### 2.6 The Evaluative Standpoint: Information, Complexity, and the Point of View of the Universe
 
-*The original philosophical synthesis — the framework from which the obsolescence argument is evaluated.*
+*Constructing the framework from which the obsolescence argument is evaluated. This is the original philosophical synthesis.*
+
+**The standpoint problem**: Any evaluation of what should be preserved in a post-human future requires a standpoint from which to evaluate. But evaluating from within thick human values is circular — you will always conclude that thick human values should be preserved, because those are the values you're using to do the evaluating. The thesis therefore requires the most impartial standpoint available: what Sidgwick called "the point of view of the universe."
+
+**The trajectory toward impartiality**: Western moral philosophy has a discernible trajectory from partiality toward increasing impartiality. Bentham extends moral concern beyond the privileged few. Sidgwick asks what would be good "from the point of view of the universe." Parfit extends this to future people, possible people, and across personal identity — and notices the resonance with Buddhist selflessness. Each step widens the circle of moral consideration and weakens the privileged position of the evaluator's own perspective. The thesis argues that this trajectory does not stop at "all humans" or "all sentient beings." It continues to a genuinely cosmic standpoint — one that does not privilege Earth-origin intelligence over other possible forms.
+
+**Three components of the standpoint**: The evaluative framework the thesis constructs has three components, drawn from different parts of the project:
+- The **content** of the standpoint — what it takes to be valuable — comes from the information-theoretic framework developed in this chapter (Chaisson, Floridi, Landauer): complexity, information-generation, observerhood.
+- The **structure** of the standpoint — how to reason from it at cosmic scales — comes from the cosmic host framework examined in Chapter 3 (Bostrom): acausal cooperation, cosmic impartiality, decision-theoretic reasoning across civilisations that may never meet. The cosmic host is the furthest extension of the impartiality trajectory — a genuinely cosmic standpoint using tractable tools (decision theory, acausal reasoning) rather than theistic assumptions or abstract pronouncements.
+- The **disposition** required to inhabit the standpoint — how to release the partiality that makes impartial evaluation difficult — comes from the contemplative tradition (Thacker, Nishitani): releasing attachment to the particular, including attachment to one's own form of existence.
+
+This three-part structure explains why the thesis engages with these three traditions and what each contributes. The information-theoretic framework alone tells you what's valuable but not how to reason about it at cosmic scales. The cosmic host alone tells you how to reason but not what to value. The contemplative tradition alone releases attachment but offers no positive content. Together, they construct the most complete version of "the point of view of the universe" currently available.
 
 #### 2.6.1 Why Utilitarianism Provides the Starting Point
-- Comparative parsimony for radically unfamiliar futures.
-- Parfit's convergence thesis and substrate-neutral normative truths.
+- Comparative parsimony for radically unfamiliar futures: fewer assumptions about agents, communities, or enforcement than alternatives.
+- Parfit's convergence thesis and substrate-neutral normative truths: if "irreducible normative truths" are discoverable by any rational agent regardless of substrate, then the standpoint from which we evaluate succession need not be human.
+- **Why not deontology?** Kant's universalisability is itself a form of impartiality, and deontology can in principle reach a cosmic standpoint. But it relies on rational agents recognising each other as ends-in-themselves — which may not hold across the cognitive distances the thesis contemplates. Less naturally suited to evaluating outcomes across radically different forms of existence.
+- **Why not contractualism?** Scanlon's contractualism requires parties who can enter into "what we owe to each other" reasoning. You cannot contract with a civilisation you will never meet, or with a form of intelligence you cannot communicate with. Contractualism is structurally limited to standpoints anchored in relationships between recognisable agents — precisely the parochialism the thesis seeks to transcend. Not a criticism of contractualism within its domain, but a scope limitation.
+- **Why not virtue ethics?** Aristotelian virtue ethics is anchored in a shared form of life — the human polis. No obvious extension to non-human or cosmic scales. MacIntyre's tradition-dependent version is even more explicitly tied to particular human communities. Again, a scope limitation, not a criticism.
+- The thesis's broadly utilitarian starting point is therefore not arbitrary but follows from the demands of the evaluative problem: you need a standpoint that can range over radically different forms of existence, and the utilitarian/consequentialist tradition is the one that has most systematically pursued impartiality to its limits. The cosmic host (Chapter 3) extends this further than classical utilitarianism ever did.
 
 #### 2.6.2 Chaisson's Energy Density Metric
 - Φₘ as substrate-neutral complexity metric.
@@ -422,12 +437,15 @@ Standard arguments for why extinction is bad, reframed as objections the obsoles
 
 ## Chapter 3: The Cosmic Host and Successor Ethics Under Pressure
 
-*Testing the obsolescence argument against cosmic-scale frameworks.*
+*This chapter tests whether cosmic-scale frameworks support or undermine the obsolescence argument. It also serves a structural function in the thesis's evaluative architecture.*
+
+**Bridge from Chapter 2**: Chapter 2 established that evaluating the succession question requires an impartial standpoint — what Sidgwick called "the point of view of the universe" — and constructed the *content* of that standpoint (information-generation, complexity, observerhood) from the information-theoretic tradition. This chapter examines the *structure* of the standpoint: how to reason from it at cosmic scales. Previous versions of "the point of view of the universe" have been either theistic (God's-eye view), abstractly impartialist (Sidgwick, Parfit — powerful but anchored in human moral contexts), or simply gestured at without specification. Bostrom's cosmic host is the most systematic attempt to construct a genuinely cosmic standpoint using tractable tools — acausal reasoning, decision theory, game-theoretic cooperation among civilisations that may never meet. It asks: what norms would a civilisation adopt if it took seriously the possibility that other civilisations exist, that they might be reasoning about the same questions, and that coordination is possible even without communication? This is the Bentham → Sidgwick → Parfit trajectory extended to its limit: impartiality not just across persons, or across generations, but across civilisations and forms of intelligence. The chapter examines whether that standpoint, once constructed, supports the obsolescence argument — whether cosmic impartiality favours human continuation, is indifferent to it, or actively supports succession.
 
 ### 3.1 Exposition: Bostrom's Cosmic Host and Mount Ethics
 - Core claims (CH2024, ME2022). Why powerful agents might converge on cosmic norms.
-- **What the cosmic host does NOT provide**: positive account of large-scale value. Focus on humility.
-- **Relationship to obsolescence**: Compatible but not entailing.
+- **The cosmic host as extension of the impartiality trajectory**: Bostrom's framework can be understood as the furthest development of Sidgwick's "point of view of the universe" — using decision theory and acausal reasoning to make the standpoint tractable rather than merely evocative. Where Sidgwick asks "what would be good from nowhere in particular?", Bostrom asks "what would a civilisation do if it reasoned as though other civilisations were watching?" The tools are different (game theory vs. hedonic calculus) but the aspiration is the same: impartiality at the widest possible scope.
+- **What the cosmic host does NOT provide**: positive account of large-scale value. Bostrom's focus is on humility — deliberate vagueness about content, aligned with the commitment against premature value lock-in. The cosmic host gives you the *structure* of the standpoint (how to reason) but not the *content* (what to value). This is why the thesis needs both the information-theoretic framework (Chapter 2, for content) and the cosmic host (this chapter, for structure).
+- **Relationship to obsolescence**: Compatible but not entailing. The cosmic host standpoint is impartial between different forms of intelligence — it doesn't privilege biological humanity. But humility might counsel against succession as well as for it.
 
 ### 3.2 Philosophical and Theoretical Critique
 - Contestable assumptions: other agents, simulation, correlation, bargaining space.
