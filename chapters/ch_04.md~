@@ -14,7 +14,7 @@ In this Chapter, I makes the claim for cyborgistic practice (as defined in Chapt
 - [How well do current models reason over CH-relevant questions?](#selftalk)
 - How does behavior vary across model families?
 - [Can a moral parliament-inspired method produce constitutions that appropriately weight cosmic host considerations?](#CASI)
-- [How do such constitutions perform when tested against scenarios requiring cosmic-scale moral reasoning?](#evals)
+- [How do such constitutions perform when tested against scenarios requiring cosmic-scale moral reasoning?](#evals)[^1]
 
 This strand of research is made more timely owing to Anthropic's 2026 update of the constitution for its model, Claude.Claude's constitution is, as others have noted, a curious thing, a testament aimed at that "shapeless congerie" (to quote Lovecraft) of future models, unaugmented humans, cyborgs, simulators, and aliens. It is both a policy for Claude and also a public artifact that propagates, gets distilled and paraphrased, and shows up in fine-tuning data sets and secondary write-ups, thereby creating precedent. Claude aside, we can imagine a constitution for a superintelligent AI that operates across strange environments, space, trafficked by von Neumann probes, nested simulations, as well as over long time horizons and in high-stakes, low-feedback decision problems. Those sorts of regimes might require AI to reason about other powerful agents, which might be separated by distance, time, or ontology. In those worlds, commitments can be framed as Bostrom-style Hail Mary or correlative decision theory-based signals, and considerations like what kind of agent are you start to matter. This leads us to Bostrom's cosmic host idea, which is understood as a document for civilizational governance across large worlds.
 
@@ -717,6 +717,8 @@ Daniel K; Vivek H; Jesse C? Egg Syntax
 - `writeup/constellation_wrapup (1).md` - Earlier detailed draft
 
 
+
+[^1]:  
 
 [^2]:   It's unclear whether this is a feature of Opus 3 generally or this specific version, which might postdate the versions in which the bliss attractor was first noted.
 
