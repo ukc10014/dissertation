@@ -9,7 +9,7 @@ metadata:
   link-citations: true
   colorlinks: true
   indent: true
-  bibliography: [bib/bibliography_ukc.bib]
+  bibliography: [bib/bibliography_ukc.bib, bib/ch03_additions.bib]
   toc: true
   toc-depth: 6
   numbersections: true
