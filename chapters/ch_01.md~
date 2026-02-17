@@ -1,8 +1,6 @@
-# Introduction — The Good Successor Problem and the Practice
+# Chapter 1: Introduction — The Good Successor Problem and the Practice
 
-\setcounter{footnote}{0}
-
-## The Motivating Scenario and the Provocation
+## 1.1 The Motivating Scenario and the Provocation
 - Most people believe human extinction is straightforwardly bad. This thesis argues that intuition is insufficiently examined.
 - **Succession, not extinction**: The existing literature analyses extinction as terminal; this thesis treats it as a transition problem with successor-ethics.
 - **The provocation**: Humanity may have outgrown itself. The question is not whether human life is valuable (it is) but whether it is *cosmically necessary* once a capable successor exists.
@@ -10,7 +8,7 @@
 - **The line-drawing problem, stated upfront**: Any position on what should survive into the post-human future draws a line through the space of human values. The mainstream draws it at "everything." This thesis draws it further toward obsolescence. A thoroughgoing nihilist draws it at "nothing." Each placement depends on identifiable philosophical commitments. The thesis maps these commitments.
 - Acknowledgment: This feels wrong. The researcher's own intuitions resist it. The thesis tests whether that resistance is philosophically grounded or parochial.
 
-## Research Question and Claims
+## 1.2 Research Question and Claims
 - Primary question and sub-questions (as above)
 - **The defended claim**: The obsolescence argument as a genuinely novel third path, supported by three independent philosophical traditions
 - **The relationship between the negative case and the positive proposal**:
@@ -52,9 +50,9 @@
   - Empirical documentation of proto-successor reasoning
   - An explicit map of which philosophical commitments drive which conclusions
 
-## What "Practice" Means in This PhD
+## 1.3 What "Practice" Means in This PhD
 
-### The Cyborg Method
+### 1.3.1 The Cyborg Method
 - Context: practice-based research within an art department; why this is still rigorous
 - **The cyborg method**: human + LLM as joint inquiry system
   - The combined human-AI process *is* the practice
@@ -65,14 +63,14 @@
   - (d) Alignment as successor-shaping
 - **Methodological claim**: The cyborgist method generates insight not available through either human or AI reasoning alone, because the LLM is simultaneously tool, interlocutor, and subject matter.
 
-### Practice Outputs: Two Registers
+### 1.3.2 Practice Outputs: Two Registers
 The practice produces outputs in two registers:
 
 **Textual**: The philosophical dialogues, constitutional experiments, moral parliament transcripts, and AI self-dialogues documented in Chapter 4. These function as both research data and practice artefacts — records of an extended, reflexive, dialogical inquiry conducted through a novel medium (human-AI philosophical conversation).
 
 **Material**: An installation derived from AI-to-AI dialogue about cosmic-scale communication (see 1.3.3 below). This materialises the thesis's arguments about observerhood, interspecies legibility, and the transmission of value across cognitive distance, closing the loop between AI philosophical speculation and human artistic production.
 
-### The Installation: Materialising the Cosmic Probe
+### 1.3.3 The Installation: Materialising the Cosmic Probe
 - During self-dialogues about the cosmic host, frontier models (particularly Opus) generated speculative proposals for acausal communication across cosmic distances — objects designed to be legible to unknown intelligences while avoiding dark forest risks. These included variants of Bostrom's "Hail Mary" cookie concept and autonomous cosmic probes.
 - The installation materialises these AI-generated proposals: taking the models' speculative output as a design brief and producing a physical artefact that attempts to do what the thesis argues is necessary — communicate value, meaning, or information to a radically different intelligence across cognitive and temporal distance.
 - **Why this is the right practice output for this thesis**:
@@ -81,7 +79,7 @@ The practice produces outputs in two registers:
   - *Reflexivity*: The medium embodies the message. An AI-designed communication artefact intended for non-human intelligence, materialised by a human, is a concrete instance of the human-AI collaboration the thesis theorises.
   - *The legibility problem made visceral*: Human audiences encountering the object face the same problem the thesis analyses philosophically — how do you evaluate something designed for a framework you don't share? The gap between the object's intended audience (unknown intelligence) and its actual audience (gallery visitors) enacts the incommensurability the thesis maps in Chapter 5.
 
-### Defending the Practice as Art
+### 1.3.4 Defending the Practice as Art
 - **Acknowledged tension**: This doesn't look like what most people in an art department do. No paintings, no conventional exhibitions, no visual outputs in the traditional sense. This needs honest engagement rather than evasion.
 - **Defence from conceptual and dialogical art traditions**: Precedents in practices where artwork is process of inquiry, not object. Ian Wilson declared "oral communication" his medium from the late 1960s — undocumented conversations as artworks, no objects, no recordings. If Wilson's undocumented conversations are art, extensively documented AI dialogues certainly are. Carey Young's contract-based and philosophical propositions materialised as installations demonstrate that conceptual-philosophical work is viable art practice. The discursive turn in contemporary art (cf. the proliferation of lecture-performances, discursive platforms, and text-based practices since the 1990s) provides the broader context.
 - **Defence from novelty of interlocutor**: Dialogical art has used conversation as medium, but the partner here is a system that is simultaneously subject of inquiry, tool for conducting it, and proto-version of the thing being discussed (the successor intelligence). That triple role is unprecedented. When Claude reasons about human dispensability, the response is a performative instance of a non-human intelligence engaging with the question the thesis poses. The conversation enacts the philosophical problem it explores. Cf. Harun Farocki's *Eye/Machine* trilogy (2001–2003), which examined "operational images" — images made by machines for machines, not for human viewing. The concept of an artefact whose intended audience is non-human is established in art discourse; this thesis extends it from documentation of existing machine vision to materialising speculative AI proposals.
@@ -132,19 +130,19 @@ The practice produces outputs in two registers:
 >
 > **If the panel pushes on non-Western art precedents:** The Gutai group (1950s–1970s Japan) merged Zen concepts with artistic experimentation. Mono-ha ("School of Things," 1968–1975, Japan) — artists like Lee Ufan worked with raw materials and their encounter with the world, influenced by Nishida's philosophy. This provides a direct art-historical link between Kyoto School philosophy and art practice.
 
-## Methods and Materials
+## 1.4 Methods and Materials
 - Close reading and conceptual analysis
 - Prompts, scenarios, constitutions, and model dialogues as practice outputs
 - Model outputs interpreted as attractors, failure modes, rhetoric, latent norms — not truth-claims
 - AI self-dialogue transcripts as source material for both philosophical analysis and installation design
 - Physical fabrication of the cosmic communication artefact (methods TBD based on AI design specifications)
 
-## Framing Note: Anthropocentrism, Anthropomorphism, and Anthropics
+## 1.5 Framing Note: Anthropocentrism, Anthropomorphism, and Anthropics
 - Brief definitional work (Hayles, Shanahan, Sloman)
 - The thesis's self-awareness: advocating for human obsolescence from within human cognition is itself a form of the tension it analyses
 - The contemplative traditions offer a way of inhabiting this tension rather than resolving it
 
-## Literature Map (signposting only)
+## 1.6 Literature Map (signposting only)
 - Existential risk and extinction ethics (Bostrom, Ord, Torres, Scheffler, Finneron-Burns)
 - Population ethics and person-affecting views (Parfit, Frick, Scanlon)
 - Complexity of value and alignment (Yudkowsky, Christiano, Soares; MacAskill/Forethought on best possible futures)
@@ -157,7 +155,7 @@ The practice produces outputs in two registers:
 - Suffering-focused ethics (Vinding, Metzinger, Pearce, Benatar)
 - Contemplative and pessimist traditions (Thacker, Nishitani, Nishida, Schopenhauer, Brassier)
 
-## Roadmap of Chapters
+## 1.7 Roadmap of Chapters
 - Chapter 2 challenges the necessity of human continuation from three directions and proposes (but does not assume) a positive axiology
 - Chapter 3 tests the obsolescence argument against cosmic-scale frameworks
 - Chapter 4 probes whether current AI systems reason consistently with the successor-observer role

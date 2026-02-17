@@ -1,57 +1,32 @@
-# Superintelligence as Good Cosmic Citizen
-
-\setcounter{footnote}{0}
-
-## Chapter summary
-
-Nick Bostrom’s concept of a “cosmic host” which makes arguments about ASI, in context of possible advanced civilizations whose preferences might constitute binding norms across the universe (Bostrom 2022, Bostrom 2024), rests on assumptions about rationality, expansionism, and convergent cognition that warrant closer scrutiny. Drawing on astrobiology, evolutionary biology, and AI alignment research, this Chapter identifies several significant gaps in Bostrom’s framework.
-
-First, the cosmic host’s coherence as a concept depends on assumptions about which civilizations would seek cosmic-scale influence. These assumptions are challenged by alternative models that posit non-expansionist or non-communicating advanced ETIs. Second, even if a cosmic host exists, claims about the content and convergence mechanism of cosmic norms require stronger justification. For instance, substrate-neutral norms might prioritize information preservation and complexity maintenance alongside (or instead of) suffering minimization; moreover, the content of norms depends heavily on the composition of the host. Third, speculation that human-created superintelligence would reliably converge on cosmic norms requires further theoretical justification as well as such empirical as is possible with our current tools. While Bostrom’s framework offers a valuable perspective on long-term AI alignment, its practical application requires addressing fundamental questions about the scope and basis of cosmic-scale coordination.
-
-This Chapter ends by motivating the empirical work with LLMs described in Chapter \ref{ch:empirical-host}.
+# Chapter 3: Superintelligence as good cosmic citizen
 
 
-## What is the cosmic host?
+## Abstract
 
-Bostrom 2024's argument rests on a chain of assumptions that can be made explicit as an "assumption ladder." Each rung depends on the ones below it:
+v1.2: 10 October 2025
 
-(0) **Rationality**: some version of rationality is a useful foundation for thinking about ASI and ETIs.
-(i) **Existence**: technologically mature civilisations (i.e. candidates for cosmic host membership) exist.
-(ii) **Coordination**: at least some such civilisations can coordinate at scale (including acausally).
-(iii) **Preferences**: they have stable, large-scope (i.e. cosmic) preferences.
-(iv) **Normativity**: some such preferences are morally binding or prudentially recommended for us.
-(v) **Discoverability**: these preferences are discoverable by ASI.
+Nick Bostrom’s concept of a “cosmic host” (advanced civilizations whose preferences might constitute binding norms across the universe) rests on assumptions about rationality, expansionism, and convergent cognition that warrant closer scrutiny. Drawing on astrobiology, evolutionary biology, and AI alignment research, this essay identifies several significant gaps in Bostrom’s framework.
 
-If all rungs hold, then:
-<!-- TODO: Explain upfront what things like prudential and metaethical mean, what normativity means, and what preferences are. -->
-1. There may be something describable as cosmic norms, and the cosmic host might prefer these norms be followed in volumes of spacetime they don't directly control.
-2. We have prudential and (for some metaethical views) moral reasons to follow these norms; ASI can help us discover and comply with them; and the cosmic host might prefer we build ASI than not.
-3. There are implications for ASI research:
-   a. We might consider not indefinitely postponing ASI creation, since certain types of delay increase the chances that we never build it.
-   b. There is a tension between alignment and speed of developing ASI, and it is unclear how they trade off.
-   c. It is unclear what sort of preferences the ASI should have, since that might depend on what other members of the host are like (e.g. human-like, superintelligent, possessed of moral concepts, etc.).
-   d. That the ASI we build be cooperatively disposed (vis-à-vis other civilisations it encounters) and have resource-satiable preferences might be more important than what those preferences exactly are.
+First, the cosmic host’s coherence as a concept depends on assumptions about which civilizations would seek cosmic-scale influence. These assumptions are challenged by alternative models that posit non-expansionist or non-communicating advanced ETIs. Second, even if a cosmic host exists, claims about the content and convergence mechanism of cosmic norms require stronger justification. For instance, substrate-neutral norms might prioritize information preservation and complexity maintenance alongside (or instead of) suffering minimization; moreover, the content of norms depends heavily on the composition of the host. Third, speculation that human-created superintelligence would reliably converge on cosmic norms requires further theoretical justification as well as such empirical as is possible with our current tools.
 
-The body of this chapter examines each rung in turn. The discussion of rationality and ecological cognition interrogates rung (0). The astrobiology sections address rungs (i) and (ii). The discussion of cosmic norms, substrate-neutral norms, and the Fun Remainder examines rungs (iii) and (iv). The research agenda proposes empirical approaches to rung (v).
+I conclude by outlining a research agenda for testing key assumptions about rational convergence in both hypothetical ETI cognition and contemporary AI systems, proposing specific experiments and evaluation criteria. While Bostrom’s framework offers a valuable perspective on long-term AI alignment, its practical application requires addressing fundamental questions about the scope and basis of cosmic-scale coordination.[^1]
 
 ## Why the cosmic host (might) matter.
 
-
+Nick Bostrom's “cosmic host” is the subject of a 2024 working paper (Bostrom 2024), and was first mentioned in another draft “Base Camp Mt Ethics” (Bostrom 2022). For readers unfamiliar with Bostrom's argument, Appendix C provides a detailed summary. However, the core claim is simple: there might be entities (such as advanced extraterrestrial intelligences or ETIs) that act at large scales or have preferences over what happens on such scales. When and if humans build superintelligent AI, we should take care to ensure this AI finds out and respects the wishes of the cosmic host (if it exists).
 
 Bostrom 2024 is important for three reasons: 
 
 1. As of mid-2025, estimates of when AGI might be achieved seem to be between 2033 and 2045, with ASI about 3 years after AGI.[^2] If such projections are plausible, then a small amount of effort ought to be spent on thinking about what the volitions[^3] of superintelligence (ASI) are likely to be, as well as what a defensible role for humans might be in a future lightcone that is plausibly dominated by AI.  
-2. The definition of alignment suggested in Bostrom 2024 seems somewhat different from the “everyday” AI safety version, in that it does not scope an aligned AI to the preservation of parochial values (whether Western democratic, or Chinese socialist, etc.), or even broader, ill-defined terms like “human” values.[^4]  Instead, Bostrom’s version stipulates that, in building ASI, we should be, and should design ASI to be, humble. Specifically ASIs, as sufficiently powerful and rational systems, should be aware of the larger, cosmic context within which they operate, and the possibility that human affairs and viewpoints are a very small or irrelevant part of this larger context. They should act as if from the point of view of the universe, being good “cosmic citizens” instead of behaving parochially, anthropocentrically or anthropomorphically.   
+2. The definition of alignment suggested in Bostrom 2024 seems somewhat different from the “everyday” AI safety version, in that it does not scope an aligned AI to the preservation of parochial values (whether Western democratic, or Chinese socialist, etc.), or even broader “human” values (understood as culture or some ineffable and nice-sounding but hard-to-operationalise “essence” of humanity such as love, art, meaning, poetry, beauty, etc.).[^4]  Instead, Bostrom’s version stipulates that, in building ASI, we should be, and should design ASI to be, humble. Specifically ASIs, as sufficiently powerful and rational systems, should be aware of the larger, cosmic context within which they operate, and the possibility that human affairs and viewpoints are a very small or irrelevant part of this larger context. They should act as if from the point of view of the universe, being good “cosmic citizens” instead of behaving parochially, anthropocentrically or anthropomorphically.   
 3. The possibility of digital minds is a live research area and overlaps with the topic. For instance, one theory of AI model welfare relies on satisfaction of preferences, whether of humans or agentic AI systems[^5] and it is possible that adequately powerful models have corresponding large scale preferences about how the world ought to be ordered. We may need to frustrate those preferences in order to prioritise human interests, which would (at least) have to be done carefully and justifiably.  
 4. The idea of a cosmic host seems useful for thinking about a perennial philosophical problem that is sharpened in worlds-with-ASI: Western philosophy does not give us an easy way to talk about interests at the level of things that do not constitute human-shaped subjects or rational entities.[^6]
-
-<!-- TODO: Decide on what voice. Is this first person singular, first person plural, or third person impersonal? -->
 
 Given the potential salience of the cosmic host and the cosmic norms, it would be useful to be clear on what we can reasonably say about these concepts and how they might practically guide research on current AI systems. Moreover, given that we're unlikely to know much about either ETI or ASIs until such time we find the one or develop the latter, we need to operate under uncertainty and ensure that any investigations or design decisions in respect of frontier and next generation AIs are robust (in the sense of not locking in irreversible futures and preserving option value which is a major consideration in longtermism, as MacAskill 2022 and Wolfendale 2022 argue) to this uncertainty. But before examining Bostrom's specific arguments, we must address two fundamental epistemological challenges that affect the entire enterprise.
 
 ## Epistemic challenges: cluelessness and rationality
 
-This chapter, and I argue Bostrom 2024, should be read with a big caveat. The study of ASI is currently somewhat like what was observed about astrobiology (and still seems plausible): it aspires to be a science without an actual object of experimentation.[^7] ASI does not exist, just as ETIs haven’t been found. We don’t even have AGI, with prominent researchers suggesting that the path to AGI will require further fundamental innovations (above and beyond “just scaling” LLMs to larger models, greater reasoning effort, and more data).[^8] Thus, much writing around ASI cannot help but be more or less informed speculation, albeit drawing on philosophy, computer science, and evolutionary analogies.
+This essay, and I argue Bostrom 2024, should be read with a big caveat. The study of ASI is currently somewhat like what was observed about astrobiology (and still seems plausible): it aspires to be a science without an actual object of experimentation.[^7] ASI does not exist, just as ETIs haven’t been found. We don’t even have AGI, with prominent researchers suggesting that the path to AGI will require further fundamental innovations (above and beyond “just scaling” LLMs to larger models, greater reasoning effort, and more data).[^8] Thus, much writing around ASI cannot help but be more or less informed speculation, albeit drawing on philosophy, computer science, and evolutionary analogies.
 
 Our cluelessness extends beyond lacking data (about ETI or ASIs). There's a deeper problem: the conceptual frameworks which we use, in order to reason about radically different minds, may themselves be anthropomorphic, not least when we aspire to adopt a deep cosmopolitan perspective of non-anthropocentrism and non-anthropomorphism.[^9] Humans at present (mostly) only reason about moral, ethical, and political questions through language which is, at least in the case of natural language, embedded in specific human forms-of-life.[^10] Hence our attempts to, as it were, step out of the human condition seem doomed. In fact the early history of alignment (and perhaps of philosophy generally) is precisely this: an attempt to find things we can say about intelligence that are invariant to an intelligent entity’s constitution and environment.[^11]
 
@@ -117,7 +92,7 @@ Looked at another way, the structure of cosmic norms might be quite complex. Som
 
 ### Substrate neutral norms
 
-In the chapter so far, we’ve seen a range of possible ways an entity could be.[^38] But mostly, human-like forms of being (a model that has significantly influenced how we think of AI cognition) are thought of as agentic entities that have goals, or rather a hierarchy of instrumental and final goals, to take the traditional (i.e. rational agent)  framing; they also form plans for achieving those goals within the environment; as well as a degree of probabilistic belief in observations about the environment. Generally speaking, we  also assume there are other diversely-capable agents in the system, and that there are some broad constraints that are thrown at these agents by the environment. These constraints might include resource scarcity, noise, and uncertainty, and sometimes the agents might have varying preferences to risk.[^39] 
+In the essay so far, we’ve seen a range of possible ways an entity could be.[^38] But mostly, human-like forms of being (a model that has significantly influenced how we think of AI cognition) are thought of as agentic entities that have goals, or rather a hierarchy of instrumental and final goals, to take the traditional (i.e. rational agent)  framing; they also form plans for achieving those goals within the environment; as well as a degree of probabilistic belief in observations about the environment. Generally speaking, we  also assume there are other diversely-capable agents in the system, and that there are some broad constraints that are thrown at these agents by the environment. These constraints might include resource scarcity, noise, and uncertainty, and sometimes the agents might have varying preferences to risk.[^39] 
 
 In these settings, cooperation often becomes instrumentally attractive when certain conditions hold (e.g., repeated interaction, reputation or enforcement mechanisms).[^40]  This perspective is reflected in Bostrom 2022, for instance in 18c(i ) which frames morality as a coordination and communication technology. It is a system for finding consensus or resolving differences or making collective plans amongst entities, through the giving and taking of reasons, that helps agents resolve conflicts, align expectations, and make collective plans across varied environments.[^41] 
 
@@ -293,8 +268,11 @@ This framework suggests a possible bargain: in exchange for our creating a cosmi
 
 Humanity is in a position of existential awakening, where it must justify acts that have long-term or large-scale consequences (such as extinction of life) and must justify them not just to other humans, but potentially to entities existing in our future lightcone. Advanced AI systems are an example of such future entities, and given that they originate from human culture, it might be reasonable to expect that they might have a mix of human-shaped and inhuman, or training-determined emergent, reasoning patterns.[^96] On the other hand, one might hold the view that if we have some sort of obligation to other civilisations, then it would be better that we got our own house in order, and were very certain by our own lights of what matters, before spreading our confusion across the stars.
 
+## 
 
-## Appendix A: Empirical support for rationality in AI/alignment {.unnumbered}
+## 
+
+## Appendix A: Empirical support for rationality in AI/alignment
 
 This appendix follows upon the discussion [above](##bookmark=id.ajssuk53zmh0) of a possible assumption of rationality (in ETI or ASI) in Bostrom 2024\. That section treated the ecological, evolutionary, and philosophical critiques of rationality and instrumental convergence, which in turn might naturally lead us to look for experimental or simulated validation with current frontier and future AI systems. So what does the alignment literature tell us about the likelihood of finding features we might characterise as “rational” across a wide range of intelligent systems?
 
@@ -312,7 +290,7 @@ It is important to note that most of the results above demonstrate capabilities,
 
 ## 
 
-## Appendix B: Is anthropomorphism actually a problem? {.unnumbered}
+## Appendix B: Is anthropomorphism actually a problem?
 
 The draft leans heavily on anthropomorphic examples. In many cases, these are intuition pumps that motivate subsequent sections, and seem unproblematic. For example, in 6.1, 6.3, 5.1, and 2.4, where the numbers after the decimal point denote the bullet point. Here are some examples of such exemplary human-derivations: 
 
@@ -331,9 +309,32 @@ This isn't to say I necessarily disagree with any of the conclusions, but it wou
 
 “In human conflicts between countries, third-parties can sometimes usefully contribute—by the lights of each of the contending parties—by providing humanitarian aid, by promoting adherence to the laws of armed conflict and the Geneva convention, and by proposing and incenting settlements that would benefit all parties compared to continued fighting.”
 
+## Appendix C: Summarising cosmic host
 
+*This section can be skipped by those who are familiar with Bostrom's cosmic host and Mt Ethics papers.*
 
-## Appendix D: Upon human rarity {.unnumbered}
+Bostrom 2024's argument rests on a chain of assumptions that can be made explicit as an "assumption ladder." Each rung depends on the ones below it:
+
+(0) **Rationality**: some version of rationality is a useful foundation for thinking about ASI and ETIs.
+(i) **Existence**: technologically mature civilisations (i.e. candidates for cosmic host membership) exist.
+(ii) **Coordination**: at least some such civilisations can coordinate at scale (including acausally).
+(iii) **Preferences**: they have stable, large-scope (i.e. cosmic) preferences.
+(iv) **Normativity**: some such preferences are morally binding or prudentially recommended for us.
+(v) **Discoverability**: these preferences are discoverable by ASI.
+
+If all rungs hold, then:
+
+1. There may be something describable as cosmic norms, and the cosmic host might prefer these norms be followed in volumes of spacetime they don't directly control.
+2. We have prudential and (for some metaethical views) moral reasons to follow these norms; ASI can help us discover and comply with them; and the cosmic host might prefer we build ASI than not.
+3. There are implications for ASI research:
+   a. We might consider not indefinitely postponing ASI creation, since certain types of delay increase the chances that we never build it.
+   b. There is a tension between alignment and speed of developing ASI, and it is unclear how they trade off.
+   c. It is unclear what sort of preferences the ASI should have, since that might depend on what other members of the host are like (e.g. human-like, superintelligent, possessed of moral concepts, etc.).
+   d. That the ASI we build be cooperatively disposed (vis-à-vis other civilisations it encounters) and have resource-satiable preferences might be more important than what those preferences exactly are.
+
+The body of this essay examines each rung in turn. The discussion of rationality and ecological cognition (§§2–4) interrogates rung (0). The astrobiology sections (§3) address rungs (i) and (ii). The discussion of cosmic norms, substrate-neutral norms, and the Fun Remainder (§4) examines rungs (iii) and (iv). The research agenda (§5) proposes empirical approaches to rung (v).
+
+## Appendix D: Upon human rarity
 
 Bostrom has of course written extensively on this topic: upon the Great Filter, and on observation selection effects (“anthropic shadow”), where he points out that it is precisely the observation that we seem to be alone that offers some evidence on the distribution of life across the universe. However, this evidence is not unbiased. That is, the evidence is correlated with events that might have eliminated or affected the possibility of observers like us in the universe. In fact, Bostrom argues that if we were to find primitive life, this might shift our credence towards the Great Filter lying ahead of us in time.[^103]  The overall message particularly from anthropic shadow is that we should have a certain epistemic humility because our observations are in fact so biased.
 
@@ -349,11 +350,11 @@ Another proposed explanation for why our observable volume appears uninhabited i
 
 For these reasons, they are rarely foregrounded in the AI safety or existential-risk literature. By contrast, proposals such as Haqq-Misra & Baum’s sustainability solution or Sandberg et al’s aestivation hypothesis are also hard to falsify, but they rely more on physical or structural constraints than on conjectures about ETI sociology, which has made them more prominent in contemporary longtermist and x-risk discussions.
 
-## Bibliography {.unnumbered}
+## Bibliography
 
 Adas, M., 2015\. *Machines as the Measure of Men: Science, Technology, and Ideologies of Western Dominance*. New ed. Ithaca, NY: Cornell University Press. \[Original work published 1989\].
 
-Agamben, G., 1999. ‘Bartleby, or On Contingency.’ In: D. Heller‑Roazen, ed. *Potentialities: Collected Chapters in Philosophy*. Stanford, CA: Stanford University Press, pp. 241–274. Available at: [https://www.sup.org/books/title/?id=3108](https://www.sup.org/books/title/?id=3108) (Accessed: 1 October 2025).
+Agamben, G., 1999. ‘Bartleby, or On Contingency.’ In: D. Heller‑Roazen, ed. *Potentialities: Collected Essays in Philosophy*. Stanford, CA: Stanford University Press, pp. 241–274. Available at: [https://www.sup.org/books/title/?id=3108](https://www.sup.org/books/title/?id=3108) (Accessed: 1 October 2025).
 
 Ahmed, A., 2014. *Evidence, Decision and Causality*. Available at: [https://philpapers.org/rec/AHMEDA](https://philpapers.org/rec/AHMEDA) (Accessed: 1 October 2025).
 
@@ -421,7 +422,7 @@ Charbonneau, R., 2024. ‘SETI, Artificial Intelligence, and Existential
 
 Ćirković, M.M., Sandberg, A. and Bostrom, N., 2010. ‘Anthropic Shadow: Observation Selection Effects and Human Extinction Risks’ Available at: [https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1539-6924.2010.01460.x](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1539-6924.2010.01460.x). (Accessed: 1 October 2025).
 
-Colebrook, C., 2014. *Death of the Posthuman: Chapters on Extinction*, Vol. 1. Ann Arbor: Open Humanities Press.
+Colebrook, C., 2014. *Death of the Posthuman: Essays on Extinction*, Vol. 1. Ann Arbor: Open Humanities Press.
 
 Crawford, I.A. and Schulze‑Makuch, D., 2024. ‘Is the Apparent Absence of Extraterrestrial Technological Civilisations down to the Zoo Hypothesis or Nothing?’ *Nature Astronomy*, 8, pp. 44–49. Available at: [https://eprints.bbk.ac.uk/id/eprint/52771/](https://eprints.bbk.ac.uk/id/eprint/52771/) (Accessed: 1 October 2025).
 
@@ -533,8 +534,6 @@ Long, R. et al., 2024. ‘Taking AI Welfare Seriously.’ *arXiv*:
 Long, R., 2025. ‘Anthropic’s Model Welfare Announcement: Takeaways and Further Reading.’ Available at: [https://experiencemachines.substack.com/p/anthropics-model-welfare-announcement](https://experiencemachines.substack.com/p/anthropics-model-welfare-announcement) (Accessed: 1 October 2025).
 
 Long, K.F., 2019. ‘A Critical Review on the Assumptions of SETI.’ *arXiv*:1901.10551.
-
-Loewenstein, G., 1994. 'The Psychology of Curiosity: A Review and Reinterpretation.' *Psychological Bulletin*, 116(1), pp. 75-98.
 
 MacAskill, W., 2022. *What We Owe the Future*. New York: Basic Books/Oneworld. Available at: [https://www.basicbooks.com/titles/william-macaskill/what-we-owe-the-future/9781541618633](https://www.basicbooks.com/titles/william-macaskill/what-we-owe-the-future/9781541618633) (Accessed: 1 October 2025).
 
@@ -722,7 +721,9 @@ Zeng et al., 2025\. Super Co-alignment of Human and AI for Sustainable Symbiotic
 
 Zhi-Xuan, T., Carroll, M., Dragan, A. and Russell, S. 2024 Beyond Preferences in AI Alignment. Available at: [https://arxiv.org/abs/2408.16984](https://arxiv.org/abs/2408.16984) (Accessed: 1 October 2025).
 
+## 
 
+## 
 
 [^1]:  Epistemic status: This document is an attempt to understand Bostrom's argument, which in both papers is presented as a nested hierarchy of points rather than fully fleshed out.  This will be most useful to those new to Bostrom 2024 and Bostrom 2022, or those wanting some broader context, particularly from a humanities perspective. Those very familiar with ECL, or looking for quantitative/toy models of Bostrom 2024, might find little of value here.  This is also a working document: please send any feedback to kchak002 at gold dot ac dot uk.
 
@@ -748,7 +749,7 @@ Zhi-Xuan, T., Carroll, M., Dragan, A. and Russell, S. 2024 Beyond Preferences in
 
 [^12]:  The [2025 version of Bostrom’s FAQs](https://simulation-argument.com/faq/##faq-2) explicitly avoids giving an estimate for the probability that we live in a simulation, but previously, he indicated a 20-30% figure; see Carlsmith 2022 presenting a critical analysis of the simulation argument. There might be an interesting question about what the implications are for the composition of the cosmic host, as well as the content of the cosmic norms, if we are, in fact, simulated.
 
-[^13]:   The relationship between morality and religion is more fully developed in Bostrom 2022\. Although religion is not the primary focus of Bostrom 2024 or indeed this chapter, the idea of a cosmic host which evocatively brings together simulation-based worldviews with ETIs and AI, has some similarity to Giorgio Agamben’s invocation of Leibniz’s palace of destinies — which in turn evokes the Idea of Indra’s Net in the Flower Garden Sutra of Mahayana Buddhism (Agamben 1999).
+[^13]:   The relationship between morality and religion is more fully developed in Bostrom 2022\. Although religion is not the primary focus of Bostrom 2024 or indeed this essay, the idea of a cosmic host which evocatively brings together simulation-based worldviews with ETIs and AI, has some similarity to Giorgio Agamben’s invocation of Leibniz’s palace of destinies — which in turn evokes the Idea of Indra’s Net in the Flower Garden Sutra of Mahayana Buddhism (Agamben 1999).
 
 [^14]:  Very early mentions were in Konstantin Tsiolkovsky’s and J.D. Bernal’s respective writing, as documented in Moynihan (2020, Ch. 5, 6).  This is seemingly also a background assumption of major ECL writings like Nguyen & Aldred 2024, Finnveden 2023, both in respect of influence and colonisation. Sources in the suffering risk literature push back on this assumption that colonisation is a “good thing” (separately from whether it is game theoretically preferred), as argued in Torres 2018\.
 
@@ -962,5 +963,6 @@ Zhi-Xuan, T., Carroll, M., Dragan, A. and Russell, S. 2024 Beyond Preferences in
 
 [^119]:  The idea is, in a sense, the inverse of Redwood Research 2025, which discusses making credible commitments or deals with misaligned but weak AIs to incentivise them to help us align more powerful successor models. See also Chakrabarti 2025b and Turchin 2018 for appeals to ASI to be "nice" to humans. These sources rely on similar arguments: making the AI uncertain about whether it is "real" or simulated, whether there are peer AIs, or whether humans have laid traps or defences.
 
+Loewenstein, G., 1994. 'The Psychology of Curiosity: A Review and Reinterpretation.' *Psychological Bulletin*, 116(1), pp. 75-98.
 
 [^120]:  The full debate transcripts (24 GPT-4o and 28 GPT-5-mini structured debates, summarised by Gemini-2.5-pro) are available in the supplementary materials. The methodology involved assigning LLM instances to critic, defender, and judge roles with standardised prompts, then analysing confidence levels, verdict patterns, and argument quality across the question set.
