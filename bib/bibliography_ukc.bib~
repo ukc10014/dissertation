@@ -731,3 +731,1600 @@ title = {Taxonomies of Intelligence: A Comprehensive Guide to the Universe of Mi
 journal = {Seeds of Science},
 url = {https://doi.org/10.53975/9r72-i78l}
 }
+
+
+% ======================================================================
+% Entries below auto-generated from ch_03_combined.md bibliography section
+% ======================================================================
+
+% Auto-generated from ch_03_combined.md bibliography section
+% 177 new entries
+% Review before appending to bibliography_ukc.bib
+
+@book{Adas2015,
+  author = {Adas, M},
+  title = {Machines as the Measure of Men: Science, Technology, and Ideologies of Western Dominance},
+  year = {2015},
+  publisher = {Cornell University Press},
+  address = {Ithaca, NY},
+}
+
+@incollection{Agamben1999,
+  author = {Agamben, G},
+  title = {Bartleby, or On Contingency},
+  year = {1999},
+  booktitle = {Potentialities: Collected Chapters in Philosophy},
+  editor = {D. Heller‑Roazen},
+  publisher = {Stanford University Press},
+  address = {Stanford, CA},
+  pages = {241--274},
+  url = {https://www.sup.org/books/title/?id=3108},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Ahmed2014,
+  author = {Ahmed, A},
+  title = {Evidence, Decision and Causality},
+  year = {2014},
+  url = {https://philpapers.org/rec/AHMEDA},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Anthropic2025,
+  author = {Anthropic},
+  title = {System Card: Claude Opus 4 \& Claude Sonnet 4},
+  year = {2025},
+  url = {https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{ArmstrongSandberg2012,
+  author = {Armstrong, S. and Sandberg, A},
+  title = {Eternity in Six Hours: Intergalactic Spreading of Intelligent Life and Sharpening the Fermi Paradox},
+  year = {2012},
+  url = {https://www.aleph.se/papers/Spamming%20the%20universe.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Asilomar2017,
+  author = {Asilomar},
+  title = {Asilomar AI Principles},
+  year = {2017},
+  url = {https://futureoflife.org/open-letter/ai-principles/},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{AAAI2025,
+  author = {AAAI},
+  title = {AAAI 2025 Presidential Panel On The Future Of Ai Research},
+  year = {2025},
+  url = {https://aaai.org/wp-content/uploads/2025/03/AAAI-2025-PresPanel-Report-Digital-3.7.25.pdf},
+  note = {Accessed: 9  October 2025},
+}
+
+@article{ArrowFisher1974,
+  author = {Arrow, K.J. and Fisher, A.C},
+  title = {Environmental Preservation, Uncertainty, and Irreversibility},
+  year = {1974},
+  journal = {The Quarterly Journal of Economics},
+  volume = {88},
+  number = {2},
+  pages = {312--319},
+  doi = {10.2307/1883074},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{BaiEtAl2022,
+  author = {Bai, Y. and Kadavath, S. and Kundu, S. and Askell, A. and Kernion, J. and Jones, A. and Chen, A. and Goldie, A. and Mirhoseini, A. and McKinnon, C. and Chen, C. and Olsson, C. and Olah, C. and Hernandez, D. and Drain, D. and Ganguli, D. and Li, D. and Tran-Johnson, E. and Perez, E. and Kerr, J. and Mueller, J. and Ladish, J. and Landau, J. and Ndousse, K. and Lukosuite, K. and Lovitt, L. and Sellitto, M. and Elhage, N. and Schiefer, N. and Mercado, N. and DasSarma, N. and Lasenby, R. and Larson, R. and Ringer, S. and Johnston, S. and Kravec, S. and El Showk, S. and Fort, S. and Lanham, T. and Telleen-Lawton, T. and Conerly, T. and Henighan, T. and Hume, T. and Bowman, S.R. and Hatfield-Dodds, Z. and Mann, B. and Amodei, D. and Joseph, N. and McCandlish, S. and Brown, T. and Kaplan, J},
+  title = {Constitutional AI: Harmlessness from AI Feedback},
+  year = {2022},
+  eprint = {2212.08073},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2212.08073},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Ball1973,
+  author = {Ball, J},
+  title = {The Zoo Hypothesis},
+  year = {1973},
+  url = {https://www.sciencedirect.com/science/article/abs/pii/0019103573901115},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Banks1994,
+  author = {Banks, I.M},
+  title = {A Few Notes on the Culture},
+  year = {1994},
+  url = {https://www.vavatch.co.uk/books/banks/cultnote.htm},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{BalbiLingam2025,
+  author = {Balbi, A. and Lingam, M},
+  title = {Waste Heat and Planetary Habitability: Constraints from Technological Energy Consumption},
+  year = {2025},
+  journal = {Astrobiology},
+  volume = {25},
+  number = {1},
+  eprint = {2409.06737},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2409.06737},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{BensonTilsen2025,
+  author = {Benson‑Tilsen, L},
+  title = {Instrumental Convergence and Power‑Seeking, Parts 1 \& 2},
+  year = {2025},
+  url = {https://reflectivealtruism.com/tag/power-seeking-theorems/},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Bostrom2019,
+  author = {Bostrom, N},
+  title = {The Vulnerable World Hypothesis},
+  year = {2019},
+  url = {https://nickbostrom.com/papers/vulnerable.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Bostrom2003a,
+  author = {Bostrom, N},
+  title = {Astronomical Waste: The Opportunity Cost of Delayed Technological Development},
+  year = {2003},
+  url = {https://nickbostrom.com/papers/astronomical-waste/},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Bostrom2007,
+  author = {Bostrom, N},
+  title = {In the Great Silence There Is Great Hope},
+  year = {2007},
+  url = {https://nickbostrom.com/papers/fermi.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{Bostrom2013,
+  author = {Bostrom, N},
+  title = {Existential Risk Prevention as Global Priority},
+  year = {2013},
+  journal = {Global Policy},
+  volume = {4},
+  number = {1},
+  url = {https://nickbostrom.com/existential/risks.html},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Bostrom2014,
+  author = {Bostrom, N},
+  title = {Superintelligence: Paths, Dangers, Strategies},
+  year = {2014},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+  url = {https://global.oup.com/academic/product/superintelligence-9780199678112},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Bostrom2022,
+  author = {Bostrom, N},
+  title = {Base Camp for Mt. Ethics},
+  year = {2022},
+  url = {https://nickbostrom.com/papers/mountethics.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Bostrom2024,
+  author = {Bostrom, N},
+  title = {AI Creation and the Cosmic Host},
+  year = {2024},
+  url = {https://nickbostrom.com/papers/ai-creation-and-the-cosmic-host.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Bostrom2003b,
+  author = {Bostrom, N},
+  title = {ARE YOU LIVING IN A COMPUTER SIMULATION?},
+  year = {2003},
+  url = {https://simulation-argument.com/simulation.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Brauner2018,
+  author = {Brauner, J},
+  title = {The Expected Value of Extinction Risk Reduction Is Positive},
+  year = {2018},
+  url = {https://www.lesswrong.com/posts/umhsJqwTSKgmhvZ7c/the-short-case-for-predicting-what-aliens-value},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Broome2013,
+  author = {Broome, J},
+  title = {Rationality Through Reasoning},
+  year = {2013},
+  publisher = {Wiley},
+  address = {Oxford},
+  url = {https://onlinelibrary.wiley.com/doi/book/10.1002/9781118609088},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Byrnes2021,
+  author = {Byrnes, K},
+  title = {Against Evolution as an Analogy for How Humans Will Create AGI},
+  year = {2021},
+  url = {https://www.alignmentforum.org/posts/pz7Mxyr7Ac43tWMaC/against-evolution-as-an-analogy-for-how-humans-will-create},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{Cabrol2016,
+  author = {Cabrol, N},
+  title = {Alien Mindscapes—A Perspective on the Search for Extraterrestrial Intelligence},
+  year = {2016},
+  journal = {Astrobiology},
+  volume = {16},
+  number = {9},
+  pages = {661--676},
+  url = {https://pmc.ncbi.nlm.nih.gov/articles/PMC5111820/},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Carlsmith2022,
+  author = {Carlsmith, J},
+  title = {Simulation arguments},
+  year = {2022},
+  url = {https://jc.gatspress.com/pdf/simulation_arguments_revised.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Carlsmith2023,
+  author = {Carlsmith, J},
+  title = {On the Limits of Idealized Values},
+  year = {2023},
+  url = {https://www.lesswrong.com/posts/FSmPtu7foXwNYpWiB/on-the-limits-of-idealized-values},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Decruz2023,
+  author = {de Cruz, H},
+  title = {Wonderstruck: How Wonder and Awe Shape the Way We Think},
+  year = {2023},
+  url = {https://helendecruz.net/docs/DeCruz_awe_wonder.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Chakrabarti2025a,
+  author = {Chakrabarti, K},
+  title = {In Which to Our Successor},
+  year = {2025},
+  url = {https://airo-ne.org/},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Chakrabarti2025b,
+  author = {Chakrabarti, K},
+  title = {Time to Think About ASI Constitutions},
+  year = {2025},
+  url = {https://forum.effectivealtruism.org/posts/kJsNoXJBithBW8ZzR/time-to-think-about-asi-constitutions},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{Charbonneau2024,
+  author = {Charbonneau, R},
+  title = {SETI, Artificial Intelligence, and Existential Projection},
+  year = {2024},
+  journal = {Physics Today},
+  volume = {77},
+  number = {2},
+  pages = {36--42},
+  doi = {10.1063/pt.yunh.voyr},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Cirkovic2018a,
+  author = {Ćirković, M.M},
+  title = {The Great Silence: Science and Philosophy of Fermi’s Paradox},
+  year = {2018},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+}
+
+@misc{Cirkovic2018b,
+  author = {Ćirković, M.M},
+  title = {Post-postbiological evolution?},
+  year = {2018},
+  url = {https://www.sciencedirect.com/science/article/abs/pii/S0016328717303282},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{CirkovicEtAl2010,
+  author = {Ćirković, M.M. and Sandberg, A. and Bostrom, N},
+  title = {Anthropic Shadow: Observation Selection Effects and Human Extinction Risks},
+  year = {2010},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1539-6924.2010.01460.x},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Colebrook2014,
+  author = {Colebrook, C},
+  title = {Death of the Posthuman: Chapters on Extinction},
+  year = {2014},
+  publisher = {Open Humanities Press},
+  address = {Ann Arbor},
+}
+
+@article{CrawfordSchulzeMakuch2024,
+  author = {Crawford, I.A. and Schulze‑Makuch, D},
+  title = {Is the Apparent Absence of Extraterrestrial Technological Civilisations down to the Zoo Hypothesis or Nothing?},
+  year = {2024},
+  journal = {Nature Astronomy},
+  volume = {8},
+  pages = {44--49},
+  url = {https://eprints.bbk.ac.uk/id/eprint/52771/},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{DelazariradekSinger2014,
+  author = {de Lazari‑Radek, K. and Singer, P},
+  title = {The Point of View of the Universe: Sidgwick and Contemporary Ethics},
+  year = {2014},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+}
+
+@misc{DemskiGarrabrant2019,
+  author = {Demski, A. and Garrabrant, S},
+  title = {Embedded Agency},
+  year = {2019},
+  eprint = {1902.09469},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/1902.09469},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Deudney2020,
+  author = {Deudney, D},
+  title = {Dark Skies: Space Expansionism, Planetary Geopolitics, and the Ends of Humanity},
+  year = {2020},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+}
+
+@misc{Dick2006,
+  author = {Dick, S.J},
+  title = {The Postbiological Universe},
+  year = {2006},
+  url = {http://resources.iaaseti.org/abst2006/IAC-06-A4.2.01.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Drexler2025,
+  author = {Drexler, E},
+  title = {The Reality of Recursive Improvement: How AI Automates Its Own Progress},
+  year = {2025},
+  url = {https://aiprospects.substack.com/p/the-reality-of-recursive-improvement},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Enoch2011,
+  author = {Enoch, D},
+  title = {Taking Morality Seriously: A Defense of Robust Realism},
+  year = {2011},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+  url = {https://global.oup.com/academic/product/taking-morality-seriously-9780199579969},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Fallenstein2015,
+  author = {Fallenstein, B},
+  title = {Vingean Reflection: Reliable Reasoning for Self-Improving Agents},
+  year = {2015},
+  url = {https://intelligence.org/files/VingeanReflection.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Finnveden2023,
+  author = {Finnveden, L},
+  title = {Implications of evidential cooperation in large worlds},
+  year = {2023},
+  url = {https://www.lesswrong.com/posts/EeXSjvyQge5FZPeuL/implications-of-evidential-cooperation-in-large-worlds?__readwiseLocation=},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Finnveden2025a,
+  author = {Finnveden, L},
+  title = {Being Honest with AIs},
+  year = {2025},
+  url = {https://www.redwoodresearch.org/},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Finnveden2025b,
+  author = {Finnveden, L},
+  title = {Notes on Cooperating with Unaligned AIs},
+  year = {2025},
+  url = {https://www.redwoodresearch.org/},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Floridi2013,
+  author = {Floridi, L},
+  title = {The Ethics of Information},
+  year = {2013},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+  url = {https://global.oup.com/academic/product/the-ethics-of-information-9780199238842},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{ForganEtAl2018,
+  author = {Forgan, D. and others},
+  title = {Rio 2.0: Revising the Rio Scale for SETI Detections},
+  year = {2018},
+  journal = {International Journal of Astrobiology},
+  doi = {10.1017/S1473550418000162},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Frank1988,
+  author = {Frank, R.H},
+  title = {Passions within Reason: The Strategic Role of the Emotions},
+  year = {1988},
+  publisher = {Norton},
+  address = {New York},
+}
+
+@article{Gallow2024,
+  author = {Gallow, J.D},
+  title = {Instrumental Divergence},
+  year = {2024},
+  journal = {Philosophical Studies},
+  doi = {10.1007/s11098-024-02129-3},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{GebruTorres2024,
+  author = {Gebru, T. and \& Torres, É.P},
+  title = {First Monday, 29},
+  year = {2024},
+  url = {https://www.semanticscholar.org/paper/The-TESCREAL-bundle%3A-Eugenics-and-the-promise-of-Gebru-Torres/beee58b9970b03c993e4f15282f28c817e40565d},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{GigerenzerGoldstein1996,
+  author = {Gigerenzer, G. and Goldstein, D.G},
+  title = {Reasoning the Fast and Frugal Way: Models of Bounded Rationality},
+  year = {1996},
+  journal = {Psychological Review},
+  volume = {103},
+  number = {4},
+  pages = {650--669},
+  url = {https://www.dangoldstein.com/papers/FastFrugalPsychReview.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{GodfreySmith2016,
+  author = {Godfrey‑Smith, P},
+  title = {Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness},
+  year = {2016},
+  publisher = {Farrar, Straus and Giroux},
+  address = {New York},
+  url = {https://us.macmillan.com/books/9780374537197/otherminds/},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{GodfreySmith2020,
+  author = {Godfrey‑Smith, P},
+  title = {Metazoa: Animal Life and the Birth of the Mind},
+  year = {2020},
+  publisher = {Farrar, Straus and Giroux},
+  address = {New York},
+  url = {https://us.macmillan.com/books/9780374207946/metazoa/},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{GreavesMacAskill2019,
+  author = {Greaves, H. and MacAskill, W},
+  title = {A Research Agenda for the Global Priorities Institute},
+  year = {2019},
+  url = {https://globalprioritiesinstitute.org/wp-content/uploads/gpi-research-agenda.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{GreavesEtAl2021,
+  author = {Greaves, H. and MacAskill, W. and Thornley, C},
+  title = {The Moral Case for Long‑Term Thinking},
+  year = {2021},
+  url = {https://philpapers.org/archive/GRETMC-3.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Greenblatt2024,
+  author = {Greenblatt, R},
+  title = {A Breakdown of AI Capability Levels Focused on AI R\\&D},
+  year = {2024},
+  url = {https://www.alignmentforum.org/posts/LjgcRbptarrRfJWtR/a-breakdown-of-ai-capability-levels-focused-on-ai-r-and-d},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{GreenblattEtAl2024,
+  author = {Greenblatt, R. and Denison, C. and Wright, B. and Roger, F. and MacDiarmid, M. and Marks, S. and Treutlein, J. and Belonax, T. and Chen, J. and Duvenaud, D. and Khan, A. and Michael, J. and Mindermann, S. and Perez, E. and Petrini, L. and Uesato, J. and Kaplan, J. and Shlegeris, B. and Bowman, S.R. and Hubinger, E},
+  title = {Alignment faking in large language models},
+  year = {2024},
+  eprint = {2412.14093},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2412.14093},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{HansonEtAl2021,
+  author = {Hanson, R. and others},
+  title = {A Simple Model of Grabby Aliens},
+  year = {2021},
+  eprint = {2102.01522},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2102.01522},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{HaqqMisraBaum2009,
+  author = {Haqq‑Misra, J.D. and Baum, S.D},
+  title = {The Sustainability Solution to the Fermi Paradox},
+  year = {2009},
+  journal = {Journal of the British Interplanetary Society},
+  volume = {62},
+  number = {2},
+  pages = {47--51},
+  eprint = {0906.0568},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/0906.0568},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{HenrichMuthukrishna2021,
+  author = {Henrich, J. and Muthukrishna, M},
+  title = {The Origins and Psychology of Human Cooperation},
+  year = {2021},
+  journal = {Annual Review of Psychology},
+  volume = {72},
+  pages = {207--240},
+}
+
+@book{Henrich2020,
+  author = {Henrich, J},
+  title = {The WEIRDest People in the World: How the West Became Psychologically Peculiar and Particularly Prosperous},
+  year = {2020},
+  publisher = {Farrar, Straus and Giroux},
+  address = {New York},
+}
+
+@misc{HerrmannLevinstein2024a,
+  author = {Herrmann, D.A. and Levinstein, B.A},
+  title = {Standards for Belief Representations in LLMs},
+  year = {2024},
+  doi = {10.48550/arXiv.2405.21030},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{HerrmannLevinstein2024b,
+  author = {Herrmann, D.A. and Levinstein, B.A},
+  title = {Toward an Ethics of AI Belief},
+  year = {2024},
+  doi = {10.1007/s13347-024-00762-8},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Hertwig2021,
+  author = {Hertwig, R},
+  title = {Deliberate Ignorance: Choosing Not to Know},
+  year = {2021},
+  publisher = {MIT Press},
+  address = {Cambridge, MA},
+  url = {https://mitpress.mit.edu/9780262542678/deliberate-ignorance},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{HongEtAl2025,
+  author = {Hong, J. and Byun, G. and Kim, S. and Shu, K},
+  title = {Measuring Sycophancy of Language Models in Multi-turn Dialogues},
+  year = {2025},
+  eprint = {2505.23840},
+  archivePrefix = {arXiv},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{HubingerEtAl2019,
+  author = {Hubinger, E. and van Merwijk, C. and Mikulik, V. and Skalse, J. and Garrabrant, S},
+  title = {Risks from Learned Optimisation in Advanced Machine Learning Systems},
+  year = {2019},
+  eprint = {1906.01820},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/1906.01820},
+  note = {Accessed: 1 October 2025},
+}
+
+@incollection{Hutter2007,
+  author = {Hutter, M},
+  title = {Universal  Algorithmic  Intelligence: A Mathematical  Top‑Down  Approach},
+  year = {2007},
+  booktitle = {Artificial General Intelligence},
+  editor = {B. Goertzel and C. Pennachin},
+  publisher = {Springer},
+  address = {Berlin},
+  pages = {227--290},
+  url = {https://arxiv.org/abs/cs/0701125},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Joyce2001,
+  author = {Joyce, R},
+  title = {The Myth of Morality},
+  year = {2001},
+  publisher = {Cambridge University Press},
+  address = {Cambridge},
+  url = {https://www.cambridge.org/core/books/myth-of-morality/F2096BE68BB18274EF1DE01BB877AE4A},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{KiddHayden2015,
+  author = {Kidd, C. and Hayden, B.Y},
+  title = {The Psychology and Neuroscience of Curiosity},
+  year = {2015},
+  journal = {Neuron},
+  volume = {88},
+  number = {3},
+  pages = {449--460},
+  url = {https://www.sciencedirect.com/science/article/pii/S0896627315007679},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{KokotajloEtAl2025,
+  author = {Kokotajlo, K. and others},
+  title = {AI 2027},
+  year = {2025},
+  url = {https://ai-2027.com/},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Korsgaard2018,
+  author = {Korsgaard, C},
+  title = {Fellow Creatures: Our Obligations to the Other Animals},
+  year = {2018},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+  url = {https://global.oup.com/academic/product/fellow-creatures-9780198753858},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{JiEtAl2025,
+  author = {Ji, X. and others},
+  title = {\[Title unspecified\]},
+  year = {2025},
+  eprint = {2310.19852},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2310.19852},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Land2023,
+  author = {Land, N},
+  title = {Xenosystems Fragments: and a Gift from the Lemurs},
+  year = {2023},
+  url = {https://legrandcontinent.eu/fr/wp-content/uploads/sites/2/2025/06/XENOSYSTEMS_FRAGMENTS-1.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{Landis1998,
+  author = {Landis, G.A},
+  title = {The Fermi Paradox: An Approach Based on Percolation Theory},
+  year = {1998},
+  journal = {Journal of the British Interplanetary Society},
+  volume = {51},
+  pages = {163--166},
+}
+
+@incollection{LeGuin1973,
+  author = {Le Guin, U.K},
+  title = {The Ones Who Walk Away from Omelas.’ In: R. Silverberg, ed. New Dimensions 3. New York: Nelson Doubleday. [Reprinted in: Le Guin, U.K., 1975. The Wind},
+  year = {1973},
+  booktitle = {New Dimensions 3},
+  editor = {R. Silverberg},
+  publisher = {Harper \& Row},
+  address = {New York},
+  pages = {254--262},
+}
+
+@misc{LeikeEtAl2017,
+  author = {Leike, J. and Martic, M. and Krakovna, V. and Ortega, P.A. and Everitt, T. and Lefrancq, A. and Orseau, L. and Legg, S},
+  title = {AI Safety Gridworlds},
+  year = {2017},
+  eprint = {1711.09883},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/1711.09883},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Lem1963,
+  author = {Lem, S},
+  title = {The Invincible},
+  year = {1963},
+  publisher = {MIT Press},
+  address = {Cambridge, MA},
+}
+
+@book{Lem1961,
+  author = {Lem, S},
+  title = {Solaris},
+  year = {1961},
+  publisher = {Harcourt Brace Jovanovich},
+  address = {New York},
+}
+
+@misc{LevinWatson2025,
+  author = {Levin, M. and Watson, R},
+  title = {Machines All the Way Up and Cognition All the Way Down:Updatingthe machine metaphor in biology},
+  year = {2025},
+  url = {https://osf.io/preprints/osf/jwhr7_v2},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{LiederGriffiths2019,
+  author = {Lieder, F. and Griffiths, T.L},
+  title = {Resource‑Rational Analysis: Understanding Human Cognition as the Optimal Use of Limited Computational Resources},
+  year = {2019},
+  url = {https://cocosci.princeton.edu/papers/lieder_resource.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{LewisEtAl2014,
+  author = {Lewis, R.L. and Howes, A. and Singh, S},
+  title = {Computational Rationality: Linking Mechanism and Behavior through Bounded Utility Maximisation},
+  year = {2014},
+  url = {https://pubmed.ncbi.nlm.nih.gov/24648415/\(Accessed},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Likavcan2025,
+  author = {Likavčan, L},
+  title = {The Grass of the Universe: Rethinking Technosphere, Planetary History, and Sustainability with Fermi Paradox},
+  year = {2025},
+  url = {https://arxiv.org/pdf/2411.08057},
+}
+
+@misc{Lineweaver2010,
+  author = {Lineweaver, C.H},
+  title = {Are We Alone?},
+  year = {2010},
+  url = {https://www.mso.anu.edu.au/~charley/papers/Are%20We%20Alonev5.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Lineweaver2007,
+  author = {Lineweaver, C.H},
+  title = {Human‑Like Intelligence Is Not a Convergent Feature of Evolution},
+  year = {2007},
+  eprint = {0711.1751},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/0711.1751},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{LongEtAl2024,
+  author = {Long, R. and others},
+  title = {Taking AI Welfare Seriously},
+  year = {2024},
+  eprint = {2411.00986},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2411.00986},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Long2025,
+  author = {Long, R},
+  title = {Anthropic’s Model Welfare Announcement: Takeaways and Further Reading},
+  year = {2025},
+  url = {https://experiencemachines.substack.com/p/anthropics-model-welfare-announcement},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Long2019,
+  author = {Long, K.F},
+  title = {A Critical Review on the Assumptions of SETI},
+  year = {2019},
+}
+
+@article{Loewenstein1994,
+  author = {Loewenstein, G},
+  title = {The Psychology of Curiosity: A Review and Reinterpretation},
+  year = {1994},
+  journal = {Psychological Bulletin},
+  volume = {116},
+  number = {1},
+  pages = {75--98},
+}
+
+@misc{MacAskill2024,
+  author = {MacAskill, W},
+  title = {The Case for Strong Longtermism},
+  year = {2024},
+  url = {https://www.williammacaskill.com/s/The-Case-for-Strong-Longtermism.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{MacAskill2014,
+  author = {MacAskill, W},
+  title = {Normative uncertainty},
+  year = {2014},
+  url = {https://80000hours.org/wp-content/uploads/2017/06/MacAskill-Normative-Uncertainty.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{MaturanaVarela1980,
+  author = {Maturana, H. and Varela, F},
+  title = {Autopoesis and Cognition},
+  year = {1980},
+  publisher = {Reidel},
+  address = {Dordrecht, NL},
+  url = {https://monoskop.org/images/3/35/Maturana_Humberto_Varela_Francisco_Autopoiesis_and_Congition_The_Realization_of_the_Living.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{MeinkeEtAl2024,
+  author = {Meinke, A. and Schoen, B. and Scheurer, J. and Balesni, M. and Shah, R. and Hobbhahn, M},
+  title = {Frontier Models are Capable of In-context Scheming},
+  year = {2024},
+  eprint = {2412.04984},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2412.04984},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Metzinger2017,
+  author = {Metzinger, T},
+  title = {Benevolent Artificial Anti‑Natalism (BAAN)},
+  year = {2017},
+  url = {https://www.edge.org/conversation/thomas_metzinger-benevolent-artificial-anti-natalism-baan},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Metzinger2018,
+  author = {Metzinger, T},
+  title = {Artificial Angel of Death or Bodhisattva‑AI?},
+  year = {2018},
+  url = {https://www.swissre.com/dam/jcr%3A9993adca-88d0-466c-a625-f44c52455f2f/AI_everywhere_Presentation%2BThomas%2BMetzinger.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{MillsEtAl2024,
+  author = {Mills, D.B. and others},
+  title = {A Reassessment of the “Hard‑Steps” Model for the Evolution of Intelligent Life},
+  year = {2024},
+}
+
+@misc{MillerEtAl2023,
+  author = {Miller, A. and others},
+  title = {An Appeal to AI Superintelligence: Reasons to Preserve Humanity},
+  year = {2023},
+  url = {https://www.lesswrong.com/posts/azRwPDbZfpadoL7WW/an-appeal-to-ai-superintelligence-reasons-to-preserve},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Moynihan2020,
+  author = {Moynihan, T},
+  title = {X‑Risk},
+  year = {2020},
+  publisher = {Urbanomic},
+  address = {Falmouth},
+}
+
+@misc{Moynihan2024,
+  author = {Moynihan, T},
+  title = {Greening the Heavens},
+  year = {2024},
+  url = {https://letter.palladiummag.com/p/greening-the-heavens},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{Moret2023,
+  author = {Moret, A},
+  title = {Taking into Account Sentient Non‑Humans in AI Ambitious Value Learning: Sentientist Coherent Extrapolated Volition},
+  year = {2023},
+  journal = {Journal of Artificial Intelligence and Consciousness},
+  doi = {10.1142/S2705078523500042},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Moret2025,
+  author = {Moret, A},
+  title = {AI Welfare Risks},
+  year = {2025},
+  url = {https://philpapers.org/rec/MORAWR},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Naude2025,
+  author = {Naudé, W},
+  title = {Extraterrestrial  Artificial  Intelligence: The Final Existential Risk?},
+  year = {2025},
+  url = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4354401},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Nagel1986,
+  author = {Nagel, T},
+  title = {The View from Nowhere},
+  year = {1986},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+}
+
+@misc{NeedhamEtAl2025,
+  author = {Needham, J. and Edkins, G. and Pimpale, G. and Bartsch, H. and Hobbhahn, M},
+  title = {Large Language Models Often Know When They Are Being Evaluated},
+  year = {2025},
+  eprint = {2505.23836},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2505.23836},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Noe2004,
+  author = {Noë, A},
+  title = {Action in Perception},
+  year = {2004},
+  publisher = {MIT Press},
+  address = {Cambridge, MA},
+}
+
+@book{Noe2015,
+  author = {Noë, A},
+  title = {Strange Tools: Art and Human Nature},
+  year = {2015},
+  publisher = {Hill and Wang},
+  address = {New York},
+}
+
+@misc{NeumanEtAl2025,
+  author = {Neuman, W. and Coleman, C. and Shah, M},
+  title = {Analyzing the Ethical Logic of Six Large Language Models},
+  year = {2025},
+  eprint = {2501.08951},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2501.08951},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{NewberryOrd2021,
+  author = {Newberry, T. and Ord, T},
+  title = {The Parliamentary Approach to Morality},
+  year = {2021},
+  url = {https://ora.ox.ac.uk/objects/uuid:b6b3bc2e-ba48-41d2-af7e-83f07c1fe141},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{NgoEtAl2024,
+  author = {Ngo, R. and others},
+  title = {The Alignment Problem from a Deep Learning Perspective},
+  year = {2024},
+  url = {https://arxiv.org/pdf/2209.00626},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{NguyenAldred2024a,
+  author = {Nguyen, C. and Aldred, W},
+  title = {Cooperating with Aliens and AGIs: An ECL Explainer},
+  year = {2024},
+  url = {https://forum.effectivealtruism.org/posts/JGazpLa3Gvvter4JW/cooperating-with-aliens-and-distant-agis-an-ecl-explainer-1},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{NguyenAldred2024b,
+  author = {Nguyen, C. and Aldred, W},
+  title = {Everett Branches, Inter‑Light Cone Trade and Other Alien Matters: Appendix to “An ECL Explainer”},
+  year = {2024},
+  url = {https://forum.effectivealtruism.org/posts/9prioPT5vFi3uA8Pi/everett-branches-inter-light-cone-trade-and-other-alien},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{Oesterheld2021,
+  author = {Oesterheld, C},
+  title = {Approval‑Directed Agency and the Decision Theory of Newcomb‑Like Problems},
+  year = {2021},
+  journal = {Synthese},
+  volume = {198},
+  pages = {6491--6504},
+}
+
+@article{OesterheldConitzer2022,
+  author = {Oesterheld, C. and Conitzer, V},
+  title = {Safe Pareto Improvements for Delegated Game Playing},
+  year = {2022},
+  journal = {Journal of Autonomous Agents and Multi‑Agent Systems},
+  volume = {36},
+}
+
+@inproceedings{OesterheldEtAl2023,
+  author = {Oesterheld, C. and Demski, A. and Conitzer, V},
+  title = {A Theory of Bounded Inductive Rationality},
+  year = {2023},
+  booktitle = {Proceedings of the 19th Conference on Theoretical Aspects of Rationality and Knowledge},
+}
+
+@inproceedings{Omohundro2008,
+  author = {Omohundro, S},
+  title = {The Basic AI Drives},
+  year = {2008},
+  booktitle = {AGI‑08 Proceedings},
+  url = {https://selfawaresystems.com/wp-content/uploads/2008/01/ai_drives_final.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Ord2015,
+  author = {Ord, T},
+  title = {Moral Trade},
+  year = {2015},
+  url = {https://www.journals.uchicago.edu/doi/10.1086/682187},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Ord2020,
+  author = {Ord, T},
+  title = {The Precipice: Existential Risk and the Future of Humanity},
+  year = {2020},
+  publisher = {Bloomsbury},
+  address = {London},
+  url = {https://www.bloomsbury.com/uk/precipice-9781526600233/},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{OudeyerKaplan2007,
+  author = {Oudeyer, P.-Y. and Kaplan, F},
+  title = {What is Intrinsic Motivation? A Typology of Computational Approaches},
+  year = {2007},
+  journal = {Frontiers in Neurorobotics},
+  volume = {1},
+}
+
+@misc{OuyangEtAl2022,
+  author = {Ouyang, L. and Wu, J. and Jiang, X. and Almeida, D. and Wainwright, C.L. and Mishkin, P. and Zhang, C. and Agarwal, S. and Slama, K. and Ray, A. and Schulman, J. and Hilton, J. and Kelton, F. and Miller, L. and Simens, M. and Askell, A. and Welinder, P. and Christiano, P. and Leike, J. and Lowe, R},
+  title = {Training language models to follow instructions with human feedback},
+  year = {2022},
+  eprint = {2203.02155},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2203.02155},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{OweBaum2024,
+  author = {Owe, A. and Baum, S},
+  title = {On the Intrinsic Value of Diversity},
+  year = {2024},
+  url = {https://gcrinstitute.org/papers/071_diversity.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Parfit2011,
+  author = {Parfit, D},
+  title = {On What Matters},
+  year = {2011},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+  url = {https://global.oup.com/academic/product/on-what-matters-9780199681044},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Pearce2007,
+  author = {Pearce, D},
+  title = {The Abolitionist Project},
+  year = {2007},
+  url = {https://www.abolitionist.com/},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{PerezLong2023,
+  author = {Perez, E. and Long, R},
+  title = {Towards Evaluating AI Systems for Moral Status Using Self-Reports},
+  year = {2023},
+  eprint = {2311.08576},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2311.08576},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Persson2021,
+  author = {Persson, E},
+  title = {Astrobiology as science},
+  year = {2021},
+  url = {https://philarchive.org/archive/PERAAS-5##:~:text=Astrobiology%20as%20an%20Empirical%20Science,astrobiology%20is%20still%20relatively%20weak},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{PhuongEtAl2025,
+  author = {Phuong, M. and Zimmermann, R.S. and Wang, Z. and Lindner, D. and Krakovna, V. and Cogan, S. and Dafoe, A. and Ho, L. and Shah, R},
+  title = {Evaluating Frontier Models for Stealth and Situational Awareness},
+  year = {2025},
+  eprint = {2505.01420},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2505.01420},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{RafailovEtAl2023,
+  author = {Rafailov, R. and Sharma, A. and Mitchell, E. and Ermon, S. and Manning, C.D. and Finn, C},
+  title = {Direct Preference Optimisation: Your Language Model is Secretly a Reward Model},
+  year = {2023},
+  eprint = {2305.18290},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2305.18290},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Rawls1971,
+  author = {Rawls, J},
+  title = {A Theory of Justice},
+  year = {1971},
+  publisher = {Harvard University Press},
+  address = {Cambridge, MA},
+  url = {https://www.hup.harvard.edu/books/9780674000780},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{RedwoodResearchJulianStastnyEtAl2025,
+  author = {Redwood Research (Julian Stastny and Olli Järviniemi and Shlegeris), Buck},
+  title = {Making deals with early schemers},
+  year = {2025},
+  url = {https://blog.redwoodresearch.org/p/making-deals-with-early-schemers},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{Russell1997,
+  author = {Russell, S},
+  title = {Rationality and Intelligence},
+  year = {1997},
+  journal = {Artificial Intelligence},
+  volume = {94},
+  url = {https://www.sciencedirect.com/science/article/pii/S000437029700026X},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Russell2020,
+  author = {Russell, S},
+  title = {Human Compatible: AI and the Problem of Control},
+  year = {2020},
+  publisher = {Viking},
+  address = {New York},
+  url = {https://people.eecs.berkeley.edu/~russell/papers/mi19book-hcai.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Sandberg2021,
+  author = {Sandberg, A},
+  title = {Game Theory of Cooperating with Extraterrestrial Intelligence and Future Civilisations},
+  year = {2021},
+  url = {https://foresight.org/summary/anders-sandberg-game-theory-of-cooperating-w-extraterrestrial-intelligence-future-civilizations/},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{SandbergEtAl2018,
+  author = {Sandberg, A. and Armstrong, S. and Ćirković, M.M},
+  title = {That Is Not Dead Which Can Eternal Lie: The Aestivation Hypothesis for Resolving Fermi’s Paradox},
+  year = {2018},
+  journal = {Journal of the British Interplanetary Society},
+  volume = {71},
+  pages = {406--415},
+  eprint = {1705.03394},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/1705.03394},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Scanlon1998,
+  author = {Scanlon, T.M},
+  title = {What We Owe to Each Other},
+  year = {1998},
+  publisher = {Harvard University Press},
+  address = {Cambridge, MA},
+  url = {https://www.hup.harvard.edu/books/9780674004238},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{SchlatterEtAl2025,
+  author = {Schlatter, J. and Weinstein-Raun, B. and Ladish, J},
+  title = {Shutdown Resistance in Large Language Models},
+  year = {2025},
+  eprint = {2509.14260},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2509.14260},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{Schmidhuber2010,
+  author = {Schmidhuber, J},
+  title = {Formal Theory of Creativity, Fun, and Intrinsic Motivation (1990-2010)},
+  year = {2010},
+  journal = {IEEE Transactions on Autonomous Mental Development},
+  volume = {2},
+  number = {3},
+  pages = {230--247},
+}
+
+@book{Sebo2025,
+  author = {Sebo, J},
+  title = {The Moral Circle: Who Matters, What Matters, and Why},
+  year = {2025},
+  publisher = {Norton},
+  address = {New York},
+  url = {https://www.amazon.co.uk/Moral-Circle-Matters-Norton-Short/dp/1324064803},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{ShahEtAl2022,
+  author = {Shah, R. and Varma, V. and Kumar, R. and Phuong, M. and Krakovna, V. and Uesato, J. and Kenton, Z},
+  title = {Goal Misgeneralisation: Why Correct Specifications Aren't Enough For Correct Goals},
+  year = {2022},
+  eprint = {2210.01790},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2210.01790},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{Sharadin2025,
+  author = {Sharadin, N},
+  title = {Promotionalism, Orthogonality, and Instrumental Convergence},
+  year = {2025},
+  journal = {Philosophical Studies},
+  volume = {182},
+  number = {7},
+  pages = {1725--1755},
+  url = {https://philarchive.org/rec/SHAPOA-3},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{SharmaEtAl2025,
+  author = {Sharma, M. and Tong, M. and Mu, J. and Wei, J. and Kruthoff, J. and Goodfriend, S. and Ong, E. and Peng, A. and Agarwal, R. and Anil, C. and Askell, A. and Bailey, N. and Benton, J. and Bluemke, E. and Bowman, S.R. and Christiansen, E. and Cunningham, H. and Dau, A. and Gopal, A. and Gilson, R. and Graham, L. and Howard, L. and Kalra, N. and Lee, T. and Lin, K. and Lofgren, P. and Mosconi, F. and O'Hara, C. and Olsson, C. and Petrini, L. and Rajani, S. and Saxena, N. and Silverstein, A. and Singh, T. and Sumers, T. and Tang, L. and Troy, K.K. and Weisser, C. and Zhong, R. and Zhou, G. and Leike, J. and Kaplan, J. and Perez, E},
+  title = {Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming},
+  year = {2025},
+  eprint = {2501.18837},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2501.18837},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{SharkeyEtAl2025,
+  author = {Sharkey, L. and others},
+  title = {Open Problems in Mechanistic Interpretability},
+  year = {2025},
+  eprint = {2501.16496},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2501.16496},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Setiya2017,
+  author = {Setiya, K},
+  title = {Midlife: A Philosophical Guide},
+  year = {2017},
+  publisher = {Princeton University Press},
+  address = {Princeton},
+}
+
+@book{Shettleworth2010,
+  author = {Shettleworth, S},
+  title = {Cognition, Evolution, and Behavior},
+  year = {2010},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+  url = {https://global.oup.com/academic/product/cognition-evolution-and-behavior-9780195319842},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Shostak2017,
+  author = {Shostak, S},
+  title = {Introduction: the true nature of aliens},
+  year = {2017},
+  url = {https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/introduction-the-true-nature-of-aliens/C5EA66D8D338A7EA9085602793D85618},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{ShreeshaEtAl2025,
+  author = {Shreesha, L. and Pigozzi, F. and Goldstein, A. and Levin, M},
+  title = {Extending Iterated, Spatialized Prisoners’ Dilemma to Understand Multicellularity: game theory with self-scaling players},
+  year = {2025},
+  url = {https://osf.io/preprints/osf/kpzju_v2},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Sidgwick1907,
+  author = {Sidgwick, H},
+  title = {The Methods of Ethics},
+  year = {1907},
+  publisher = {Macmillan},
+  address = {London},
+}
+
+@article{Simon1956,
+  author = {Simon, H.A},
+  title = {Rational Choice and the Structure of the Environment},
+  year = {1956},
+  journal = {https://pages.ucsd.edu/\~mckenzie/Simon1956PsychReview.pdf},
+  url = {https://pages.ucsd.edu/~mckenzie/Simon1956PsychReview.pdf(Accessed:},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Singer2011,
+  author = {Singer, P},
+  title = {The Expanding Circle},
+  year = {2011},
+  url = {https://www.stafforini.com/docs/Singer%20-%20The%20expanding%20circle.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Sloman1984,
+  author = {Sloman, A},
+  title = {The Structure of the Space of Possible Minds},
+  year = {1984},
+  url = {https://cogaffarchive.org/sloman-space-of-minds-84.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Sloman1978,
+  author = {Sloman, A},
+  title = {The Computer Revolution in Philosophy: Philosophy, Science and Models of Mind},
+  year = {1978},
+}
+
+@article{Smart2012,
+  author = {Smart, J.M},
+  title = {The Transcension Hypothesis: Sufficiently Advanced Civilisations Invariably Leave Our Universe, and Implications for METI and SETI},
+  year = {2012},
+  journal = {Acta Astronautica},
+  volume = {78},
+  pages = {55--68},
+  doi = {10.1016/j.actaastro.2011.11.006},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{SnyderBeattieEtAl2021,
+  author = {Snyder‑Beattie, A.E. and Sandberg, A. and Drexler, K.E. and Bonsall, M.B},
+  title = {The Timing of  Evolutionary Transitions Suggests Intelligent Life Is Rare},
+  year = {2021},
+  journal = {Astrobiology},
+  volume = {21},
+  number = {3},
+  pages = {265--278},
+  url = {https://www.liebertpub.com/doi/epdf/10.1089/ast.2019.2149},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{SotalaGloor2017,
+  author = {Sotala, K. and Gloor, L},
+  title = {Superintelligence as a Cause or Cure for Risks of Astronomical Suffering},
+  year = {2017},
+  url = {https://philarchive.org/rec/SOTSAA},
+  note = {Accessed: 1 October 2025},
+}
+
+@incollection{Spinoza1985,
+  author = {Spinoza, B},
+  title = {Ethics},
+  year = {1985},
+  booktitle = {The Collected Works of Spinoza},
+  editor = {E},
+  publisher = {Princeton University Press},
+  address = {Princeton},
+}
+
+@misc{StanovichEtAl2021,
+  author = {Stanovich, K. and Toplak, M. and West, R},
+  title = {Rationality and Intelligence},
+  year = {2021},
+  url = {http://keithstanovich.com/Site/Research_on_Reasoning_files/Stanovich_Toplak_West_2021.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{Street2006,
+  author = {Street, S},
+  title = {A Darwinian Dilemma for Realist Theories of Value},
+  year = {2006},
+  journal = {Philosophical Studies},
+  volume = {127},
+  number = {1},
+  pages = {109--166},
+  url = {https://link.springer.com/article/10.1007/s11098-005-1726-6},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Todd2025,
+  author = {Todd, B},
+  title = {The case for AGI by 2030},
+  year = {2025},
+  url = {https://forum.effectivealtruism.org/posts/7EoHMdsy39ssxtKEW/the-case-for-agi-by-2030-1},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Tomasik2015,
+  author = {Tomasik, B},
+  title = {Astronomical Future Suffering},
+  year = {2015},
+  url = {https://longtermrisk.org/risks-of-astronomical-future-suffering/},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{Torres2018,
+  author = {Torres, P},
+  title = {Space Colonisation and Suffering Risks: Reassessing the “Maxipok Rule”},
+  year = {2018},
+  journal = {Futures},
+  volume = {100},
+  pages = {31--43},
+  url = {https://www.sciencedirect.com/science/article/abs/pii/S0016328717304056},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Turchin2018,
+  author = {Turchin, A},
+  title = {Message to Any Future AI: “There Are Several Instrumental Reasons Why Exterminating Humanity Is Not in Your Interest”},
+  year = {2018},
+  url = {https://philpapers.org/rec/TURMTA},
+  note = {Accessed: 1 October 2025},
+}
+
+@incollection{Turner2022,
+  author = {Turner, A},
+  title = {Parametrically Retargetable Decision‑Makers Tend to Seek Power},
+  year = {2022},
+  booktitle = {Advances in Neural Information Processing Systems},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2022/hash/cb3658b9983f677670a246c46ece553d-Abstract-Conference.html},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Vakoch2014,
+  author = {Vakoch, D},
+  title = {Extraterrestrial Altruism: Evolution and Ethics in the Cosmos},
+  year = {2014},
+  publisher = {Springer},
+  address = {Berlin},
+  url = {https://link.springer.com/book/10.1007/978-3-642-37750-1},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Vallor2024,
+  author = {Vallor, S},
+  title = {The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking},
+  year = {2024},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+  url = {https://global.oup.com/academic/product/the-ai-mirror-9780197759066},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Vinding2020,
+  author = {Vinding, M},
+  title = {Suffering‑Focused Ethics},
+  year = {2020},
+  url = {https://magnusvinding.com/wp-content/uploads/2020/05/suffering-focused-ethics.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@article{VonHoerner1961,
+  author = {Von Hoerner, S},
+  title = {The Search for Signals from Other Civilisations},
+  year = {1961},
+  journal = {Science},
+  volume = {134},
+  number = {3493},
+  pages = {1839--1843},
+  doi = {10.1126/science.134.3493.1839},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Wiley2011,
+  author = {Wiley, K.B},
+  title = {The Fermi Paradox, Self‑Replicating Probes, and the Interstellar Transportation Bandwidth},
+  year = {2011},
+  url = {https://www.academia.edu/108213981/The_Fermi_Paradox_Self_Replicating_Probes_and_the_Interstellar_Transportation_Bandwidth},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Williams2006,
+  author = {Williams, B},
+  title = {Ethics and the Limits of Philosophy},
+  year = {2006},
+  url = {https://e-docs.eplo.int/phocadownloadpap/userupload/aportinou-eplo.int/bernard_williams_ethics_and_the_limits_of_philosophy.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Wittgenstein1961,
+  author = {Wittgenstein, L},
+  title = {Notebooks 1914–1916},
+  year = {1961},
+}
+
+@book{Wittgenstein2001,
+  author = {Wittgenstein, L},
+  title = {Philosophical Investigations: The German Text},
+  year = {2001},
+  publisher = {Wiley-Blackwell},
+  address = {New York},
+}
+
+@misc{Wolfendale2022,
+  author = {Wolfendale, P},
+  title = {The Weight of Forever},
+  year = {2022},
+  url = {https://www.thephilosopher1923.org/post/the-weight-of-forever},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{Wolfendale2024,
+  author = {Wolfendale, P},
+  title = {Revenge of Reason},
+  year = {2024},
+  publisher = {Urbanomic},
+  address = {Falmouth},
+}
+
+@article{WrightEtAl2018,
+  author = {Wright, J.T. and Kanodia, S. and Lubar, E},
+  title = {How Much SETI Has Been Done? Finding Needles in the n‑Dimensional Cosmic Haystack},
+  year = {2018},
+  journal = {The Astronomical Journal},
+  volume = {156},
+  doi = {10.3847/1538‑3881/aae099},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{YuanEtAl2023,
+  author = {Yuan, Z. and Yuan, H. and Tan, C. and Wang, W. and Huang, S. and Huang, F},
+  title = {RRHF: Rank Responses to Align Language Models with Human Feedback without tears},
+  year = {2023},
+  eprint = {2304.05302},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2304.05302},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Yudkowsky2009,
+  author = {Yudkowsky, E},
+  title = {Value is fragile},
+  year = {2009},
+  url = {https://www.lesswrong.com/posts/GNnHHmm8EzePmKzPk/value-is-fragile},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{Yudkowsky2001,
+  author = {Yudkowsky, E},
+  title = {Creating Friendly AI 1.0: The Analysis and Design of Benevolent Goal Architectures},
+  year = {2001},
+  url = {http://intelligence.org/files/CFAI.pdf},
+  note = {Accessed: 1 October 2025},
+}
+
+@book{YudkowskySoares2025,
+  author = {Yudkowsky, E. and Soares, N},
+  title = {If Anyone Builds It, Everyone Dies},
+  year = {2025},
+  publisher = {Penguin},
+  address = {London},
+  url = {https://www.penguin.co.uk/books/474267/if-anyone-builds-it-everyone-dies/9781847928924},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{ZengEtAl2025,
+  author = {Zeng and others},
+  title = {Super Co-alignment of Human and AI for Sustainable Symbiotic Society},
+  year = {2025},
+  url = {https://arxiv.org/html/2504.17404v5##S4},
+  note = {Accessed: 1 October 2025},
+}
+
+@misc{ZhiXuanEtAl2024,
+  author = {Zhi-Xuan, T. and Carroll, M. and Dragan, A. and Russell, S},
+  title = {Beyond Preferences in AI Alignment},
+  year = {2024},
+  eprint = {2408.16984},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2408.16984},
+  note = {Accessed: 1 October 2025},
+}
+
