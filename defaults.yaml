@@ -20,3 +20,5 @@ metadata:
     - bottom=33mm
 top-level-division: chapter
 include-in-header: templates/preamble.tex
+citeproc: true
+csl: https://www.zotero.org/styles/chicago-author-date

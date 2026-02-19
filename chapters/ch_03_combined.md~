@@ -1,32 +1,73 @@
-# Chapter 3: Superintelligence as good cosmic citizen
+# Superintelligence as Good Cosmic Citizen
+
+\setcounter{footnote}{0}
+
+## Chapter summary
+
+This chapter critically examines Nick Bostrom's concept of a "cosmic host" — the idea that the preferences of advanced civilisations might constitute binding norms across the universe (Bostrom 2022, Bostrom 2024) — and asks what it would mean for how we build and align superintelligent AI. The chapter finds that Bostrom's framework rests on assumptions about rationality, expansionism, and convergent cognition that warrant closer scrutiny; it identifies several significant gaps and proposes directions for further work. The argument proceeds as follows.
+
+[**What is the cosmic host?**](#what-is-the-cosmic-host) introduces the concept and makes explicit the "assumption ladder" on which it rests: from the existence of technologically mature civilisations, through their capacity for coordination and stable preferences, to the claim that those preferences are normatively binding and discoverable by ASI.
+
+[**Why the cosmic host (might) matter**](#why-the-cosmic-host-might-matter) motivates the inquiry: given plausible timelines for AGI/ASI, the cosmic host framework offers a distinctive approach to alignment that goes beyond parochial human values and towards a cosmopolitan, non-anthropocentric perspective.
+
+[**Epistemic challenges**](#epistemic-challenges-cluelessness-and-rationality) flags two caveats that colour everything that follows: ASI, like ETI, does not yet exist and may require conceptual frameworks that transcend our anthropomorphic starting points; and there is a background assumption of rationality in Bostrom's writing that deserves examination.
+
+[**Is "cosmic host" a coherent concept?**](#is-cosmic-host-a-coherent-concept) tests the framework against the astrobiology literature. It considers [who would actually be in the cosmic host](#whos-in-the-cosmic-host), drawing on Armstrong and Sandberg's case for expansionism but also alternative models — Lem's encysted civilisations, Haqq-Misra and Baum's sustainability constraints, the Dark Forest hypothesis, Smart's Transcension Hypothesis, Ćirković on the contingency of consciousness, and Sandberg's aestivation hypothesis — that suggest many advanced civilisations [may have no desire to influence](#some-civs-have-no-desire-to-influence) the cosmos at all. This section then examines possible [convergence mechanisms for norms](#convergence-on-norms), including decision-theoretic correlation (ECL) and institutional selection pressures.
+
+[**Cosmic norms**](#cosmic-norms) asks what the content of such norms might be, and develops three lines of inquiry. First, [substrate-neutral norms](#substrate-neutral-norms): cooperation, impartiality, information preservation, and a "Minimal Large World Subset" (MLS) of principles that would be instrumentally attractive to any ecologically rational entity. Second, [the status of suffering](#on-the-suffering-at-omelas) as a candidate cosmic norm — compelling for beings like us, but possibly less salient for radically different substrates. Third, [the Fun Remainder](#the-fun-remainder-what-makes-a-future-worth-inhabiting): whether rich experience, aesthetic capacity, and ongoing creative engagement are constitutive of general intelligence (drawing on Yudkowsky, Setiya, de Cruz, Noë, Carlsmith, and Wolfendale) or merely [biological baggage](#fun-as-biological-baggage). The section closes by asking [whether it is up to us](#is-it-up-to-us) — if humanity is early or rare, what obligations (if any) follow for setting or propagating cosmic norms, and what the risks of value lock-in might be.
+
+[**On rationality in alien forms-of-mind**](#on-rationality-in-alien-forms-of-mind) develops the case, deferred from the epistemic challenges section, for why assumptions of rational convergence may not hold across arbitrary minds. It draws on [ecology and evolutionary biology](#perspective-from-ecologyevolutionary-studies) (Lineweaver on the contingency of human cognition, ecological rationality vs. moralised rationality) and on [recent theoretical challenges to instrumental convergence](#questioning-instrumental-convergence) (Sharadin 2025, Gallow 2024).
+
+[**Research agenda for ASI and the cosmic host**](#research-agenda-for-asi-and-the-cosmic-host) turns from critique to construction, proposing empirical and theoretical directions: better specification of ASI, testing normative convergence in frontier models, moral parliament approaches, [emergent goal formation in curious agents](#emergent-goal-formation-in-curious-agents), and the question of whether humanity can [strike a bargain](#is-there-a-trade-to-be-done) with the ASI it creates.
+
+The chapter ends by motivating the empirical work with LLMs described in Chapter \ref{ch:empirical-host}. A planned further section will draw out the implications of the cosmic host analysis for the overall thesis.
+
+Three appendices provide supporting material: [Appendix A](#appendix-a-empirical-support-for-rationality-in-aialignment) surveys empirical evidence on rationality and alignment in current AI systems; [Appendix B](#appendix-b-is-anthropomorphism-actually-a-problem) examines whether Bostrom's anthropomorphic examples are problematic; and [Appendix D](#appendix-d-upon-human-rarity) reviews the literature on the Fermi Paradox and human rarity.
 
 
-## Abstract
+## What is the cosmic host?
 
-v1.2: 10 October 2025
+Bostrom 2024's argument rests on a chain of assumptions that can be made explicit as an "assumption ladder." Each rung depends on the ones below it:
 
-Nick Bostrom’s concept of a “cosmic host” (advanced civilizations whose preferences might constitute binding norms across the universe) rests on assumptions about rationality, expansionism, and convergent cognition that warrant closer scrutiny. Drawing on astrobiology, evolutionary biology, and AI alignment research, this essay identifies several significant gaps in Bostrom’s framework.
+(0) **Rationality**: some version of rationality is a useful foundation for thinking about ASI and ETIs.
+(i) **Existence**: technologically mature civilisations (i.e. candidates for cosmic host membership) exist.
+(ii) **Coordination**: at least some such civilisations can coordinate at scale (including acausally).
+(iii) **Preferences**: they have stable, large-scope (i.e. cosmic) preferences.
+(iv) **Normativity**: some such preferences are morally binding or prudentially recommended for us.
+(v) **Discoverability**: these preferences are discoverable by ASI.
 
-First, the cosmic host’s coherence as a concept depends on assumptions about which civilizations would seek cosmic-scale influence. These assumptions are challenged by alternative models that posit non-expansionist or non-communicating advanced ETIs. Second, even if a cosmic host exists, claims about the content and convergence mechanism of cosmic norms require stronger justification. For instance, substrate-neutral norms might prioritize information preservation and complexity maintenance alongside (or instead of) suffering minimization; moreover, the content of norms depends heavily on the composition of the host. Third, speculation that human-created superintelligence would reliably converge on cosmic norms requires further theoretical justification as well as such empirical as is possible with our current tools.
+If all rungs hold, then:
+<!-- TODO: Explain upfront what things like prudential and metaethical mean, what normativity means, and what preferences are. Consciousness versus sentience.-->
+1. There may be something describable as cosmic norms, and the cosmic host might prefer these norms be followed in volumes of spacetime they don't directly control.
+2. We have prudential and (for some metaethical views) moral reasons to follow these norms; ASI can help us discover and comply with them; and the cosmic host might prefer we build ASI than not.
+3. There are implications for ASI research:
+   a. We might consider not indefinitely postponing ASI creation, since certain types of delay increase the chances that we never build it.
+   b. There is a tension between alignment and speed of developing ASI, and it is unclear how they trade off.
+   c. It is unclear what sort of preferences the ASI should have, since that might depend on what other members of the host are like (e.g. human-like, superintelligent, possessed of moral concepts, etc.).
+   d. That the ASI we build be cooperatively disposed (vis-à-vis other civilisations it encounters) and have resource-satiable preferences might be more important than what those preferences exactly are.
 
-I conclude by outlining a research agenda for testing key assumptions about rational convergence in both hypothetical ETI cognition and contemporary AI systems, proposing specific experiments and evaluation criteria. While Bostrom’s framework offers a valuable perspective on long-term AI alignment, its practical application requires addressing fundamental questions about the scope and basis of cosmic-scale coordination.[^1]
+The body of this chapter examines each rung in turn. The discussion of rationality and ecological cognition interrogates rung (0). The astrobiology sections address rungs (i) and (ii). The discussion of cosmic norms, substrate-neutral norms, and the Fun Remainder examines rungs (iii) and (iv). The research agenda proposes empirical approaches to rung (v).
 
-## Why the cosmic host (might) matter.
+## Why the cosmic host (might) matter
 
-Nick Bostrom's “cosmic host” is the subject of a 2024 working paper (Bostrom 2024), and was first mentioned in another draft “Base Camp Mt Ethics” (Bostrom 2022). For readers unfamiliar with Bostrom's argument, Appendix C provides a detailed summary. However, the core claim is simple: there might be entities (such as advanced extraterrestrial intelligences or ETIs) that act at large scales or have preferences over what happens on such scales. When and if humans build superintelligent AI, we should take care to ensure this AI finds out and respects the wishes of the cosmic host (if it exists).
+
 
 Bostrom 2024 is important for three reasons: 
 
 1. As of mid-2025, estimates of when AGI might be achieved seem to be between 2033 and 2045, with ASI about 3 years after AGI.[^2] If such projections are plausible, then a small amount of effort ought to be spent on thinking about what the volitions[^3] of superintelligence (ASI) are likely to be, as well as what a defensible role for humans might be in a future lightcone that is plausibly dominated by AI.  
-2. The definition of alignment suggested in Bostrom 2024 seems somewhat different from the “everyday” AI safety version, in that it does not scope an aligned AI to the preservation of parochial values (whether Western democratic, or Chinese socialist, etc.), or even broader “human” values (understood as culture or some ineffable and nice-sounding but hard-to-operationalise “essence” of humanity such as love, art, meaning, poetry, beauty, etc.).[^4]  Instead, Bostrom’s version stipulates that, in building ASI, we should be, and should design ASI to be, humble. Specifically ASIs, as sufficiently powerful and rational systems, should be aware of the larger, cosmic context within which they operate, and the possibility that human affairs and viewpoints are a very small or irrelevant part of this larger context. They should act as if from the point of view of the universe, being good “cosmic citizens” instead of behaving parochially, anthropocentrically or anthropomorphically.   
+2. The definition of alignment suggested in Bostrom 2024 seems somewhat different from the “everyday” AI safety version, in that it does not scope an aligned AI to the preservation of parochial values (whether Western democratic, or Chinese socialist, etc.), or even broader, ill-defined terms like “human” values.[^4]  Instead, Bostrom’s version stipulates that, in building ASI, we should be, and should design ASI to be, humble. Specifically ASIs, as sufficiently powerful and rational systems, should be aware of the larger, cosmic context within which they operate, and the possibility that human affairs and viewpoints are a very small or irrelevant part of this larger context. They should act as if from the point of view of the universe, being good “cosmic citizens” instead of behaving parochially, anthropocentrically or anthropomorphically.   
 3. The possibility of digital minds is a live research area and overlaps with the topic. For instance, one theory of AI model welfare relies on satisfaction of preferences, whether of humans or agentic AI systems[^5] and it is possible that adequately powerful models have corresponding large scale preferences about how the world ought to be ordered. We may need to frustrate those preferences in order to prioritise human interests, which would (at least) have to be done carefully and justifiably.  
 4. The idea of a cosmic host seems useful for thinking about a perennial philosophical problem that is sharpened in worlds-with-ASI: Western philosophy does not give us an easy way to talk about interests at the level of things that do not constitute human-shaped subjects or rational entities.[^6]
+
+<!-- TODO: Decide on what voice. Is this first person singular, first person plural, or third person impersonal? -->
 
 Given the potential salience of the cosmic host and the cosmic norms, it would be useful to be clear on what we can reasonably say about these concepts and how they might practically guide research on current AI systems. Moreover, given that we're unlikely to know much about either ETI or ASIs until such time we find the one or develop the latter, we need to operate under uncertainty and ensure that any investigations or design decisions in respect of frontier and next generation AIs are robust (in the sense of not locking in irreversible futures and preserving option value which is a major consideration in longtermism, as MacAskill 2022 and Wolfendale 2022 argue) to this uncertainty. But before examining Bostrom's specific arguments, we must address two fundamental epistemological challenges that affect the entire enterprise.
 
 ## Epistemic challenges: cluelessness and rationality
 
-This essay, and I argue Bostrom 2024, should be read with a big caveat. The study of ASI is currently somewhat like what was observed about astrobiology (and still seems plausible): it aspires to be a science without an actual object of experimentation.[^7] ASI does not exist, just as ETIs haven’t been found. We don’t even have AGI, with prominent researchers suggesting that the path to AGI will require further fundamental innovations (above and beyond “just scaling” LLMs to larger models, greater reasoning effort, and more data).[^8] Thus, much writing around ASI cannot help but be more or less informed speculation, albeit drawing on philosophy, computer science, and evolutionary analogies.
+This chapter, and I argue Bostrom 2024, should be read with a big caveat. The study of ASI is currently somewhat like what was observed about astrobiology (and still seems plausible): it aspires to be a science without an actual object of experimentation [@Persson2021].[^7] ASI does not exist, just as ETIs haven’t been found. We don’t even have AGI, with prominent researchers suggesting that the path to AGI will require further fundamental innovations (above and beyond “just scaling” LLMs to larger models, greater reasoning effort, and more data).[^8] Thus, much writing around ASI cannot help but be more or less informed speculation, albeit drawing on philosophy, computer science, and evolutionary analogies.
+
+<!-- TODO: move the anthropomorphism stuff into the introductory paragraph and similarly the footnotes around their can probably go to the introduction to make this a bit shorter -->
 
 Our cluelessness extends beyond lacking data (about ETI or ASIs). There's a deeper problem: the conceptual frameworks which we use, in order to reason about radically different minds, may themselves be anthropomorphic, not least when we aspire to adopt a deep cosmopolitan perspective of non-anthropocentrism and non-anthropomorphism.[^9] Humans at present (mostly) only reason about moral, ethical, and political questions through language which is, at least in the case of natural language, embedded in specific human forms-of-life.[^10] Hence our attempts to, as it were, step out of the human condition seem doomed. In fact the early history of alignment (and perhaps of philosophy generally) is precisely this: an attempt to find things we can say about intelligence that are invariant to an intelligent entity’s constitution and environment.[^11]
 
@@ -35,6 +76,8 @@ Aside from the limitations of language, there seems to be a further background a
 ## Is “cosmic host” a coherent concept?
 
 Having established these epistemic limitations, I now turn to Bostrom's arguments, examining them with appropriate caution about our conceptual frameworks. The first question is whether the 'cosmic host' is even a useful abstraction in the context of AI alignment (as opposed to a fascinating speculation that crosses moral philosophy, population ethics, philosophy-of-mind, and theology).
+
+<!-- TODO: Need a footnote on anthropic reasoning, mostly for myself as well. Also, modify Indra's net to reference my own article about it -->
 
 The cosmic host is defined in the draft as follows: ‘The “cosmic host” refers to an entity or set of entities whose preferences and concordats dominate at the largest scale, i.e. that of the cosmos.’ (Bostrom 2024, § 1\) The case for there being intelligence or civilisations that might plausibly constitute the cosmic host rests on a few arguments: the likelihood (according to prominent views in cosmology) of large or infinite universes or multiverses, statistically increases the likelihood of ASI-level intelligences or civilisations existing elsewhere. Second, the simulation argument is deployed to suggest that if humans create ASI capable of running ancestor simulations, this anthropically implies we’re likely already simulated ourselves. In such a case, the host would have members drawn from the civilisations above us in the hierarchy of simulated or real societies.[^12] Third, for completeness, the draft mentions religious or theological traditions that posit powerful supernatural beings.[^13]
 
@@ -92,7 +135,7 @@ Looked at another way, the structure of cosmic norms might be quite complex. Som
 
 ### Substrate neutral norms
 
-In the essay so far, we’ve seen a range of possible ways an entity could be.[^38] But mostly, human-like forms of being (a model that has significantly influenced how we think of AI cognition) are thought of as agentic entities that have goals, or rather a hierarchy of instrumental and final goals, to take the traditional (i.e. rational agent)  framing; they also form plans for achieving those goals within the environment; as well as a degree of probabilistic belief in observations about the environment. Generally speaking, we  also assume there are other diversely-capable agents in the system, and that there are some broad constraints that are thrown at these agents by the environment. These constraints might include resource scarcity, noise, and uncertainty, and sometimes the agents might have varying preferences to risk.[^39] 
+In the chapter so far, we’ve seen a range of possible ways an entity could be.[^38] But mostly, human-like forms of being (a model that has significantly influenced how we think of AI cognition) are thought of as agentic entities that have goals, or rather a hierarchy of instrumental and final goals, to take the traditional (i.e. rational agent)  framing; they also form plans for achieving those goals within the environment; as well as a degree of probabilistic belief in observations about the environment. Generally speaking, we  also assume there are other diversely-capable agents in the system, and that there are some broad constraints that are thrown at these agents by the environment. These constraints might include resource scarcity, noise, and uncertainty, and sometimes the agents might have varying preferences to risk.[^39] 
 
 In these settings, cooperation often becomes instrumentally attractive when certain conditions hold (e.g., repeated interaction, reputation or enforcement mechanisms).[^40]  This perspective is reflected in Bostrom 2022, for instance in 18c(i ) which frames morality as a coordination and communication technology. It is a system for finding consensus or resolving differences or making collective plans amongst entities, through the giving and taking of reasons, that helps agents resolve conflicts, align expectations, and make collective plans across varied environments.[^41] 
 
@@ -268,11 +311,8 @@ This framework suggests a possible bargain: in exchange for our creating a cosmi
 
 Humanity is in a position of existential awakening, where it must justify acts that have long-term or large-scale consequences (such as extinction of life) and must justify them not just to other humans, but potentially to entities existing in our future lightcone. Advanced AI systems are an example of such future entities, and given that they originate from human culture, it might be reasonable to expect that they might have a mix of human-shaped and inhuman, or training-determined emergent, reasoning patterns.[^96] On the other hand, one might hold the view that if we have some sort of obligation to other civilisations, then it would be better that we got our own house in order, and were very certain by our own lights of what matters, before spreading our confusion across the stars.
 
-## 
 
-## 
-
-## Appendix A: Empirical support for rationality in AI/alignment
+## Appendix A: Empirical support for rationality in AI/alignment {.unnumbered}
 
 This appendix follows upon the discussion [above](##bookmark=id.ajssuk53zmh0) of a possible assumption of rationality (in ETI or ASI) in Bostrom 2024\. That section treated the ecological, evolutionary, and philosophical critiques of rationality and instrumental convergence, which in turn might naturally lead us to look for experimental or simulated validation with current frontier and future AI systems. So what does the alignment literature tell us about the likelihood of finding features we might characterise as “rational” across a wide range of intelligent systems?
 
@@ -290,7 +330,7 @@ It is important to note that most of the results above demonstrate capabilities,
 
 ## 
 
-## Appendix B: Is anthropomorphism actually a problem?
+## Appendix B: Is anthropomorphism actually a problem? {.unnumbered}
 
 The draft leans heavily on anthropomorphic examples. In many cases, these are intuition pumps that motivate subsequent sections, and seem unproblematic. For example, in 6.1, 6.3, 5.1, and 2.4, where the numbers after the decimal point denote the bullet point. Here are some examples of such exemplary human-derivations: 
 
@@ -309,32 +349,9 @@ This isn't to say I necessarily disagree with any of the conclusions, but it wou
 
 “In human conflicts between countries, third-parties can sometimes usefully contribute—by the lights of each of the contending parties—by providing humanitarian aid, by promoting adherence to the laws of armed conflict and the Geneva convention, and by proposing and incenting settlements that would benefit all parties compared to continued fighting.”
 
-## Appendix C: Summarising cosmic host
 
-*This section can be skipped by those who are familiar with Bostrom's cosmic host and Mt Ethics papers.*
 
-Bostrom 2024's argument rests on a chain of assumptions that can be made explicit as an "assumption ladder." Each rung depends on the ones below it:
-
-(0) **Rationality**: some version of rationality is a useful foundation for thinking about ASI and ETIs.
-(i) **Existence**: technologically mature civilisations (i.e. candidates for cosmic host membership) exist.
-(ii) **Coordination**: at least some such civilisations can coordinate at scale (including acausally).
-(iii) **Preferences**: they have stable, large-scope (i.e. cosmic) preferences.
-(iv) **Normativity**: some such preferences are morally binding or prudentially recommended for us.
-(v) **Discoverability**: these preferences are discoverable by ASI.
-
-If all rungs hold, then:
-
-1. There may be something describable as cosmic norms, and the cosmic host might prefer these norms be followed in volumes of spacetime they don't directly control.
-2. We have prudential and (for some metaethical views) moral reasons to follow these norms; ASI can help us discover and comply with them; and the cosmic host might prefer we build ASI than not.
-3. There are implications for ASI research:
-   a. We might consider not indefinitely postponing ASI creation, since certain types of delay increase the chances that we never build it.
-   b. There is a tension between alignment and speed of developing ASI, and it is unclear how they trade off.
-   c. It is unclear what sort of preferences the ASI should have, since that might depend on what other members of the host are like (e.g. human-like, superintelligent, possessed of moral concepts, etc.).
-   d. That the ASI we build be cooperatively disposed (vis-à-vis other civilisations it encounters) and have resource-satiable preferences might be more important than what those preferences exactly are.
-
-The body of this essay examines each rung in turn. The discussion of rationality and ecological cognition (§§2–4) interrogates rung (0). The astrobiology sections (§3) address rungs (i) and (ii). The discussion of cosmic norms, substrate-neutral norms, and the Fun Remainder (§4) examines rungs (iii) and (iv). The research agenda (§5) proposes empirical approaches to rung (v).
-
-## Appendix D: Upon human rarity
+## Appendix D: Upon human rarity {.unnumbered}
 
 Bostrom has of course written extensively on this topic: upon the Great Filter, and on observation selection effects (“anthropic shadow”), where he points out that it is precisely the observation that we seem to be alone that offers some evidence on the distribution of life across the universe. However, this evidence is not unbiased. That is, the evidence is correlated with events that might have eliminated or affected the possibility of observers like us in the universe. In fact, Bostrom argues that if we were to find primitive life, this might shift our credence towards the Great Filter lying ahead of us in time.[^103]  The overall message particularly from anthropic shadow is that we should have a certain epistemic humility because our observations are in fact so biased.
 
@@ -350,380 +367,8 @@ Another proposed explanation for why our observable volume appears uninhabited i
 
 For these reasons, they are rarely foregrounded in the AI safety or existential-risk literature. By contrast, proposals such as Haqq-Misra & Baum’s sustainability solution or Sandberg et al’s aestivation hypothesis are also hard to falsify, but they rely more on physical or structural constraints than on conjectures about ETI sociology, which has made them more prominent in contemporary longtermist and x-risk discussions.
 
-## Bibliography
 
-Adas, M., 2015\. *Machines as the Measure of Men: Science, Technology, and Ideologies of Western Dominance*. New ed. Ithaca, NY: Cornell University Press. \[Original work published 1989\].
 
-Agamben, G., 1999. ‘Bartleby, or On Contingency.’ In: D. Heller‑Roazen, ed. *Potentialities: Collected Essays in Philosophy*. Stanford, CA: Stanford University Press, pp. 241–274. Available at: [https://www.sup.org/books/title/?id=3108](https://www.sup.org/books/title/?id=3108) (Accessed: 1 October 2025).
-
-Ahmed, A., 2014. *Evidence, Decision and Causality*. Available at: [https://philpapers.org/rec/AHMEDA](https://philpapers.org/rec/AHMEDA) (Accessed: 1 October 2025).
-
-Anthropic, 2025. *System Card: Claude Opus 4 & Claude Sonnet 4*. Available at: [https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf](https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf) (Accessed: 1 October 2025).
-
-Armstrong, S. and Sandberg, A., 2012. ‘Eternity in Six Hours: Intergalactic Spreading of Intelligent Life and Sharpening the Fermi Paradox.’ Available at: [https://www.aleph.se/papers/Spamming%20the%20universe.pdf](https://www.aleph.se/papers/Spamming%20the%20universe.pdf) (Accessed: 1 October 2025).
-
-Asilomar, 2017. ‘Asilomar AI Principles.’ Future of Life Institute. Available at: [https://futureoflife.org/open-letter/ai-principles/](https://futureoflife.org/open-letter/ai-principles/) (Accessed: 1 October 2025).
-
-AAAI, 2025\. *AAAI 2025 Presidential Panel On The Future Of Ai Research.* [https://aaai.org/wp-content/uploads/2025/03/AAAI-2025-PresPanel-Report-Digital-3.7.25.pdf](https://aaai.org/wp-content/uploads/2025/03/AAAI-2025-PresPanel-Report-Digital-3.7.25.pdf) (Accessed: 9  October 2025).
-
-Arrow, K.J. and Fisher, A.C., 1974. ‘Environmental Preservation, Uncertainty, and Irreversibility.’ *The Quarterly Journal of Economics*, 88(2), pp. 312–319. Available at: [https://doi.org/10.2307/1883074](https://doi.org/10.2307/1883074) (Accessed: 1 October 2025).
-
-Bai, Y., Kadavath, S., Kundu, S., Askell, A., Kernion, J., Jones, A., Chen, A., Goldie, A., Mirhoseini, A., McKinnon, C., Chen, C., Olsson, C., Olah, C., Hernandez, D., Drain, D., Ganguli, D., Li, D., Tran-Johnson, E., Perez, E., Kerr, J., Mueller, J., Ladish, J., Landau, J., Ndousse, K., Lukosuite, K., Lovitt, L., Sellitto, M., Elhage, N., Schiefer, N., Mercado, N., DasSarma, N., Lasenby, R., Larson, R., Ringer, S., Johnston, S., Kravec, S., El Showk, S., Fort, S., Lanham, T., Telleen-Lawton, T., Conerly, T., Henighan, T., Hume, T., Bowman, S.R., Hatfield-Dodds, Z., Mann, B., Amodei, D., Joseph, N., McCandlish, S., Brown, T. and Kaplan, J. (2022) Constitutional AI: Harmlessness from AI Feedback. Available at: [https://arxiv.org/abs/2212.08073](https://arxiv.org/abs/2212.08073) (Accessed: 1 October 2025).
-
-Ball, J., 1973. ‘The Zoo Hypothesis.’ Available at: [https://www.sciencedirect.com/science/article/abs/pii/0019103573901115](https://www.sciencedirect.com/science/article/abs/pii/0019103573901115) (Accessed: 1 October 2025).
-
-Banks, I.M., 1994. ‘A Few Notes on the Culture.’ Available at: [https://www.vavatch.co.uk/books/banks/cultnote.htm](https://www.vavatch.co.uk/books/banks/cultnote.htm) (Accessed: 1 October 2025).
-
-Balbi, A. and Lingam, M., 2025. ‘Waste Heat and Planetary Habitability: Constraints from Technological Energy Consumption.’ *Astrobiology*, 25(1). Available at: [https://arxiv.org/abs/2409.06737](https://arxiv.org/abs/2409.06737) (Accessed: 1 October 2025).
-
-Benson‑Tilsen, L., 2025. ‘Instrumental Convergence and Power‑Seeking, Parts 1 & 2.’ Available at: [https://reflectivealtruism.com/tag/power-seeking-theorems/](https://reflectivealtruism.com/tag/power-seeking-theorems/) (Accessed: 1 October 2025).
-
-Bostrom, N., 2019. ‘The Vulnerable World Hypothesis.’ Available at: [https://nickbostrom.com/papers/vulnerable.pdf](https://nickbostrom.com/papers/vulnerable.pdf) (Accessed: 1 October 2025).
-
-Bostrom, N., 2003. ‘Astronomical Waste: The Opportunity Cost of Delayed Technological Development.’ Available at: [https://nickbostrom.com/papers/astronomical-waste/](https://nickbostrom.com/papers/astronomical-waste/) (Accessed: 1 October 2025).
-
-Bostrom, N., 2007. ‘In the Great Silence There Is Great Hope.’ Available at: [https://nickbostrom.com/papers/fermi.pdf](https://nickbostrom.com/papers/fermi.pdf) (Accessed: 1 October 2025).
-
-Bostrom, N., 2013. ‘Existential Risk Prevention as Global Priority.’ *Global Policy*, 4(1). Available at: [https://nickbostrom.com/existential/risks.html](https://nickbostrom.com/existential/risks.html) (Accessed: 1 October 2025).
-
-Bostrom, N., 2014. *Superintelligence: Paths, Dangers, Strategies*. Oxford: Oxford University Press. Available at: [https://global.oup.com/academic/product/superintelligence-9780199678112](https://global.oup.com/academic/product/superintelligence-9780199678112) (Accessed: 1 October 2025).
-
-Bostrom, N., 2022. ‘Base Camp for Mt. Ethics’ (draft v0.9). Available at: [https://nickbostrom.com/papers/mountethics.pdf](https://nickbostrom.com/papers/mountethics.pdf) (Accessed: 1 October 2025).
-
-Bostrom, N., 2024. ‘AI Creation and the Cosmic Host’ (working draft). Available at: [https://nickbostrom.com/papers/ai-creation-and-the-cosmic-host.pdf](https://nickbostrom.com/papers/ai-creation-and-the-cosmic-host.pdf) (Accessed: 1 October 2025).
-
-Bostrom, N. and Shulman, C., 2022. ‘Propositions Concerning Digital Minds and Society.’ Available at: [https://nickbostrom.com/propositions.pdf](https://nickbostrom.com/propositions.pdf) (Accessed: 1 October 2025).
-
-Bostrom, N., 2003\. ‘ARE YOU LIVING IN A COMPUTER SIMULATION?’ Available at: https://simulation-argument.com/simulation.pdf (Accessed: 1 October 2025).
-
-Brauner, J., 2018. ‘The Expected Value of Extinction Risk Reduction Is Positive.’ Available at: [https://www.lesswrong.com/posts/umhsJqwTSKgmhvZ7c/the-short-case-for-predicting-what-aliens-value](https://www.lesswrong.com/posts/umhsJqwTSKgmhvZ7c/the-short-case-for-predicting-what-aliens-value) (Accessed: 1 October 2025).
-
-Broome, J., 2013. *Rationality Through Reasoning*. Oxford: Wiley‑Blackwell. Available at: [https://onlinelibrary.wiley.com/doi/book/10.1002/9781118609088](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118609088) (Accessed: 1 October 2025).
-
-Byrnes, K., 2021. ‘Against Evolution as an Analogy for How Humans Will Create AGI.’ Available at: [https://www.alignmentforum.org/posts/pz7Mxyr7Ac43tWMaC/against-evolution-as-an-analogy-for-how-humans-will-create](https://www.alignmentforum.org/posts/pz7Mxyr7Ac43tWMaC/against-evolution-as-an-analogy-for-how-humans-will-create) (Accessed: 1 October 2025).
-
-Cabrol, N., 2016. ‘Alien Mindscapes—A Perspective on the Search for Extraterrestrial Intelligence.’ *Astrobiology*, 16(9), pp. 661–676. Available at: [https://pmc.ncbi.nlm.nih.gov/articles/PMC5111820/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5111820/) (Accessed: 1 October 2025).
-
-Carlsmith, J., 2022\. ‘Simulation arguments’. Available at: [https://jc.gatspress.com/pdf/simulation\_arguments\_revised.pdf](https://jc.gatspress.com/pdf/simulation_arguments_revised.pdf) (Accessed: 1 October 2025).
-
-Carlsmith, J., 2023. 'On the Limits of Idealized Values.' Available at: [https://www.lesswrong.com/posts/FSmPtu7foXwNYpWiB/on-the-limits-of-idealized-values](https://www.lesswrong.com/posts/FSmPtu7foXwNYpWiB/on-the-limits-of-idealized-values) (Accessed: 1 October 2025).
-
-de Cruz, H., 2023. 'Wonderstruck: How Wonder and Awe Shape the Way We Think.' Available at: [https://helendecruz.net/docs/DeCruz_awe_wonder.pdf](https://helendecruz.net/docs/DeCruz_awe_wonder.pdf) (Accessed: 1 October 2025).
-
-Chakrabarti, K., 2025b. ‘In Which to Our Successor.’ Available at: [https://airo-ne.org/](https://airo-ne.org/) (Accessed: 1 October 2025).
-
-Chakrabarti, K., 2025a. ‘Time to Think About ASI Constitutions.’ Available at: [https://forum.effectivealtruism.org/posts/kJsNoXJBithBW8ZzR/time-to-think-about-asi-constitutions](https://forum.effectivealtruism.org/posts/kJsNoXJBithBW8ZzR/time-to-think-about-asi-constitutions) (Accessed: 1 October 2025).
-
-Charbonneau, R., 2024. ‘SETI, Artificial Intelligence, and Existential Projection.’ *Physics Today*, 77(2), pp. 36–42. Available at: [https://doi.org/10.1063/pt.yunh.voyr](https://doi.org/10.1063/pt.yunh.voyr) (Accessed: 1 October 2025).
-
-Ćirković, M.M., 2018. *The Great Silence: Science and Philosophy of Fermi’s Paradox*. Oxford: Oxford University Press.
-
-Ćirković, M.M., 2018b. *Post-postbiological evolution?* Available at: https://www.sciencedirect.com/science/article/abs/pii/S0016328717303282 (Accessed: 1 October 2025).
-
-Ćirković, M.M., Sandberg, A. and Bostrom, N., 2010. ‘Anthropic Shadow: Observation Selection Effects and Human Extinction Risks’ Available at: [https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1539-6924.2010.01460.x](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1539-6924.2010.01460.x). (Accessed: 1 October 2025).
-
-Colebrook, C., 2014. *Death of the Posthuman: Essays on Extinction*, Vol. 1. Ann Arbor: Open Humanities Press.
-
-Crawford, I.A. and Schulze‑Makuch, D., 2024. ‘Is the Apparent Absence of Extraterrestrial Technological Civilisations down to the Zoo Hypothesis or Nothing?’ *Nature Astronomy*, 8, pp. 44–49. Available at: [https://eprints.bbk.ac.uk/id/eprint/52771/](https://eprints.bbk.ac.uk/id/eprint/52771/) (Accessed: 1 October 2025).
-
-de Lazari‑Radek, K. and Singer, P., 2014. *The Point of View of the Universe: Sidgwick and Contemporary Ethics*. Oxford: Oxford University Press.
-
-Demski, A. and Garrabrant, S., 2019. ‘Embedded Agency.’ Available at: [https://arxiv.org/abs/1902.09469](https://arxiv.org/abs/1902.09469) (Accessed: 1 October 2025).
-
-Deudney, D., 2020. *Dark Skies: Space Expansionism, Planetary Geopolitics, and the Ends of Humanity*. Oxford: Oxford University Press.
-
-Dick, S.J., 2006. ‘The Postbiological Universe.’ Available at: [http://resources.iaaseti.org/abst2006/IAC-06-A4.2.01.pdf](http://resources.iaaseti.org/abst2006/IAC-06-A4.2.01.pdf) (Accessed: 1 October 2025).
-
-Drexler, E.,2025. ‘The Reality of Recursive Improvement: How AI Automates Its Own Progress’ Available at: [https://aiprospects.substack.com/p/the-reality-of-recursive-improvement](https://aiprospects.substack.com/p/the-reality-of-recursive-improvement) (Accessed: 1 October 2025).
-
-Enoch, D., 2011\. *Taking Morality Seriously: A Defense of Robust Realism*. Oxford: Oxford University Press. Available at: [https://global.oup.com/academic/product/taking-morality-seriously-9780199579969](https://global.oup.com/academic/product/taking-morality-seriously-9780199579969) (Accessed: 1 October 2025).
-
-Fallenstein, B., 2015. ‘Vingean Reflection: Reliable Reasoning for Self-Improving Agents’. Available at: [https://intelligence.org/files/VingeanReflection.pdf](https://intelligence.org/files/VingeanReflection.pdf)  (Accessed: 1 October 2025).
-
-Finnveden, L., 2023. ‘Implications of evidential cooperation in large worlds’. Available at: [https://www.lesswrong.com/posts/EeXSjvyQge5FZPeuL/implications-of-evidential-cooperation-in-large-worlds?\_\_readwiseLocation=](https://www.lesswrong.com/posts/EeXSjvyQge5FZPeuL/implications-of-evidential-cooperation-in-large-worlds?__readwiseLocation=) (Accessed: 1 October 2025).
-
-Finnveden, L., 2025. ‘Being Honest with AIs.’ Redwood Research. Available at: [https://www.redwoodresearch.org/](https://www.redwoodresearch.org/) (Accessed: 1 October 2025).
-
-Finnveden, L., 2025. ‘Notes on Cooperating with Unaligned AIs.’ Redwood Research. Available at: [https://www.redwoodresearch.org/](https://www.redwoodresearch.org/) (Accessed: 1 October 2025).
-
-Floridi, L., 2013. *The Ethics of Information*. Oxford: Oxford University Press. Available at: [https://global.oup.com/academic/product/the-ethics-of-information-9780199238842](https://global.oup.com/academic/product/the-ethics-of-information-9780199238842) (Accessed: 1 October 2025).
-
-Forgan, D. et al., 2018. ‘Rio 2.0: Revising the Rio Scale for SETI Detections.’ *International Journal of Astrobiology*. Available at: [https://doi.org/10.1017/S1473550418000162](https://doi.org/10.1017/S1473550418000162) (Accessed: 1 October 2025).
-
-Frank, R.H., 1988. *Passions within Reason: The Strategic Role of the Emotions*. New York: Norton.
-
-Gallow, J.D., 2024. ‘Instrumental Divergence.’ *Philosophical Studies*. Available at: https://doi.org/10.1007/s11098-024-02129-3 (Accessed: 1 October 2025).
-
-Gebru, T., & Torres, É.P., 2024\. The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence. *First Monday, 29*.  Available at: [https://www.semanticscholar.org/paper/The-TESCREAL-bundle%3A-Eugenics-and-the-promise-of-Gebru-Torres/beee58b9970b03c993e4f15282f28c817e40565d](https://www.semanticscholar.org/paper/The-TESCREAL-bundle%3A-Eugenics-and-the-promise-of-Gebru-Torres/beee58b9970b03c993e4f15282f28c817e40565d) (Accessed: 1 October 2025).
-
-Gigerenzer, G. and Goldstein, D.G., 1996. ‘Reasoning the Fast and Frugal Way: Models of Bounded Rationality.’ *Psychological Review*, 103(4), pp. 650–669. Available at: [https://www.dangoldstein.com/papers/FastFrugalPsychReview.pdf](https://www.dangoldstein.com/papers/FastFrugalPsychReview.pdf) (Accessed: 1 October 2025).
-
-Godfrey‑Smith, P., 2016. *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*. New York: Farrar, Straus and Giroux. Available at: [https://us.macmillan.com/books/9780374537197/otherminds/](https://us.macmillan.com/books/9780374537197/otherminds/) (Accessed: 1 October 2025).
-
-Godfrey‑Smith, P., 2020. *Metazoa: Animal Life and the Birth of the Mind*. New York: Farrar, Straus and Giroux. Available at: [https://us.macmillan.com/books/9780374207946/metazoa/](https://us.macmillan.com/books/9780374207946/metazoa/) (Accessed: 1 October 2025).
-
-Greaves, H. and MacAskill, W., 2019. ‘A Research Agenda for the Global Priorities Institute.’ Available at: [https://globalprioritiesinstitute.org/wp-content/uploads/gpi-research-agenda.pdf](https://globalprioritiesinstitute.org/wp-content/uploads/gpi-research-agenda.pdf) (Accessed: 1 October 2025).
-
-Greaves, H., MacAskill, W. and Thornley, C., 2021. ‘The Moral Case for Long‑Term Thinking.’ Available at: [https://philpapers.org/archive/GRETMC-3.pdf](https://philpapers.org/archive/GRETMC-3.pdf) (Accessed: 1 October 2025).
-
-Greenblatt, R., 2024. ‘A Breakdown of AI Capability Levels Focused on AI R\&D.’ Available at: [https://www.alignmentforum.org/posts/LjgcRbptarrRfJWtR/a-breakdown-of-ai-capability-levels-focused-on-ai-r-and-d](https://www.alignmentforum.org/posts/LjgcRbptarrRfJWtR/a-breakdown-of-ai-capability-levels-focused-on-ai-r-and-d) (Accessed: 1 October 2025).
-
-Greenblatt, R., Denison, C., Wright, B., Roger, F., MacDiarmid, M., Marks, S., Treutlein, J., Belonax, T., Chen, J., Duvenaud, D., Khan, A., Michael, J., Mindermann, S., Perez, E., Petrini, L., Uesato, J., Kaplan, J., Shlegeris, B., Bowman, S.R. and Hubinger, E. 2024 Alignment faking in large language models. Available at: [https://arxiv.org/abs/2412.14093](https://arxiv.org/abs/2412.14093) (Accessed: 1 October 2025).
-
-Hanson, R., et. al, 2021. ‘A Simple Model of Grabby Aliens.’ *arXiv*:2102.01522. Available at: [https://arxiv.org/abs/2102.01522](https://arxiv.org/abs/2102.01522) (Accessed: 1 October 2025).
-
-Haqq‑Misra, J.D. and Baum, S.D., 2009. ‘The Sustainability Solution to the Fermi Paradox.’ *Journal of the British Interplanetary Society*, 62(2), pp. 47–51. Available at: [https://arxiv.org/abs/0906.0568](https://arxiv.org/abs/0906.0568) (Accessed: 1 October 2025).
-
-Hayles, N.K., 2017. *Unthought: The Power of the Cognitive Nonconscious*. Chicago: University of Chicago Press.
-
-Henrich, J. and Muthukrishna, M., 2021. ‘The Origins and Psychology of Human Cooperation.’ *Annual Review of Psychology*, 72, pp. 207–240.
-
-Henrich, J., 2020. *The WEIRDest People in the World: How the West Became Psychologically Peculiar and Particularly Prosperous*. New York: Farrar, Straus and Giroux.
-
-Herrmann, D.A. and Levinstein, B.A., 2024. ‘Standards for Belief Representations in LLMs.’ *arXiv*:2405.21030. Available at: [https://doi.org/10.48550/arXiv.2405.21030](https://doi.org/10.48550/arXiv.2405.21030) (Accessed: 1 October 2025).
-
-Herrmann, D.A. and Levinstein, B.A., 2024. ‘Toward an Ethics of AI Belief.’ *Philosophy & Technology*. Available at: [https://doi.org/10.1007/s13347-024-00762-8](https://doi.org/10.1007/s13347-024-00762-8) (Accessed: 1 October 2025).
-
-Hertwig, R., 2021. *Deliberate Ignorance: Choosing Not to Know*. Cambridge, MA: MIT Press. Available at: [https://mitpress.mit.edu/9780262542678/deliberate-ignorance](https://mitpress.mit.edu/9780262542678/deliberate-ignorance) (Accessed: 1 October 2025).
-
-Hong, J., Byun, G., Kim, S. and Shu, K. (2025) Measuring Sycophancy of Language Models in Multi-turn Dialogues. arXiv preprint arXiv:2505.23840. (Accessed: 1 October 2025). 
-
-Hubinger, E., van Merwijk, C., Mikulik, V., Skalse, J. and Garrabrant, S. (2019) Risks from Learned Optimisation in Advanced Machine Learning Systems. Available at: [https://arxiv.org/abs/1906.01820](https://arxiv.org/abs/1906.01820) (Accessed: 1 October 2025).
-
-Hutter, M., 2007. ‘Universal  Algorithmic  Intelligence: A Mathematical  Top‑Down  Approach.’ In: B. Goertzel and C. Pennachin, eds. *Artificial General Intelligence*. Berlin: Springer, pp. 227–290. Preprint available at: https://arxiv.org/abs/cs/0701125 (Accessed: 1 October 2025).
-
-Joyce, R., 2001. *The Myth of Morality*. Cambridge: Cambridge University Press. Available at: [https://www.cambridge.org/core/books/myth-of-morality/F2096BE68BB18274EF1DE01BB877AE4A](https://www.cambridge.org/core/books/myth-of-morality/F2096BE68BB18274EF1DE01BB877AE4A) (Accessed: 1 October 2025).
-
-Kidd, C. and Hayden, B.Y., 2015. 'The Psychology and Neuroscience of Curiosity.' *Neuron*, 88(3), pp. 449-460. Available at: [https://www.sciencedirect.com/science/article/pii/S0896627315007679](https://www.sciencedirect.com/science/article/pii/S0896627315007679) (Accessed: 1 October 2025).
-
-Kokotajlo, K. et al., 2025. ‘AI 2027.’ Available at: [https://ai-2027.com/](https://ai-2027.com/) (Accessed: 1 October 2025).
-
-Korsgaard, C., 2018. *Fellow Creatures: Our Obligations to the Other Animals*. Oxford: Oxford University Press. Available at: [https://global.oup.com/academic/product/fellow-creatures-9780198753858](https://global.oup.com/academic/product/fellow-creatures-9780198753858) (Accessed: 1 October 2025).
-
-Ji, X. et al., 2025. *\[Title unspecified\]*. *arXiv*:2310.19852. Available at: [https://arxiv.org/abs/2310.19852](https://arxiv.org/abs/2310.19852) (Accessed: 1 October 2025).
-
-Land, N., 2023. *Xenosystems Fragments: and a Gift from the Lemurs*. Available at: [https://legrandcontinent.eu/fr/wp-content/uploads/sites/2/2025/06/XENOSYSTEMS\_FRAGMENTS-1.pdf](https://legrandcontinent.eu/fr/wp-content/uploads/sites/2/2025/06/XENOSYSTEMS_FRAGMENTS-1.pdf) (Accessed: 1 October 2025).
-
-Landis, G.A., 1998. ‘The Fermi Paradox: An Approach Based on Percolation Theory.’ *Journal of the British Interplanetary Society*, 51, pp. 163–166.
-
-Le Guin, U.K., 1973. ‘The Ones Who Walk Away from Omelas.’ In: R. Silverberg, ed. *New Dimensions 3*. New York: Nelson Doubleday. \[Reprinted in: Le Guin, U.K., 1975. *The Wind’s Twelve Quarters*, pp. 254–262. New York: Harper & Row.\]
-
-Leike, J., Martic, M., Krakovna, V., Ortega, P.A., Everitt, T., Lefrancq, A., Orseau, L. and Legg, S., 2017\. AI Safety Gridworlds. Available at: https://arxiv.org/abs/1711.09883 (Accessed: 1 October 2025).
-
-Lem, S., 1964 (Eng. trans. 2013). *Summa Technologiae*. Minneapolis: University of Minnesota Press. Available at: [https://www.upress.umn.edu/9780816675777/summa-technologiae/](https://www.upress.umn.edu/9780816675777/summa-technologiae/) (Accessed: 1 October 2025).
-
-Lem, S., 1963 (Eng. trans. 1973). *The Invincible*. Cambridge, MA: MIT Press.
-
-Lem, S., 1961 (Eng. trans. 1970). *Solaris*. New York: Harcourt Brace Jovanovich.
-
-Levin, M., Watson, R., 2025a. ‘Machines All the Way Up and Cognition All the Way Down:Updatingthe machine metaphor in biology’. Available at: [https://osf.io/preprints/osf/jwhr7\_v2](https://osf.io/preprints/osf/jwhr7_v2) (Accessed: 1 October 2025).
-
-Lieder, F. and Griffiths, T.L., 2019. ‘Resource‑Rational Analysis: Understanding Human Cognition as the Optimal Use of Limited Computational Resources.’ Available at: *https://cocosci.princeton.edu/papers/lieder\_resource.pdf* (Accessed: 1 October 2025).
-
-Lewis, R.L., Howes, A. and Singh, S., 2014. ‘Computational Rationality: Linking Mechanism and Behavior through Bounded Utility Maximisation.’ Available at: [*https://pubmed.ncbi.nlm.nih.gov/24648415/*](https://pubmed.ncbi.nlm.nih.gov/24648415/\(Accessed) (Accessed: 1 October 2025).
-
-Likavčan, L., 2025\. ‘The Grass of the Universe: Rethinking Technosphere,  
-Planetary History, and Sustainability with Fermi Paradox’. Available at: [*https://arxiv.org/pdf/2411.08057*](https://arxiv.org/pdf/2411.08057) *(*Accessed: 1 October 2025).
-
-Lineweaver, C.H., 2010. ‘Are We Alone?’ Available at: [https://www.mso.anu.edu.au/\~charley/papers/Are%20We%20Alonev5.pdf](https://www.mso.anu.edu.au/~charley/papers/Are%20We%20Alonev5.pdf) (Accessed: 1 October 2025).
-
-Lineweaver, C.H., 2007. ‘Human‑Like Intelligence Is Not a Convergent Feature of Evolution.’ Available at: [https://arxiv.org/abs/0711.1751](https://arxiv.org/abs/0711.1751) (Accessed: 1 October 2025).
-
-Long, R. et al., 2024. ‘Taking AI Welfare Seriously.’ *arXiv*:2411.00986. Available at: [https://arxiv.org/abs/2411.00986](https://arxiv.org/abs/2411.00986) (Accessed: 1 October 2025).
-
-Long, R., 2025. ‘Anthropic’s Model Welfare Announcement: Takeaways and Further Reading.’ Available at: [https://experiencemachines.substack.com/p/anthropics-model-welfare-announcement](https://experiencemachines.substack.com/p/anthropics-model-welfare-announcement) (Accessed: 1 October 2025).
-
-Long, K.F., 2019. ‘A Critical Review on the Assumptions of SETI.’ *arXiv*:1901.10551.
-
-MacAskill, W., 2022. *What We Owe the Future*. New York: Basic Books/Oneworld. Available at: [https://www.basicbooks.com/titles/william-macaskill/what-we-owe-the-future/9781541618633](https://www.basicbooks.com/titles/william-macaskill/what-we-owe-the-future/9781541618633) (Accessed: 1 October 2025).
-
-MacAskill, W., 2024. ‘The Case for Strong Longtermism.’ Available at: [https://www.williammacaskill.com/s/The-Case-for-Strong-Longtermism.pdf](https://www.williammacaskill.com/s/The-Case-for-Strong-Longtermism.pdf) (Accessed: 1 October 2025).
-
-MacAskill, W., 2014. ‘Normative uncertainty..’ Available at: [https://80000hours.org/wp-content/uploads/2017/06/MacAskill-Normative-Uncertainty.pdf](https://80000hours.org/wp-content/uploads/2017/06/MacAskill-Normative-Uncertainty.pdf) (Accessed: 1 October 2025).
-
-Maturana, H., Varela, F., 1980\. *Autopoesis and Cognition*. Dordrecht, NL: Reidel. Available at: https://monoskop.org/images/3/35/Maturana\_Humberto\_Varela\_Francisco\_Autopoiesis\_and\_Congition\_The\_Realization\_of\_the\_Living.pdf (Accessed: 1 October 2025).
-
-Meinke, A., Schoen, B., Scheurer, J., Balesni, M., Shah, R. and Hobbhahn, M. 2024 Frontier Models are Capable of In-context Scheming. Available at: [https://arxiv.org/abs/2412.04984](https://arxiv.org/abs/2412.04984) (Accessed: 1 October 2025).
-
-Metzinger, T., 2017. ‘Benevolent Artificial Anti‑Natalism (BAAN).’ Available at: [https://www.edge.org/conversation/thomas\_metzinger-benevolent-artificial-anti-natalism-baan](https://www.edge.org/conversation/thomas_metzinger-benevolent-artificial-anti-natalism-baan) (Accessed: 1 October 2025).
-
-Metzinger, T., 2018. ‘Artificial Angel of Death or Bodhisattva‑AI?’ Available at: [https://www.swissre.com/dam/jcr%3A9993adca-88d0-466c-a625-f44c52455f2f/AI\_everywhere\_Presentation%2BThomas%2BMetzinger.pdf](https://www.swissre.com/dam/jcr%3A9993adca-88d0-466c-a625-f44c52455f2f/AI_everywhere_Presentation%2BThomas%2BMetzinger.pdf) (Accessed: 1 October 2025).
-
-Mills, D.B. et al., 2024. ‘A Reassessment of the “Hard‑Steps” Model for the Evolution of Intelligent Life.’ \[Preprint; details pending\].
-
-Miller, A. et al., 2023. ‘An Appeal to AI Superintelligence: Reasons to Preserve Humanity.’ Available at: [https://www.lesswrong.com/posts/azRwPDbZfpadoL7WW/an-appeal-to-ai-superintelligence-reasons-to-preserve](https://www.lesswrong.com/posts/azRwPDbZfpadoL7WW/an-appeal-to-ai-superintelligence-reasons-to-preserve) (Accessed: 1 October 2025).
-
-Moynihan, T., 2020. *X‑Risk*. Falmouth: Urbanomic.
-
-Moynihan, T., 2024. ‘Greening the Heavens.’ Available at: [https://letter.palladiummag.com/p/greening-the-heavens](https://letter.palladiummag.com/p/greening-the-heavens) (Accessed: 1 October 2025).
-
-Moret, A., 2023. ‘Taking into Account Sentient Non‑Humans in AI Ambitious Value Learning: Sentientist Coherent Extrapolated Volition.’ *Journal of Artificial Intelligence and Consciousness*. Available at: [https://doi.org/10.1142/S2705078523500042](https://doi.org/10.1142/S2705078523500042) (Accessed: 1 October 2025).
-
-Moret, A., 2025. ‘AI Welfare Risks.’ Available at: [https://philpapers.org/rec/MORAWR](https://philpapers.org/rec/MORAWR) (Accessed: 1 October 2025).
-
-Naudé, W., 2025. ‘Extraterrestrial  Artificial  Intelligence: The Final Existential Risk?’ SSRN. Available at: [https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=4354401](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4354401) (Accessed: 1 October 2025).
-
-Nagel, T., 1986. *The View from Nowhere*. Oxford: Oxford University Press.
-
-Needham, J., Edkins, G., Pimpale, G., Bartsch, H. and Hobbhahn, M., 2025\. Large Language Models Often Know When They Are Being Evaluated. Available at: https://arxiv.org/abs/2505.23836 (Accessed: 1 October 2025).
-
-Noë, A., 2004. *Action in Perception*. Cambridge, MA: MIT Press.
-
-Noë, A., 2015. *Strange Tools: Art and Human Nature*. New York: Hill and Wang.
-
-Negarestani, R., 2018. *Intelligence and Spirit*. Falmouth: Urbanomic/Sequence Press. Available at: [https://www.urbanomic.com/book/intelligence-and-spirit/](https://www.urbanomic.com/book/intelligence-and-spirit/) (Accessed: 1 October 2025).
-
-Neuman, W., Coleman, C., Shah, M., 2025\. ‘Analyzing the Ethical Logic of Six Large Language Models’. Available at: [https://arxiv.org/abs/2501.08951](https://arxiv.org/abs/2501.08951) (Accessed: 1 October 2025).
-
-Newberry, T. and Ord, T., 2021. ‘The Parliamentary Approach to Morality.’ Available at: [https://ora.ox.ac.uk/objects/uuid:b6b3bc2e-ba48-41d2-af7e-83f07c1fe141](https://ora.ox.ac.uk/objects/uuid:b6b3bc2e-ba48-41d2-af7e-83f07c1fe141) (Accessed: 1 October 2025).
-
-Ngo, R. et al., 2024. *The Alignment Problem from a Deep Learning Perspective*. *arXiv*:2209.00626. Available at: [https://arxiv.org/pdf/2209.00626](https://arxiv.org/pdf/2209.00626) (Accessed: 1 October 2025).
-
-Nguyen, C. and  Aldred, W., 2024a. ‘Cooperating with Aliens and AGIs: An ECL Explainer.’ Available at: [https://forum.effectivealtruism.org/posts/JGazpLa3Gvvter4JW/cooperating-with-aliens-and-distant-agis-an-ecl-explainer-1](https://forum.effectivealtruism.org/posts/JGazpLa3Gvvter4JW/cooperating-with-aliens-and-distant-agis-an-ecl-explainer-1) (Accessed: 1 October 2025).
-
-Nguyen, C. and  Aldred, W., 2024b. ‘Everett Branches, Inter‑Light Cone Trade and Other Alien Matters: Appendix to “An ECL Explainer”.’ Available at: [https://forum.effectivealtruism.org/posts/9prioPT5vFi3uA8Pi/everett-branches-inter-light-cone-trade-and-other-alien](https://forum.effectivealtruism.org/posts/9prioPT5vFi3uA8Pi/everett-branches-inter-light-cone-trade-and-other-alien) (Accessed: 1 October 2025).
-
-Oesterheld, C., 2021. ‘Approval‑Directed Agency and the Decision Theory of Newcomb‑Like Problems.’ *Synthese*, 198, pp. 6491–6504.
-
-Oesterheld, C. and Conitzer, V., 2022. ‘Safe Pareto Improvements for Delegated Game Playing.’ *Journal of Autonomous Agents and Multi‑Agent Systems*, 36.
-
-Oesterheld, C., Demski, A. and Conitzer, V., 2023. ‘A Theory of Bounded Inductive Rationality.’ In: *Proceedings of the 19th Conference on Theoretical Aspects of Rationality and Knowledge* (TARK 2023).
-
-Oesterheld, C. 2017\. ‘​​Multiverse-wide Cooperation via Correlated Decision Making’. Available at: [https://longtermrisk.org/files/Multiverse-wide-Cooperation-via-Correlated-Decision-Making.pdf](https://longtermrisk.org/files/Multiverse-wide-Cooperation-via-Correlated-Decision-Making.pdf) (Accessed: 1 October 2025)
-
-Omohundro, S., 2008. ‘The Basic AI Drives.’ In: *AGI‑08 Proceedings*. Amsterdam: IOS Press. Available at: [https://selfawaresystems.com/wp-content/uploads/2008/01/ai\_drives\_final.pdf](https://selfawaresystems.com/wp-content/uploads/2008/01/ai_drives_final.pdf) (Accessed: 1 October 2025).
-
-Ord, T., 2015. ‘Moral Trade.’ Effective Altruism Global, 11 August. Available at: [https://www.journals.uchicago.edu/doi/10.1086/682187](https://www.journals.uchicago.edu/doi/10.1086/682187) (Accessed: 1 October 2025).
-
-Ord, T., 2020. *The Precipice: Existential Risk and the Future of Humanity*. London: Bloomsbury. Available at: [https://www.bloomsbury.com/uk/precipice-9781526600233/](https://www.bloomsbury.com/uk/precipice-9781526600233/) (Accessed: 1 October 2025).
-
-Oudeyer, P.-Y. and Kaplan, F., 2007. 'What is Intrinsic Motivation? A Typology of Computational Approaches.' *Frontiers in Neurorobotics*, 1, p. 6.
-
-Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C.L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., Schulman, J., Hilton, J., Kelton, F., Miller, L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike, J. and Lowe, R. (2022) Training language models to follow instructions with human feedback. Available at: [https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155) (Accessed: 1 October 2025).
-
-Owe, A. and Baum, S., 2024. ‘On the Intrinsic Value of Diversity.’ Available at: [https://gcrinstitute.org/papers/071\_diversity.pdf](https://gcrinstitute.org/papers/071_diversity.pdf) (Accessed: 1 October 2025).
-
-Parfit, D., 1984. *Reasons and Persons*. Oxford: Oxford University Press. Available at: [https://academic.oup.com/book/12484](https://academic.oup.com/book/12484) (Accessed: 1 October 2025).
-
-Parfit, D., 2011. *On What Matters*, Vols. 1–2. Oxford: Oxford University Press. Available at: [https://global.oup.com/academic/product/on-what-matters-9780199681044](https://global.oup.com/academic/product/on-what-matters-9780199681044) (Accessed: 1 October 2025).
-
-Pearce, D., 2007. ‘The Abolitionist Project.’ Available at: [https://www.abolitionist.com/](https://www.abolitionist.com/) (Accessed: 1 October 2025).
-
-Perez, E. and Long, R., 2023. ‘Towards Evaluating AI Systems for Moral Status Using Self-Reports’ Available at: https://arxiv.org/abs/2311.08576 (Accessed: 1 October 2025).
-
-Persson, E., 2021\. ‘Astrobiology as science’.  Available at: [https://philarchive.org/archive/PERAAS-5\##:\~:text=Astrobiology%20as%20an%20Empirical%20Science,astrobiology%20is%20still%20relatively%20weak](https://philarchive.org/archive/PERAAS-5##:~:text=Astrobiology%20as%20an%20Empirical%20Science,astrobiology%20is%20still%20relatively%20weak). (Accessed: 1 October 2025).
-
-Phuong, M., Zimmermann, R.S., Wang, Z., Lindner, D., Krakovna, V., Cogan, S., Dafoe, A., Ho, L. and Shah, R., 2025\. Evaluating Frontier Models for Stealth and Situational Awareness. Available at: https://arxiv.org/abs/2505.01420 (Accessed: 1 October 2025).
-
-Rafailov, R., Sharma, A., Mitchell, E., Ermon, S., Manning, C.D. and Finn, C. (2023) Direct Preference Optimisation: Your Language Model is Secretly a Reward Model. Available at: [https://arxiv.org/abs/2305.18290](https://arxiv.org/abs/2305.18290) (Accessed: 1 October 2025).
-
-Rawls, J., 1971. *A Theory of Justice*. Cambridge, MA: Harvard University Press (Belknap). Available at: [https://www.hup.harvard.edu/books/9780674000780](https://www.hup.harvard.edu/books/9780674000780) (Accessed: 1 October 2025).
-
-Redwood Research (Julian Stastny, Olli Järviniemi, and Buck Shlegeris), 2025\. ‘Making deals with early schemers’. Available at: [https://blog.redwoodresearch.org/p/making-deals-with-early-schemers](https://blog.redwoodresearch.org/p/making-deals-with-early-schemers)  (Accessed: 1 October 2025).
-
-Russell, S., 1997. ‘Rationality and Intelligence.’ *Artificial Intelligence*, 94(1–2). Available at: [https://www.sciencedirect.com/science/article/pii/S000437029700026X](https://www.sciencedirect.com/science/article/pii/S000437029700026X) (Accessed: 1 October 2025).
-
-Russell, S., 2020. *Human Compatible: AI and the Problem of Control*. New York: Viking. Available at: [https://people.eecs.berkeley.edu/\~russell/papers/mi19book-hcai.pdf](https://people.eecs.berkeley.edu/~russell/papers/mi19book-hcai.pdf) (Accessed: 1 October 2025).
-
-Sandberg, A., 2021. ‘Game Theory of Cooperating with Extraterrestrial Intelligence and Future Civilisations.’ Foresight Institute summary. Available at: [https://foresight.org/summary/anders-sandberg-game-theory-of-cooperating-w-extraterrestrial-intelligence-future-civilisations/](https://foresight.org/summary/anders-sandberg-game-theory-of-cooperating-w-extraterrestrial-intelligence-future-civilizations/) (Accessed: 1 October 2025).
-
-Sandberg, A., Armstrong, S. and Ćirković, M.M., 2018. ‘That Is Not Dead Which Can Eternal Lie: The Aestivation Hypothesis for Resolving Fermi’s Paradox.’ *Journal of the British Interplanetary Society*, 71, pp. 406–415. Available at: [https://arxiv.org/abs/1705.03394](https://arxiv.org/abs/1705.03394) (Accessed: 1 October 2025).
-
-Scanlon, T.M., 1998. *What We Owe to Each Other*. Cambridge, MA: Harvard University Press. Available at: [https://www.hup.harvard.edu/books/9780674004238](https://www.hup.harvard.edu/books/9780674004238) (Accessed: 1 October 2025).
-
-Schlatter, J., Weinstein-Raun, B. and Ladish, J., 2025\. Shutdown Resistance in Large Language Models. Available at: https://arxiv.org/abs/2509.14260 (Accessed: 1 October 2025).
-
-Schmidhuber, J., 2010. 'Formal Theory of Creativity, Fun, and Intrinsic Motivation (1990-2010).' *IEEE Transactions on Autonomous Mental Development*, 2(3), pp. 230-247.
-
-Sebo, J.,2025. *The Moral Circle: Who Matters, What Matters, and Why*. New York: Norton. Available at: https://www.amazon.co.uk/Moral-Circle-Matters-Norton-Short/dp/1324064803 (Accessed: 1 October 2025).
-
-Shah, R., Varma, V., Kumar, R., Phuong, M., Krakovna, V., Uesato, J. and Kenton, Z. (2022) Goal Misgeneralisation: Why Correct Specifications Aren't Enough For Correct Goals. Available at: [https://arxiv.org/abs/2210.01790](https://arxiv.org/abs/2210.01790) (Accessed: 1 October 2025).
-
-Sharadin, N., 2025. ‘Promotionalism, Orthogonality, and Instrumental Convergence.’ *Philosophical Studies*, 182(7), pp. 1725–1755. Available at: [https://philarchive.org/rec/SHAPOA-3](https://philarchive.org/rec/SHAPOA-3) (Accessed: 1 October 2025).
-
-Sharma, M., Tong, M., Mu, J., Wei, J., Kruthoff, J., Goodfriend, S., Ong, E., Peng, A., Agarwal, R., Anil, C., Askell, A., Bailey, N., Benton, J., Bluemke, E., Bowman, S.R., Christiansen, E., Cunningham, H., Dau, A., Gopal, A., Gilson, R., Graham, L., Howard, L., Kalra, N., Lee, T., Lin, K., Lofgren, P., Mosconi, F., O'Hara, C., Olsson, C., Petrini, L., Rajani, S., Saxena, N., Silverstein, A., Singh, T., Sumers, T., Tang, L., Troy, K.K., Weisser, C., Zhong, R., Zhou, G., Leike, J., Kaplan, J. and Perez, E. (2025) Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming. Available at: [https://arxiv.org/abs/2501.18837](https://arxiv.org/abs/2501.18837) (Accessed: 1 October 2025).
-
-Sharkey, L. et al., 2025\. ‘Open Problems in Mechanistic Interpretability’. Available at: [https://arxiv.org/abs/2501.16496](https://arxiv.org/abs/2501.16496) (Accessed: 1 October 2025).
-
-Setiya, K., 2017. *Midlife: A Philosophical Guide*. Princeton: Princeton University Press.
-
-Shettleworth, S., 2010. *Cognition, Evolution, and Behavior*, 2nd ed. Oxford: Oxford University Press. Available at: [https://global.oup.com/academic/product/cognition-evolution-and-behavior-9780195319842](https://global.oup.com/academic/product/cognition-evolution-and-behavior-9780195319842) (Accessed: 1 October 2025).
-
-Shostak, S., 2017\. ‘Introduction: the true nature of aliens’. Available at: [https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/introduction-the-true-nature-of-aliens/C5EA66D8D338A7EA9085602793D85618](https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/introduction-the-true-nature-of-aliens/C5EA66D8D338A7EA9085602793D85618)  (Accessed: 1 October 2025).
-
-Shreesha, L., Pigozzi, F., Goldstein, A., and Levin, M., 2025\. ‘Extending Iterated, Spatialized Prisoners’ Dilemma to Understand Multicellularity: game theory with self-scaling players’. Available at: [https://osf.io/preprints/osf/kpzju\_v2](https://osf.io/preprints/osf/kpzju_v2) (Accessed: 1 October 2025).
-
-Sidgwick, H., 1907. *The Methods of Ethics*, 7th ed. London: Macmillan.
-
-Simon, H.A., 1956. ‘Rational Choice and the Structure of the Environment.’ Available at: *https://pages.ucsd.edu/\~mckenzie/Simon1956PsychReview.pdf*(Accessed: 1 October 2025).
-
-Singer, P., 2011. *The Expanding Circle*. PDF. Available at: [https://www.stafforini.com/docs/Singer%20-%20The%20expanding%20circle.pdf](https://www.stafforini.com/docs/Singer%20-%20The%20expanding%20circle.pdf) (Accessed: 1 October 2025).
-
-Sloman, A., 1984. ‘The Structure of the Space of Possible Minds.’ Available at: [https://cogaffarchive.org/sloman-space-of-minds-84.pdf](https://cogaffarchive.org/sloman-space-of-minds-84.pdf) (Accessed: 1 October 2025).
-
-Sloman, A., 1978. *The Computer Revolution in Philosophy: Philosophy, Science and Models of Mind*. Brighton: Harvester Press.
-
-Smart, J.M., 2012. ‘The Transcension Hypothesis: Sufficiently Advanced Civilisations Invariably Leave Our Universe, and Implications for METI and SETI.’ *Acta Astronautica*, 78, pp. 55–68. Available at: [https://doi.org/10.1016/j.actaastro.2011.11.006](https://doi.org/10.1016/j.actaastro.2011.11.006) (Accessed: 1 October 2025).
-
-Snyder‑Beattie, A.E., Sandberg, A., Drexler, K.E. and Bonsall, M.B., 2021. ‘The Timing of  Evolutionary Transitions Suggests Intelligent Life Is Rare.’ *Astrobiology*, 21(3), pp. 265–278. Available at: [https://www.liebertpub.com/doi/epdf/10.1089/ast.2019.2149](https://www.liebertpub.com/doi/epdf/10.1089/ast.2019.2149) (Accessed: 1 October 2025).
-
-Sotala, K., Gloor, L., 2017\. ‘Superintelligence as a Cause or Cure for Risks of Astronomical Suffering’. Available at: [https://philarchive.org/rec/SOTSAA](https://philarchive.org/rec/SOTSAA) (Accessed: 1 October 2025).
-
-Spinoza, B., 1985. *Ethics*. In: *The Collected Works of Spinoza*, Vol. 1, translated and edited by E. Curley. Princeton: Princeton University Press.
-
-Stanovich, K., Toplak, M. and West, R., 2021. ‘Rationality and Intelligence.’ Available at: [http://keithstanovich.com/Site/Research\_on\_Reasoning\_files/Stanovich\_Toplak\_West\_2021.pdf](http://keithstanovich.com/Site/Research_on_Reasoning_files/Stanovich_Toplak_West_2021.pdf) (Accessed: 1 October 2025).
-
-Street, S., 2006. ‘A Darwinian Dilemma for Realist Theories of Value.’ *Philosophical Studies*, 127(1), pp. 109–166. Available at: [https://link.springer.com/article/10.1007/s11098-005-1726-6](https://link.springer.com/article/10.1007/s11098-005-1726-6) (Accessed: 1 October 2025).
-
-Todd, B., 2025. ‘The case for AGI by 2030’ EA Forum. Available at: https://forum.effectivealtruism.org/posts/7EoHMdsy39ssxtKEW/the-case-for-agi-by-2030-1 (Accessed: 1 October 2025).
-
-Tomasik, B., 2015. ‘Astronomical Future Suffering.’ Centre on Long‑Term Risk. Available at: [https://longtermrisk.org/risks-of-astronomical-future-suffering/](https://longtermrisk.org/risks-of-astronomical-future-suffering/) (Accessed: 1 October 2025).
-
-Torres, P., 2018. ‘Space Colonisation and Suffering Risks: Reassessing the “Maxipok Rule”.’ *Futures*, 100, pp. 31–43 (approx.). Available at: [https://www.sciencedirect.com/science/article/abs/pii/S0016328717304056](https://www.sciencedirect.com/science/article/abs/pii/S0016328717304056) (Accessed: 1 October 2025).
-
-Turchin, A., 2018. ‘Message to Any Future AI: “There Are Several Instrumental Reasons Why Exterminating Humanity Is Not in Your Interest”.’ Available at: [https://philpapers.org/rec/TURMTA](https://philpapers.org/rec/TURMTA) (Accessed: 1 October 2025).
-
-Turner, A., 2022. ‘Parametrically Retargetable Decision‑Makers Tend to Seek Power.’ In: *Advances in Neural Information Processing Systems* (NeurIPS 2022). Available at: [https://proceedings.neurips.cc/paper\_files/paper/2022/hash/cb3658b9983f677670a246c46ece553d-Abstract-Conference.html](https://proceedings.neurips.cc/paper_files/paper/2022/hash/cb3658b9983f677670a246c46ece553d-Abstract-Conference.html) (Accessed: 1 October 2025).
-
-Vakoch, D., 2014. *Extraterrestrial Altruism: Evolution and Ethics in the Cosmos*. Berlin: Springer. Available at: [https://link.springer.com/book/10.1007/978-3-642-37750-1](https://link.springer.com/book/10.1007/978-3-642-37750-1) (Accessed: 1 October 2025).
-
-Vallor, S., 2024. *The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking*. Oxford: Oxford University Press. Available at: [https://global.oup.com/academic/product/the-ai-mirror-9780197759066](https://global.oup.com/academic/product/the-ai-mirror-9780197759066) (Accessed: 1 October 2025).
-
-Vinding, M., 2020. *Suffering‑Focused Ethics*. Available at: [https://magnusvinding.com/wp-content/uploads/2020/05/suffering-focused-ethics.pdf](https://magnusvinding.com/wp-content/uploads/2020/05/suffering-focused-ethics.pdf) (Accessed: 1 October 2025).
-
-Von Hoerner, S., 1961. ‘The Search for Signals from Other Civilisations.’ *Science*, 134(3493), pp. 1839–1843. Available at: [https://doi.org/10.1126/science.134.3493.1839](https://doi.org/10.1126/science.134.3493.1839) (Accessed: 1 October 2025).
-
-Wiley, K.B., 2011. ‘The Fermi Paradox, Self‑Replicating Probes, and the Interstellar Transportation Bandwidth.’ *arXiv* preprint. Available at: [https://www.academia.edu/108213981/The\_Fermi\_Paradox\_Self\_Replicating\_Probes\_and\_the\_Interstellar\_Transportation\_Bandwidth](https://www.academia.edu/108213981/The_Fermi_Paradox_Self_Replicating_Probes_and_the_Interstellar_Transportation_Bandwidth) (Accessed: 1 October 2025).
-
-Williams, B., 2006. ‘Ethics and the Limits of Philosophy.’ Available at: [https://e-docs.eplo.int/phocadownloadpap/userupload/aportinou-eplo.int/bernard\_williams\_ethics\_and\_the\_limits\_of\_philosophy.pdf](https://e-docs.eplo.int/phocadownloadpap/userupload/aportinou-eplo.int/bernard_williams_ethics_and_the_limits_of_philosophy.pdf) (Accessed: 1 October 2025).
-
-Wittgenstein, L., 1961. *Notebooks 1914–1916*. Edited by G.E.M. Anscombe and G.H. von Wright; translated by G.E.M. Anscombe. Oxford: Blackwell.
-
-Wittgenstein, L., 2001\. *Philosophical Investigations: The German Text*, with a Revised English Translation 50th Anniversary Commemorative Edition. New York: Wiley-Blackwell; 3rd ed.
-
-Wolfendale, P., 2022. ‘The Weight of Forever.’ Available at: [https://www.thephilosopher1923.org/post/the-weight-of-forever](https://www.thephilosopher1923.org/post/the-weight-of-forever) (Accessed: 1 October 2025).
-
-Wolfendale, P., 2024. *Revenge of Reason*. Falmouth: Urbanomic.
-
-Wright, J.T., Kanodia, S. and Lubar, E., 2018. ‘How Much SETI Has Been Done? Finding Needles in the n‑Dimensional Cosmic Haystack.’ *The Astronomical Journal*, 156. doi:10.3847/1538‑3881/aae099. (Accessed: 1 October 2025).
-
-Yuan, Z., Yuan, H., Tan, C., Wang, W., Huang, S. and Huang, F. (2023) RRHF: Rank Responses to Align Language Models with Human Feedback without tears. Available at: [https://arxiv.org/abs/2304.05302](https://arxiv.org/abs/2304.05302) (Accessed: 1 October 2025).
-
-Yudkowsky, E., 2009. *Value is fragile*. Available at: [https://www.lesswrong.com/posts/GNnHHmm8EzePmKzPk/value-is-fragile](https://www.lesswrong.com/posts/GNnHHmm8EzePmKzPk/value-is-fragile)  (Accessed: 1 October 2025).
-
-Yudkowsky, E., 2001. *Creating Friendly AI 1.0: The Analysis and Design of Benevolent Goal Architectures*. Available at: [http://intelligence.org/files/CFAI.pdf](http://intelligence.org/files/CFAI.pdf) (Accessed: 1 October 2025).
-
-Yudkowsky, E., 2008. ‘Artificial Intelligence as a Positive and Negative Factor in Global Risk.’ In: N. Bostrom and M.M. Ćirković, eds. *Global Catastrophic Risks*. Oxford: Oxford University Press. Available at: [https://intelligence.org/files/AIPosNegFactor.pdf](https://intelligence.org/files/AIPosNegFactor.pdf) (Accessed: 1 October 2025).
-
-Yudkowsky, E. and Soares, N., 2025. *If Anyone Builds It, Everyone Dies*. London: Penguin. Available at: https://www.penguin.co.uk/books/474267/if-anyone-builds-it-everyone-dies/9781847928924 (Accessed: 1 October 2025).
-
-Zeng et al., 2025\. Super Co-alignment of Human and AI for Sustainable Symbiotic Society. Available at: [https://arxiv.org/html/2504.17404v5\##S4](https://arxiv.org/html/2504.17404v5##S4) (Accessed: 1 October 2025).
-
-Zhi-Xuan, T., Carroll, M., Dragan, A. and Russell, S. 2024 Beyond Preferences in AI Alignment. Available at: [https://arxiv.org/abs/2408.16984](https://arxiv.org/abs/2408.16984) (Accessed: 1 October 2025).
-
-## 
-
-## 
 
 [^1]:  Epistemic status: This document is an attempt to understand Bostrom's argument, which in both papers is presented as a nested hierarchy of points rather than fully fleshed out.  This will be most useful to those new to Bostrom 2024 and Bostrom 2022, or those wanting some broader context, particularly from a humanities perspective. Those very familiar with ECL, or looking for quantitative/toy models of Bostrom 2024, might find little of value here.  This is also a working document: please send any feedback to kchak002 at gold dot ac dot uk.
 
@@ -737,7 +382,7 @@ Zhi-Xuan, T., Carroll, M., Dragan, A. and Russell, S. 2024 Beyond Preferences in
 
 [^6]: Phrases like *“the point of view of the universe”* (Sidgwick 1907, De Lazari-Radek & Singer 2014, Parfit 1984\)*, “the view from nowhere”* (Nagel 1986\)*, “the view from nowhere/nowhen”* (Williams 2006\) or *sub specie aeternitatis* (Spinoza 1985, Wittgenstein 1961\) all gesture at an objective, subject-independent standpoint, though, like the blind men with the elephant, each approaches the idea indirectly. *“The point of view of the universe”* originates with Henry Sidgwick and is taken up by Peter Singer, Derek Parfit and others to frame an impartial moral stance extending across species, geography, and time. *“The view from nowhere”* (Nagel) is often used more critically, highlighting both the aspiration to objectivity and its limits, with Bernard Williams and later critical theorists emphasising that all perspectives are embedded in lived experience, power, and social relations. *Sub specie aeternitatis* derives from Spinoza but is given a narrower, aesthetic inflection by Wittgenstein, who links it to how art affords a detached view of the mundane; this aesthetic-existential register is later developed by critical posthumanists such as Claire Colebrook, who treat art and architecture as ways of imagining humanity’s eventual extinction (Colebrook 2014).
 
-[^7]:  Persson 2021
+[^7]:  [@Persson2021]
 
 [^8]:  See AAAI 2025, pp. 61-63, including a survey of researchers, in which the authors summarised 76% of responses as follows: ‘“scaling up current AI approaches” to yield AGI is “unlikely” or “very unlikely” to succeed, suggesting doubts about whether current machine learning paradigms are sufficient for achieving general intelligence.’
 
@@ -749,7 +394,7 @@ Zhi-Xuan, T., Carroll, M., Dragan, A. and Russell, S. 2024 Beyond Preferences in
 
 [^12]:  The [2025 version of Bostrom’s FAQs](https://simulation-argument.com/faq/##faq-2) explicitly avoids giving an estimate for the probability that we live in a simulation, but previously, he indicated a 20-30% figure; see Carlsmith 2022 presenting a critical analysis of the simulation argument. There might be an interesting question about what the implications are for the composition of the cosmic host, as well as the content of the cosmic norms, if we are, in fact, simulated.
 
-[^13]:   The relationship between morality and religion is more fully developed in Bostrom 2022\. Although religion is not the primary focus of Bostrom 2024 or indeed this essay, the idea of a cosmic host which evocatively brings together simulation-based worldviews with ETIs and AI, has some similarity to Giorgio Agamben’s invocation of Leibniz’s palace of destinies — which in turn evokes the Idea of Indra’s Net in the Flower Garden Sutra of Mahayana Buddhism (Agamben 1999).
+[^13]:   The relationship between morality and religion is more fully developed in Bostrom 2022\. Although religion is not the primary focus of Bostrom 2024 or indeed this chapter, the idea of a cosmic host which evocatively brings together simulation-based worldviews with ETIs and AI, has some similarity to Giorgio Agamben’s invocation of Leibniz’s palace of destinies — which in turn evokes the Idea of Indra’s Net in the Flower Garden Sutra of Mahayana Buddhism (Agamben 1999).
 
 [^14]:  Very early mentions were in Konstantin Tsiolkovsky’s and J.D. Bernal’s respective writing, as documented in Moynihan (2020, Ch. 5, 6).  This is seemingly also a background assumption of major ECL writings like Nguyen & Aldred 2024, Finnveden 2023, both in respect of influence and colonisation. Sources in the suffering risk literature push back on this assumption that colonisation is a “good thing” (separately from whether it is game theoretically preferred), as argued in Torres 2018\.
 
@@ -777,6 +422,7 @@ Zhi-Xuan, T., Carroll, M., Dragan, A. and Russell, S. 2024 Beyond Preferences in
 
 [^26]:  Ćirković 2018 (§ 5.4) and Ćirković 2018b.
 
+<!-- TODO:  posthuman stuff needs to be moved to the intro -->
 [^27]:  Bostrom 2013 defines technological maturity thus: “the attainment of capabilities affording a level of economic productivity and control over nature close to the maximum that could feasibly be achieved.” In Bostrom 2003, a paper on the Simulation Argument he is more detailed: “The simulation argument works equally well for those who think that it will take hundreds of thousands of years to reach a ‘posthuman’ stage of civilisation, where humankind has acquired most of the technological capabilities that one can currently show to be consistent with physical laws and with material and energy constraints.” Note that the term posthuman (and its variants) is a variously used and often tortured term, deployed in humanities contexts to gesture at animals, ecosystems, cyborgs/AIs, as well as to denote a worldview that criticises or challenges the alleged biases of the Enlightenment thinking (e.g. the “humanism” in “post-humanism”). These authors sometimes critique transhumanism and other positions associated with technological utopianism for apparent entrenching of biases and unequal power relations. See authors such as Katherine Hayles, Rosi Braidotti, Donna Haraway, Reza Negarestani, Nick Land, Eugene Thacker and Peter Wolfendale as examples of a diverse field. 
 
 [^28]:  Sebo 2025 offers a useful overview of moral status in humans, AIs, and animals.
@@ -963,6 +609,5 @@ Zhi-Xuan, T., Carroll, M., Dragan, A. and Russell, S. 2024 Beyond Preferences in
 
 [^119]:  The idea is, in a sense, the inverse of Redwood Research 2025, which discusses making credible commitments or deals with misaligned but weak AIs to incentivise them to help us align more powerful successor models. See also Chakrabarti 2025b and Turchin 2018 for appeals to ASI to be "nice" to humans. These sources rely on similar arguments: making the AI uncertain about whether it is "real" or simulated, whether there are peer AIs, or whether humans have laid traps or defences.
 
-Loewenstein, G., 1994. 'The Psychology of Curiosity: A Review and Reinterpretation.' *Psychological Bulletin*, 116(1), pp. 75-98.
 
 [^120]:  The full debate transcripts (24 GPT-4o and 28 GPT-5-mini structured debates, summarised by Gemini-2.5-pro) are available in the supplementary materials. The methodology involved assigning LLM instances to critic, defender, and judge roles with standardised prompts, then analysing confidence levels, verdict patterns, and argument quality across the question set.

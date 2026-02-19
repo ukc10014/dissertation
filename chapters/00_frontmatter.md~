@@ -1,4 +1,7 @@
 ---
+citeproc: true
+bibliography: [bib/bibliography_ukc.bib, bib/ch03_additions.bib]
+csl: https://www.zotero.org/styles/chicago-author-date
 abstract: |
   This project's central question is: "What ought to become of humanity once AIs vastly exceed it in capability and number, and how does the answer change if such beings encounter other civilisations?" This is the Good Successor Problem; it is a live issue (under short timelines to AGI), spanning existential risk, longtermism, and the welfare of digital minds.
 
