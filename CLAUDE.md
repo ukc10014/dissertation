@@ -39,3 +39,4 @@ Both scripts use `defaults.yaml` for Pandoc configuration and glob `chapters/*.m
 - **Abstract**: The source of truth for the abstract is `abstract.md` (repo root). Its content is duplicated into the `abstract` field in `defaults.yaml` so Pandoc renders it on the title page. If the abstract changes, update both places (or update `abstract.md` and copy into `defaults.yaml`).
 - Chapter files are named with `ch_` prefix and ordered alphabetically for correct Pandoc concatenation.
 - Commits tend to be checkpoint-style rather than continuous.
+- **No em-dashes**: Do not use em-dashes (—) in prose. Use commas, colons, semicolons, or parentheses instead. En-dashes (–) for ranges (e.g. "2022–2024") are fine.
