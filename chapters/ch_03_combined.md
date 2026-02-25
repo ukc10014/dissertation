@@ -2,6 +2,8 @@
 
 \setcounter{footnote}{0}
 
+<!-- TODO: Somewhere in here, we should frame the cosmic host as or through a Rawls original position perspective. Thinking maybe of the genealogy from Sidgwick through Parfit, Rawls has a certain part in that, and the cosmic host seems to generalize that to environments where we are even ontologically uncertain rather than kind of positionally uncertain within society. And that seems like kind of an interesting point and makes this chapter 3 link quite nicely with chapter 2.-->
+
 ## Chapter summary
 
 This chapter critically examines Nick Bostrom's concept of a "cosmic host" — the idea that the preferences of advanced civilisations might constitute binding norms across the universe [@Bostrom2022; @Bostrom2024] — and asks what it would mean for how we build and align superintelligent AI. The chapter finds that Bostrom's framework rests on assumptions about rationality, expansionism, and convergent cognition that warrant closer scrutiny; it identifies several significant gaps and proposes directions for further work. The argument proceeds as follows.
