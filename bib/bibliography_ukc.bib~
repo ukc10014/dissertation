@@ -1696,6 +1696,16 @@ lastchecked = {2026-02-19}
   pages = {75--98},
 }
 
+@online{lowe2024_why_talking_with_gpt_philosophy,
+  author       = {Lowe, Rebecca},
+  title        = {why you should be talking with gpt about philosophy: some thoughts on how it's become better, and how you can too},
+  year         = {2024},
+  month        = dec,
+  day          = {17},
+  url          = {https://endsdontjustifythemeans.com/p/why-you-should-be-talking-with-gpt},
+  note         = {Substack post on ``the ends don't justify the means''. Accessed 2026-02-26}
+}
+
 @misc{MacAskill2024,
   author = {MacAskill, W},
   title = {The Case for Strong Longtermism},
@@ -2504,22 +2514,27 @@ lastchecked = {2026-02-19}
 
 %% ----- Placeholder entries (to be filled in) -----
 
-@misc{Askell,
-  author = {Askell, A},
-  title = {},
-  year = {},
+@phdthesis{Askell,
+  author = {Askell, Amanda},
+  title = {Pareto Principles in Infinite Ethics},
+  year = {2018},
+  school = {London School of Economics and Political Science},
 }
 
-@misc{Benatar,
-  author = {Benatar, D},
-  title = {},
-  year = {},
+@book{Benatar,
+  author = {Benatar, David},
+  title = {Better Never to Have Been: The Harm of Coming into Existence},
+  year = {2006},
+  publisher = {Oxford University Press},
+  address = {Oxford},
 }
 
-@misc{Brassier,
-  author = {Brassier, R},
-  title = {},
-  year = {},
+@book{Brassier,
+  author = {Brassier, Ray},
+  title = {Nihil Unbound: Enlightenment and Extinction},
+  year = {2007},
+  publisher = {Palgrave Macmillan},
+  address = {Basingstoke},
 }
 
 @article{Butlin,
@@ -2529,29 +2544,44 @@ lastchecked = {2026-02-19}
   journal = {arXiv preprint arXiv:2308.08708},
 }
 
-@misc{Chaisson,
-  author = {Chaisson, E},
-  title = {},
-  year = {},
+@book{Chaisson,
+  author = {Chaisson, Eric J.},
+  title = {Cosmic Evolution: The Rise of Complexity in Nature},
+  year = {2001},
+  publisher = {Harvard University Press},
+  address = {Cambridge, MA},
 }
 
-@misc{FinneronBurns,
-  author = {Finneron-Burns, E},
-  title = {},
-  year = {},
+@article{FinneronBurns,
+  author = {Finneron-Burns, Elizabeth},
+  title = {What's Wrong with Human Extinction?},
+  year = {2017},
+  journal = {Canadian Journal of Philosophy},
+  volume = {47},
+  number = {2--3},
+  pages = {327--347},
+  doi = {10.1080/00455091.2016.1278152},
 }
 
-@misc{Frick,
-  author = {Frick, J},
-  title = {},
-  year = {},
+@article{Frick,
+  author = {Frick, Johann},
+  title = {On the Survival of Humanity},
+  year = {2017},
+  journal = {Canadian Journal of Philosophy},
+  volume = {47},
+  number = {2--3},
+  pages = {283--303},
+  doi = {10.1080/00455091.2016.1278148},
 }
 
-@misc{Lloyd,
-  author = {Lloyd, S},
-  title = {},
-  year = {},
+@book{Lloyd,
+  author = {Lloyd, Seth},
+  title = {Programming the Universe: A Quantum Computer Scientist Takes on the Cosmos},
+  year = {2006},
+  publisher = {Knopf},
+  address = {New York},
 }
+
 
 @misc{Martinez2010,
   author       = {Martinez, Chus},
@@ -2562,40 +2592,56 @@ lastchecked = {2026-02-19}
 }
 
 
-@misc{Nietzsche,
-  author = {Nietzsche, F},
-  title = {},
-  year = {},
+@book{Nietzsche,
+  author = {Nietzsche, Friedrich},
+  title = {The Birth of Tragedy},
+  year = {1872},
+  publisher = {Cambridge University Press},
+  address = {Cambridge},
+  note = {Translated by Ronald Speirs, edited by Raymond Geuss and Ronald Speirs, 1999},
 }
 
-@misc{Nishida,
-  author = {Nishida, K},
-  title = {},
-  year = {},
+@book{Nishida,
+  author = {Nishida, Kitarō},
+  title = {An Inquiry into the Good},
+  year = {1990},
+  publisher = {Yale University Press},
+  address = {New Haven},
+  note = {Originally published in Japanese as \emph{Zen no kenkyū}, 1911. Translated by Masao Abe and Christopher Ives},
 }
 
-@misc{Nishitani,
-  author = {Nishitani, K},
-  title = {},
-  year = {},
+@book{Nishitani,
+  author = {Nishitani, Keiji},
+  title = {Religion and Nothingness},
+  year = {1982},
+  publisher = {University of California Press},
+  address = {Berkeley},
+  note = {Originally published in Japanese as \emph{Shūkyō to wa nani ka}, 1961. Translated by Jan {Van Bragt}},
 }
 
-@misc{Scheffler,
-  author = {Scheffler, S},
-  title = {},
-  year = {},
+@book{Scheffler,
+  author = {Scheffler, Samuel},
+  title = {Death and the Afterlife},
+  year = {2013},
+  publisher = {Oxford University Press},
+  address = {New York},
 }
 
-@misc{Schopenhauer,
-  author = {Schopenhauer, A},
-  title = {},
-  year = {},
+@book{Schopenhauer,
+  author = {Schopenhauer, Arthur},
+  title = {The World as Will and Representation},
+  year = {1818},
+  publisher = {Dover},
+  address = {New York},
+  note = {Translated by E. F. J. Payne, 1969},
 }
 
-@misc{Schwitzgebel,
-  author = {Schwitzgebel, E},
-  title = {},
-  year = {},
+@book{Schwitzgebel,
+  author = {Schwitzgebel, Eric},
+  title = {The Weirdness of the World},
+  year = {2024},
+  publisher = {Princeton University Press},
+  address = {Princeton},
 }
 
 @misc{Thacker,
