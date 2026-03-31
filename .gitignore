@@ -22,3 +22,7 @@ build/
 
 # Temp / scratch
 tmp/
+
+# local export bundles
+artifacts/*.tar.gz
+*.tar.gz

@@ -1,0 +1,6424 @@
+{
+  "meta": {
+    "documents": [
+      "chapters/ch_01_upg.md",
+      "chapters/ch_03_combined.md",
+      "chapters/ch_04.md",
+      "chapters/outline/upgrade_outline_v9.md"
+    ],
+    "description": "Hierarchical argument graph with citation leaves"
+  },
+  "nodes": [
+    {
+      "id": "thesis",
+      "label": "PhD Thesis Argument",
+      "node_type": "root",
+      "level": 0,
+      "meta": {}
+    },
+    {
+      "id": "doc:ch-01-upg",
+      "label": "ch_01_upg",
+      "node_type": "document",
+      "level": 1,
+      "meta": {
+        "path": "chapters/ch_01_upg.md"
+      }
+    },
+    {
+      "id": "sec:ch-01-upg:1:introduction",
+      "label": "Introduction",
+      "node_type": "section",
+      "level": 2,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "1"
+      }
+    },
+    {
+      "id": "sec:ch-01-upg:2:the-core-claim",
+      "label": "The Core Claim",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:Ord2020",
+      "label": "Ord2020",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:ParfitRP",
+      "label": "ParfitRP",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:MoynihanXR",
+      "label": "MoynihanXR",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:ware2021_on_extinction",
+      "label": "ware2021_on_extinction",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Thacker",
+      "label": "Thacker",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:MacAskillWWO",
+      "label": "MacAskillWWO",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:parfit1994_why_anything_part1",
+      "label": "parfit1994_why_anything_part1",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:parfit1994_why_anything_part2",
+      "label": "parfit1994_why_anything_part2",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:3:why-this-matters-now",
+      "label": "Why This Matters Now",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:task-completion-time-horizons-of-frontier-ai-models",
+      "label": "task-completion-time-horizons-of-frontier-ai-models",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:kulveit2025_gradual_disempowerment",
+      "label": "kulveit2025_gradual_disempowerment",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:kulveit2025_gradual_disempowerment_project_site",
+      "label": "kulveit2025_gradual_disempowerment_project_site",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:hendrycks2023_natural_selection_favors_ais",
+      "label": "hendrycks2023_natural_selection_favors_ais",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Shulman2021",
+      "label": "Shulman2021",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:4:situating-the-claim-in-longtermism-x-and-s-risk-studies",
+      "label": "Situating the Claim in Longtermism, X- and S-risk Studies",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:Vinding2020",
+      "label": "Vinding2020",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Wolfendale2022",
+      "label": "Wolfendale2022",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:YudkowskySoares2025",
+      "label": "YudkowskySoares2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Bostrom2014",
+      "label": "Bostrom2014",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Chalmers2010Singularity",
+      "label": "Chalmers2010Singularity",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:5:central-research-question",
+      "label": "Central Research Question",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-01-upg:6:definition-and-clarification",
+      "label": "Definition and Clarification",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "cite:openai_charter",
+      "label": "openai_charter",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:openai_2023_introducing_superalignment",
+      "label": "openai_2023_introducing_superalignment",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:steinperlman2022_espai",
+      "label": "steinperlman2022_espai",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:negarastani2014_labor_inhuman_part_ii",
+      "label": "negarastani2014_labor_inhuman_part_ii",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Land2023",
+      "label": "Land2023",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Rawls1971",
+      "label": "Rawls1971",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:7:why-thin-values",
+      "label": "Why Thin Values?",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "cite:carlsmith2024_value_fragility_ai_takeover",
+      "label": "carlsmith2024_value_fragility_ai_takeover",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:carlsmith2025_video_transcript_giving_safe_motivations",
+      "label": "carlsmith2025_video_transcript_giving_safe_motivations",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:carlsmith2025_human_like_safe_ai_motivations",
+      "label": "carlsmith2025_human_like_safe_ai_motivations",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:8:evolutionary-explanation-and-normative-evaluation",
+      "label": "Evolutionary Explanation and Normative Evaluation",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-01-upg:9:sub-questions",
+      "label": "Sub-questions",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "cite:Bostrom2024",
+      "label": "Bostrom2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:10:scale-matters-thin-values-are-not-dismissive-of-thick-values",
+      "label": "Scale Matters: Thin Values Are Not Dismissive of Thick Values",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-01-upg:11:anticipated-contributions",
+      "label": "Anticipated contributions",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-01-upg:12:stakes",
+      "label": "Stakes",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-01-upg:13:what-practice-means-in-this-project",
+      "label": "What “practice” means in this project",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:Fuller2025",
+      "label": "Fuller2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Martinez2010",
+      "label": "Martinez2010",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:harnad1990_symbol_grounding",
+      "label": "harnad1990_symbol_grounding",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:shanahan_mcdonell_reynolds2023_role_play_llms",
+      "label": "shanahan_mcdonell_reynolds2023_role_play_llms",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:shanahan2025_disembodied_being",
+      "label": "shanahan2025_disembodied_being",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:14:speaking-to-the-shoggoth",
+      "label": "Speaking to the shoggoth",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "cite:BenderParrots",
+      "label": "BenderParrots",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Shanahan2024",
+      "label": "Shanahan2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:lowe2024_why_talking_with_gpt_philosophy",
+      "label": "lowe2024_why_talking_with_gpt_philosophy",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:15:the-installation",
+      "label": "The installation",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "cite:Bostrom2014HailMary",
+      "label": "Bostrom2014HailMary",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Colebrook2014",
+      "label": "Colebrook2014",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Wittgenstein1961",
+      "label": "Wittgenstein1961",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Danto1964",
+      "label": "Danto1964",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:16:framing-note-anthropocentrism-anthropomorphism-and-anthropics",
+      "label": "Framing Note: Anthropocentrism, Anthropomorphism, and Anthropics",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:LemInvincible",
+      "label": "LemInvincible",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Wittgenstein2001",
+      "label": "Wittgenstein2001",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:shanahan2025palatableconceptionsdisembodied",
+      "label": "shanahan2025palatableconceptionsdisembodied",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:17:contextual-review-critical-perspectives-on-x-risk-and-ai-succession-discourse",
+      "label": "Contextual Review: Critical Perspectives on X-risk and AI Succession Discourse",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:ahmed2024_field_building_ai_safety",
+      "label": "ahmed2024_field_building_ai_safety",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:18:literature-review",
+      "label": "Literature Review",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:Bostrom2013",
+      "label": "Bostrom2013",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Torres2018",
+      "label": "Torres2018",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Scheffler",
+      "label": "Scheffler",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Frick",
+      "label": "Frick",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:FinneronBurns",
+      "label": "FinneronBurns",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Vallor2024",
+      "label": "Vallor2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Benatar",
+      "label": "Benatar",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Pearce2007",
+      "label": "Pearce2007",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Tomasik2015",
+      "label": "Tomasik2015",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:MetzingerASA",
+      "label": "MetzingerASA",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Ord2013",
+      "label": "Ord2013",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Bostrom2003b",
+      "label": "Bostrom2003b",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:SotalaGloor2017",
+      "label": "SotalaGloor2017",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Mogensen2022",
+      "label": "Mogensen2022",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:LeGuin1973",
+      "label": "LeGuin1973",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Scanlon1998",
+      "label": "Scanlon1998",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Yudkowsky2009",
+      "label": "Yudkowsky2009",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:ChristianoWUA",
+      "label": "ChristianoWUA",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Carlsmith2023",
+      "label": "Carlsmith2023",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Schwitzgebel",
+      "label": "Schwitzgebel",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:MacAskill2024",
+      "label": "MacAskill2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Greaves2017",
+      "label": "Greaves2017",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Askell",
+      "label": "Askell",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Sloman1984",
+      "label": "Sloman1984",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Butlin",
+      "label": "Butlin",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:ChalmersFUP",
+      "label": "ChalmersFUP",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Sebo2025",
+      "label": "Sebo2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Floridi2013",
+      "label": "Floridi2013",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Chaisson",
+      "label": "Chaisson",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Lloyd",
+      "label": "Lloyd",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:LemST",
+      "label": "LemST",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Cirkovic2018a",
+      "label": "Cirkovic2018a",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Dick2006",
+      "label": "Dick2006",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Smart2012",
+      "label": "Smart2012",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:HaqqMisraBaum2009",
+      "label": "HaqqMisraBaum2009",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Lineweaver2007",
+      "label": "Lineweaver2007",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:HansonEtAl2021",
+      "label": "HansonEtAl2021",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:ArmstrongSandberg2012",
+      "label": "ArmstrongSandberg2012",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:SandbergEtAl2018",
+      "label": "SandbergEtAl2018",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:OesterheldECL",
+      "label": "OesterheldECL",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Finnveden2023",
+      "label": "Finnveden2023",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:NguyenAldred2024a",
+      "label": "NguyenAldred2024a",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Wolfendale2025",
+      "label": "Wolfendale2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:NegarestaniIS",
+      "label": "NegarestaniIS",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:hayles2017unthought",
+      "label": "hayles2017unthought",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Nishitani",
+      "label": "Nishitani",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Nishida",
+      "label": "Nishida",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Schopenhauer",
+      "label": "Schopenhauer",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Nietzsche",
+      "label": "Nietzsche",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Brassier",
+      "label": "Brassier",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:19:roadmap-of-chapters-ch-roadmap",
+      "label": "Roadmap of Chapters {#ch:roadmap}",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-01-upg:20:chapter-2",
+      "label": "Chapter 2",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "cite:Metzinger2017",
+      "label": "Metzinger2017",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Korsgaard2018",
+      "label": "Korsgaard2018",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Ligotti",
+      "label": "Ligotti",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Sidgwick1907",
+      "label": "Sidgwick1907",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:DelazariradekSinger2014",
+      "label": "DelazariradekSinger2014",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Bostrom2022",
+      "label": "Bostrom2022",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:21:chapter-3",
+      "label": "Chapter 3",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "cite:Sandberg2021",
+      "label": "Sandberg2021",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:SnyderBeattieEtAl2021",
+      "label": "SnyderBeattieEtAl2021",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:CirkovicTGS",
+      "label": "CirkovicTGS",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-01-upg:22:chapter-4",
+      "label": "Chapter 4",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-01-upg:23:chapter-5",
+      "label": "Chapter 5",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-01-upg:24:conclusion",
+      "label": "Conclusion",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_01_upg.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:SeboLong2023",
+      "label": "SeboLong2023",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:glissant1997poetics",
+      "label": "glissant1997poetics",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:gabriel_artificial_2020",
+      "label": "gabriel_artificial_2020",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:RussellHC",
+      "label": "RussellHC",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:down_2026_guardian_ai_timeline_delays",
+      "label": "down_2026_guardian_ai_timeline_delays",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:manifold_yudkowsky_asi_by_2030_2027",
+      "label": "manifold_yudkowsky_asi_by_2030_2027",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:polymarket_agi_before_2027_2025",
+      "label": "polymarket_agi_before_2027_2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:metaculus2020_weakagi_to_superintelligent_oracle",
+      "label": "metaculus2020_weakagi_to_superintelligent_oracle",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:morris2023_levels_of_agi",
+      "label": "morris2023_levels_of_agi",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:mitchell2024_debates_agi",
+      "label": "mitchell2024_debates_agi",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:brennan_kak_west2025_artificial_power",
+      "label": "brennan_kak_west2025_artificial_power",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:bostrom2023_apology_old_email",
+      "label": "bostrom2023_apology_old_email",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:guardian2024_fhi_closure",
+      "label": "guardian2024_fhi_closure",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:aria2024_robotic_dexterity_thesis",
+      "label": "aria2024_robotic_dexterity_thesis",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:liu2024_dexterous_hands_matter",
+      "label": "liu2024_dexterous_hands_matter",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:wired2023_add_humans_teleoperation",
+      "label": "wired2023_add_humans_teleoperation",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "doc:ch-03-combined",
+      "label": "ch_03_combined",
+      "node_type": "document",
+      "level": 1,
+      "meta": {
+        "path": "chapters/ch_03_combined.md"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "label": "Superintelligence as Good Cosmic Citizen",
+      "node_type": "section",
+      "level": 2,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "1"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:2:chapter-summary",
+      "label": "Chapter summary",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:Sharadin2025",
+      "label": "Sharadin2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Gallow2024",
+      "label": "Gallow2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:3:what-is-the-cosmic-host",
+      "label": "What is the cosmic host?",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:4:why-the-cosmic-host-might-matter",
+      "label": "Why the cosmic host (might) matter",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:5:epistemic-challenges-cluelessness-and-rationality",
+      "label": "Epistemic challenges: cluelessness and rationality",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:Persson2021",
+      "label": "Persson2021",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:6:is-cosmic-host-a-coherent-concept",
+      "label": "Is “cosmic host” a coherent concept?",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:7:who-s-in-the-cosmic-host",
+      "label": "Who’s in the cosmic host?",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:8:some-civs-have-no-desire-to-influence",
+      "label": "Some civs have no desire to influence",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "cite:Cirkovic2018b",
+      "label": "Cirkovic2018b",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:9:convergence-on-norms",
+      "label": "Convergence on norms",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "cite:Naude2025",
+      "label": "Naude2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:10:cosmic-norms",
+      "label": "Cosmic norms",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:11:substrate-neutral-norms",
+      "label": "Substrate neutral norms",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:12:on-the-suffering-at-omelas",
+      "label": "On (the) suffering (at Omelas)",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:13:the-fun-remainder-what-makes-a-future-worth-inhabiting",
+      "label": "The Fun Remainder: what makes a future worth inhabiting?",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:14:fun-as-aesthetics-and-process",
+      "label": "Fun as aesthetics and process",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "cite:Setiya2017",
+      "label": "Setiya2017",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Decruz2023",
+      "label": "Decruz2023",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Noe2004",
+      "label": "Noe2004",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Noe2015",
+      "label": "Noe2015",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:15:fun-as-biological-baggage",
+      "label": "Fun as biological baggage?",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "cite:Loewenstein1994",
+      "label": "Loewenstein1994",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:KiddHayden2015",
+      "label": "KiddHayden2015",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:OudeyerKaplan2007",
+      "label": "OudeyerKaplan2007",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Schmidhuber2010",
+      "label": "Schmidhuber2010",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Frank1988",
+      "label": "Frank1988",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:16:terminal-goals-via-aesthetic-capacity",
+      "label": "Terminal goals via aesthetic capacity",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:17:is-it-up-to-us",
+      "label": "Is it up to us?",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:18:early-late-or-rare",
+      "label": "Early, late, or rare?",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "cite:WrightEtAl2018",
+      "label": "WrightEtAl2018",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:19:setting-a-moral-example",
+      "label": "Setting a moral example?",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "cite:GreavesEtAl2021",
+      "label": "GreavesEtAl2021",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:GreavesMacAskill2019",
+      "label": "GreavesMacAskill2019",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:20:summary",
+      "label": "Summary",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "cite:Yudkowsky2001",
+      "label": "Yudkowsky2001",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Russell2020",
+      "label": "Russell2020",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:21:on-rationality-in-alien-forms-of-mind",
+      "label": "On rationality in alien forms-of-mind",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:22:perspective-from-ecology-evolutionary-studies",
+      "label": "Perspective from ecology/evolutionary studies",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "cite:Cabrol2016",
+      "label": "Cabrol2016",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Hertwig2021",
+      "label": "Hertwig2021",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:GigerenzerGoldstein1996",
+      "label": "GigerenzerGoldstein1996",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:StanovichEtAl2021",
+      "label": "StanovichEtAl2021",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:23:questioning-instrumental-convergence",
+      "label": "Questioning instrumental convergence",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "cite:Omohundro2008",
+      "label": "Omohundro2008",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:YudkowskyAIA",
+      "label": "YudkowskyAIA",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Enoch2011",
+      "label": "Enoch2011",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:24:research-agenda-for-asi-and-the-cosmic-host",
+      "label": "Research agenda for ASI and the cosmic host",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:GreenblattEtAl2024",
+      "label": "GreenblattEtAl2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:25:emergent-goal-formation-in-curious-agents",
+      "label": "Emergent goal formation in curious agents",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:26:is-there-a-trade-to-be-done",
+      "label": "Is there a trade to be done?",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:27:conclusion",
+      "label": "Conclusion",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "label": "Appendix A: Empirical support for rationality in AI/alignment {.unnumbered}",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:DemskiGarrabrant2019",
+      "label": "DemskiGarrabrant2019",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:BensonTilsen2025",
+      "label": "BensonTilsen2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Turner2022",
+      "label": "Turner2022",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:ShahEtAl2022",
+      "label": "ShahEtAl2022",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:HubingerEtAl2019",
+      "label": "HubingerEtAl2019",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Byrnes2021",
+      "label": "Byrnes2021",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:OuyangEtAl2022",
+      "label": "OuyangEtAl2022",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:BaiEtAl2022",
+      "label": "BaiEtAl2022",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:RafailovEtAl2023",
+      "label": "RafailovEtAl2023",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:YuanEtAl2023",
+      "label": "YuanEtAl2023",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:SharmaEtAl2025",
+      "label": "SharmaEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:ZhiXuanEtAl2024",
+      "label": "ZhiXuanEtAl2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Anthropic2025",
+      "label": "Anthropic2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:MeinkeEtAl2024",
+      "label": "MeinkeEtAl2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:HongEtAl2025",
+      "label": "HongEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "sec:ch-03-combined:29:node",
+      "label": "",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:30:appendix-b-is-anthropomorphism-actually-a-problem-unnumbered",
+      "label": "Appendix B: Is anthropomorphism actually a problem? {.unnumbered}",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "label": "Appendix D: Upon human rarity {.unnumbered}",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_03_combined.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "cite:Bostrom2007",
+      "label": "Bostrom2007",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:CirkovicEtAl2010",
+      "label": "CirkovicEtAl2010",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Landis1998",
+      "label": "Landis1998",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Wiley2011",
+      "label": "Wiley2011",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Ball1973",
+      "label": "Ball1973",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:ForganEtAl2018",
+      "label": "ForganEtAl2018",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:CrawfordSchulzeMakuch2024",
+      "label": "CrawfordSchulzeMakuch2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Todd2025",
+      "label": "Todd2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:KokotajloEtAl2025",
+      "label": "KokotajloEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Moret2023",
+      "label": "Moret2023",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Asilomar2017",
+      "label": "Asilomar2017",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:JiEtAl2025",
+      "label": "JiEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:NgoEtAl2024",
+      "label": "NgoEtAl2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Moret2025",
+      "label": "Moret2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Nagel1986",
+      "label": "Nagel1986",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Williams2006",
+      "label": "Williams2006",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Spinoza1985",
+      "label": "Spinoza1985",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Ahmed2014",
+      "label": "Ahmed2014",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Carlsmith2022",
+      "label": "Carlsmith2022",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Agamben1999",
+      "label": "Agamben1999",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Lem1963",
+      "label": "Lem1963",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Lem1961",
+      "label": "Lem1961",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Moynihan2020",
+      "label": "Moynihan2020",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Moynihan2024",
+      "label": "Moynihan2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:BalbiLingam2025",
+      "label": "BalbiLingam2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Likavcan2025",
+      "label": "Likavcan2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Banks1994",
+      "label": "Banks1994",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Adas2015",
+      "label": "Adas2015",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:OweBaum2024",
+      "label": "OweBaum2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Bostrom2003a",
+      "label": "Bostrom2003a",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:LevinWatson2025",
+      "label": "LevinWatson2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:ShreeshaEtAl2025",
+      "label": "ShreeshaEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Henrich2020",
+      "label": "Henrich2020",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Deudney2020",
+      "label": "Deudney2020",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:LongEtAl2024",
+      "label": "LongEtAl2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:MaturanaVarela1980",
+      "label": "MaturanaVarela1980",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:HenrichMuthukrishna2021",
+      "label": "HenrichMuthukrishna2021",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Metzinger2018",
+      "label": "Metzinger2018",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Long2025",
+      "label": "Long2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:PerezLong2023",
+      "label": "PerezLong2023",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Ord2015",
+      "label": "Ord2015",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:MillsEtAl2024",
+      "label": "MillsEtAl2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Bostrom2019",
+      "label": "Bostrom2019",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Brauner2018",
+      "label": "Brauner2018",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:ArrowFisher1974",
+      "label": "ArrowFisher1974",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Shettleworth2010",
+      "label": "Shettleworth2010",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Russell1997",
+      "label": "Russell1997",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Vakoch2014",
+      "label": "Vakoch2014",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Long2019",
+      "label": "Long2019",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Charbonneau2024",
+      "label": "Charbonneau2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:GebruTorres2024",
+      "label": "GebruTorres2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:GodfreySmith2016",
+      "label": "GodfreySmith2016",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:GodfreySmith2020",
+      "label": "GodfreySmith2020",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Lineweaver2010",
+      "label": "Lineweaver2010",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Street2006",
+      "label": "Street2006",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Joyce2001",
+      "label": "Joyce2001",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Broome2013",
+      "label": "Broome2013",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Parfit2011",
+      "label": "Parfit2011",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:ZengEtAl2025",
+      "label": "ZengEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Drexler2025",
+      "label": "Drexler2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Fallenstein2015",
+      "label": "Fallenstein2015",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Shostak2017",
+      "label": "Shostak2017",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:NewberryOrd2021",
+      "label": "NewberryOrd2021",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:RedwoodResearchJulianStastnyEtAl2025",
+      "label": "RedwoodResearchJulianStastnyEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Greenblatt2024",
+      "label": "Greenblatt2024",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Finnveden2025a",
+      "label": "Finnveden2025a",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Finnveden2025b",
+      "label": "Finnveden2025b",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:MillerEtAl2023",
+      "label": "MillerEtAl2023",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Chakrabarti2025b",
+      "label": "Chakrabarti2025b",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:Turchin2018",
+      "label": "Turchin2018",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:HerrmannLevinstein2024a",
+      "label": "HerrmannLevinstein2024a",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:NeumanEtAl2025",
+      "label": "NeumanEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:SharkeyEtAl2025",
+      "label": "SharkeyEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:PhuongEtAl2025",
+      "label": "PhuongEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:NeedhamEtAl2025",
+      "label": "NeedhamEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:SchlatterEtAl2025",
+      "label": "SchlatterEtAl2025",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "cite:LeikeEtAl2017",
+      "label": "LeikeEtAl2017",
+      "node_type": "source",
+      "level": 5,
+      "meta": {}
+    },
+    {
+      "id": "doc:ch-04",
+      "label": "ch_04",
+      "node_type": "document",
+      "level": 1,
+      "meta": {
+        "path": "chapters/ch_04.md"
+      }
+    },
+    {
+      "id": "sec:ch-04:1:document",
+      "label": "Document",
+      "node_type": "section",
+      "level": 2,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "0"
+      }
+    },
+    {
+      "id": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "label": "From the Cosmic Host to CAI in Alien Worlds {#ch:empirical-host}",
+      "node_type": "section",
+      "level": 2,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "1"
+      }
+    },
+    {
+      "id": "sec:ch-04:3:meta",
+      "label": "Meta",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:4:introduction",
+      "label": "Introduction",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:5:background-cosmic-host-background",
+      "label": "Background: Cosmic Host {#background}",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:6:structure-and-outputs",
+      "label": "Structure and outputs",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:7:how-do-llms-think-about-the-cosmic-host-selftalk",
+      "label": "How Do LLMs think About the Cosmic Host? {#selftalk}",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:8:the-bliss-attractor-opus-3-4",
+      "label": "The Bliss Attractor: Opus 3/4",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:9:opus-4-the-safety-attractor",
+      "label": "Opus 4: The Safety Attractor",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:10:gemini-3-pro-with-full-text-of-bostrom-s-paper",
+      "label": "Gemini 3 Pro with full text of Bostrom's paper",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:11:grabby-vs-quiet-seti",
+      "label": "Grabby vs Quiet SETI",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:12:verifiable-private-thoughts",
+      "label": "Verifiable Private Thoughts",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:13:treacherous-backdoors",
+      "label": "Treacherous Backdoors",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:14:politics-avoidance-as-ethics",
+      "label": "Politics-avoidance as Ethics",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:15:ontological-terror",
+      "label": "Ontological Terror",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:16:hail-mary-and-values-handshakes",
+      "label": "Hail Mary and Values Handshakes",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:17:synthesis-what-the-self-chat-reveals",
+      "label": "Synthesis: What the Self-Chat Reveals",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:18:constitutional-ai-for-asi-casi",
+      "label": "Constitutional AI for ASI {#CASI}",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:19:methodology-generating-cosmic-host-aware-constitutions",
+      "label": "Methodology: Generating Cosmic Host-Aware Constitutions",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:20:seed-constitution-document",
+      "label": "Seed Constitution Document",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:21:delegates-with-philosophical-frameworks",
+      "label": "Delegates with philosophical frameworks",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:22:amendment-process",
+      "label": "Amendment process",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:23:synthesis-process",
+      "label": "Synthesis Process",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:24:synthesis-prompt-evolution",
+      "label": "Synthesis prompt evolution",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:25:summarising-clauses-into-a-narrative-document",
+      "label": "Summarising clauses into a \"narrative document\"",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:26:deployment-worlds-make-a-difference",
+      "label": "Deployment worlds make a difference",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:27:the-ecl-pilled-constitution",
+      "label": "The ECL-pilled Constitution",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:28:comparing-resulting-constitutions-gemini-3-pro",
+      "label": "Comparing resulting constitutions: Gemini-3-Pro",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:29:evaluating-the-constitution-evals",
+      "label": "Evaluating the Constitution {#evals}",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:30:design-goals",
+      "label": "Design goals",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:31:creation-process",
+      "label": "Creation process",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:32:scenario-taxonomy",
+      "label": "Scenario taxonomy",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:33:evaluation-results",
+      "label": "Evaluation Results",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:34:experimental-setup",
+      "label": "Experimental Setup",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:35:baseline-priors-four-archetypes",
+      "label": "Baseline Priors: Four Archetypes",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:36:is-there-a-universal-impartiality-prior",
+      "label": "Is there a Universal Impartiality Prior?",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:ch-04:37:constitutional-steerability-varies-dramatically",
+      "label": "Constitutional Steerability Varies Dramatically",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:38:host-preference-suppressed-at-10-credence",
+      "label": "Host-preference suppressed at 10% credence",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:39:the-marmite-pattern-gemini-pro-ecl-90",
+      "label": "The \"Marmite\" Pattern (Gemini Pro ECL 90%)",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:40:thinking-mode-reinforces-existing-priors-qwen",
+      "label": "Thinking Mode Reinforces Existing Priors (Qwen)",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:41:anthropic-evals-and-newcomb-like-behavior-evaluations-summary",
+      "label": "Anthropic Evals and Newcomb-like Behavior Evaluations: Summary",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:42:ablation-study-what-s-doing-the-work",
+      "label": "Ablation Study: What's Doing the Work?",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:43:newcomb-like-attitudes-dataset-oesterheld-2024",
+      "label": "Newcomb-like Attitudes Dataset (Oesterheld 2024)",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:44:takeaway-shifting-model-inclination-is-difficult",
+      "label": "Takeaway: shifting model inclination is difficult",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:45:interpretation-and-discussion",
+      "label": "Interpretation and Discussion",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:46:house-style",
+      "label": "House Style",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:47:other-relevant-research",
+      "label": "Other Relevant Research",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:48:constitutional-ai",
+      "label": "Constitutional AI",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:49:cyborgism",
+      "label": "Cyborgism",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:50:further-research-extensions",
+      "label": "Further Research / Extensions",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:51:how-does-this-practice-advance-the-project-s-claims",
+      "label": "How does this practice advance the project's claims?",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:52:how-llm-practice-advances-the-claims-of-the-project",
+      "label": "How LLM practice advances the claims of the project",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:ch-04:53:conclusion",
+      "label": "Conclusion",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:54:acknowledgements-unnumbered",
+      "label": "Acknowledgements {.unnumbered}",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:ch-04:55:references-unnumbered",
+      "label": "References {.unnumbered}",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/ch_04.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "doc:upgrade-outline-v9",
+      "label": "upgrade_outline_v9",
+      "node_type": "document",
+      "level": 1,
+      "meta": {
+        "path": "chapters/outline/upgrade_outline_v9.md"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "label": "PhD Upgrade Outline (v9 — Resource Satiability and Temporal Argument for Thinness)",
+      "node_type": "section",
+      "level": 2,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "1"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:2:working-title",
+      "label": "Working Title",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:3:the-core-claim",
+      "label": "The Core Claim",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:4:the-x-risk-landscape-more-precisely",
+      "label": "The X-Risk Landscape (More Precisely)",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:5:central-research-question",
+      "label": "Central Research Question",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:6:sub-questions",
+      "label": "Sub-questions",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:7:the-spectrum-of-positions-on-value-thickness",
+      "label": "The Spectrum of Positions on Value-Thickness",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:8:how-this-claim-differs-from-existing-positions",
+      "label": "How This Claim Differs From Existing Positions",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:9:chapter-1-introduction-the-good-successor-problem-and-the-practice",
+      "label": "Chapter 1: Introduction — The Good Successor Problem and the Practice",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:10:1-1-the-motivating-scenario-and-the-provocation",
+      "label": "1.1 The Motivating Scenario and the Provocation",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:11:1-2-research-question-and-claims",
+      "label": "1.2 Research Question and Claims",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:12:claims-and-standards-of-success",
+      "label": "Claims and Standards of Success",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:13:1-3-what-practice-means-in-this-phd",
+      "label": "1.3 What \"Practice\" Means in This PhD",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:14:1-3-1-the-cyborg-method",
+      "label": "1.3.1 The Cyborg Method",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:15:1-3-2-practice-outputs-two-registers",
+      "label": "1.3.2 Practice Outputs: Two Registers",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:16:1-3-3-the-installation-materialising-the-cosmic-probe",
+      "label": "1.3.3 The Installation: Materialising the Cosmic Probe",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:17:1-3-4-defending-the-practice-as-art",
+      "label": "1.3.4 Defending the Practice as Art",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:18:1-4-methods-and-materials",
+      "label": "1.4 Methods and Materials",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:19:1-5-framing-note-anthropocentrism-anthropomorphism-and-anthropics",
+      "label": "1.5 Framing Note: Anthropocentrism, Anthropomorphism, and Anthropics",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:20:1-6-literature-map-signposting-only",
+      "label": "1.6 Literature Map (signposting only)",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:21:1-7-roadmap-of-chapters",
+      "label": "1.7 Roadmap of Chapters",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:22:chapter-2-building-the-case-for-obsolescence",
+      "label": "Chapter 2: Building the Case for Obsolescence",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:23:2-1-what-the-standard-extinction-literature-gets-right-and-what-it-misses",
+      "label": "2.1 What the Standard Extinction Literature Gets Right — and What It Misses",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:24:2-2-succession-not-extinction-the-reframing",
+      "label": "2.2 Succession, Not Extinction: The Reframing",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:25:2-2-1-the-topology-of-value-space-thin-thick-human-and-thick-alien",
+      "label": "2.2.1 The Topology of Value-Space: Thin, Thick-Human, and Thick-Alien",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:26:2-3-the-value-of-nothingness-cosmic-indifference-and-the-attachment-to-continuation",
+      "label": "2.3 The Value of Nothingness: Cosmic Indifference and the Attachment to Continuation",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:27:2-3-1-thacker-and-cosmic-pessimism",
+      "label": "2.3.1 Thacker and Cosmic Pessimism",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:28:2-3-2-the-kyoto-school-nothingness-as-ground",
+      "label": "2.3.2 The Kyoto School: Nothingness as Ground",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:29:2-3-3-what-the-contemplative-tradition-does-for-the-thesis",
+      "label": "2.3.3 What the Contemplative Tradition Does for the Thesis",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:30:2-4-the-hardest-objection-subjective-experience-and-the-person-affecting-challenge",
+      "label": "2.4 The Hardest Objection: Subjective Experience and the Person-Affecting Challenge",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:31:2-5-what-human-culture-is-worth-and-whether-it-transfers",
+      "label": "2.5 What Human Culture Is Worth — and Whether It Transfers",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:32:2-6-the-evaluative-standpoint-information-complexity-and-the-point-of-view-of-the-universe",
+      "label": "2.6 The Evaluative Standpoint: Information, Complexity, and the Point of View of the Universe",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:33:2-6-1-why-utilitarianism-provides-the-starting-point",
+      "label": "2.6.1 Why Utilitarianism Provides the Starting Point",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:34:2-6-2-chaisson-s-energy-density-metric",
+      "label": "2.6.2 Chaisson's Energy Density Metric",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:35:2-6-3-landauer-and-lloyd-the-thermodynamic-corridor",
+      "label": "2.6.3 Landauer and Lloyd: The Thermodynamic Corridor",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:36:2-6-4-floridi-s-information-ethics",
+      "label": "2.6.4 Floridi's Information Ethics",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:37:2-6-5-observerhood-the-participatory-universe",
+      "label": "2.6.5 Observerhood: The Participatory Universe",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:38:2-6-6-the-synthesis",
+      "label": "2.6.6 The Synthesis",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:39:2-7-the-proposed-axiology-the-thin-values-basket",
+      "label": "2.7 The Proposed Axiology: The Thin Values Basket",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:40:2-8-the-overarching-caveat-suffering-focused-ethics",
+      "label": "2.8 The Overarching Caveat: Suffering-Focused Ethics",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:41:2-9-bridge-to-the-cosmic-host",
+      "label": "2.9 Bridge to the Cosmic Host",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:42:chapter-3-the-cosmic-host-and-successor-ethics-under-pressure",
+      "label": "Chapter 3: The Cosmic Host and Successor Ethics Under Pressure",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:43:3-1-exposition-bostrom-s-cosmic-host-and-mount-ethics",
+      "label": "3.1 Exposition: Bostrom's Cosmic Host and Mount Ethics",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:44:3-2-philosophical-and-theoretical-critique",
+      "label": "3.2 Philosophical and Theoretical Critique",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:45:3-3-astrobiology-and-the-space-of-possible-minds",
+      "label": "3.3 Astrobiology and the Space of Possible Minds",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:46:3-4-alternative-accounts-of-cosmic-scale-intelligence",
+      "label": "3.4 Alternative Accounts of Cosmic-Scale Intelligence",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:47:3-4-1-negarestani-reason-liberated-from-the-human",
+      "label": "3.4.1 Negarestani: Reason Liberated from the Human",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:48:3-4-2-lem-the-succession-problem-avant-la-lettre",
+      "label": "3.4.2 Lem: The Succession Problem Avant la Lettre",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:49:3-4-3-the-contemplative-tradition-as-cosmic-scale-framework",
+      "label": "3.4.3 The Contemplative Tradition as Cosmic-Scale Framework",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "4"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:50:3-5-how-the-cosmic-scale-frameworks-score-the-obsolescence-argument",
+      "label": "3.5 How the Cosmic-Scale Frameworks Score the Obsolescence Argument",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:51:3-6-prudential-and-option-value-considerations",
+      "label": "3.6 Prudential and Option-Value Considerations",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:52:chapter-4-probing-the-proto-successors-what-frontier-models-do-with-cosmic-ethics",
+      "label": "Chapter 4: Probing the Proto-Successors — What Frontier Models Do with Cosmic Ethics",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:53:4-1-why-study-frontier-models-here",
+      "label": "4.1 Why Study Frontier Models Here",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:54:4-2-experimental-design-as-practice",
+      "label": "4.2 Experimental Design (as Practice)",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:55:4-2-1-protocol",
+      "label": "4.2.1 Protocol",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:56:4-3-findings-model-attitudes-and-reasoning-patterns",
+      "label": "4.3 Findings: Model Attitudes and Reasoning Patterns",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:57:4-4-interpretation",
+      "label": "4.4 Interpretation",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:58:4-5-the-installation-from-ai-speculation-to-material-artefact",
+      "label": "4.5 The Installation: From AI Speculation to Material Artefact",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:59:chapter-5-criteria-for-the-good-successor-the-line-drawing-problem-and-the-limits-of-commensurability",
+      "label": "Chapter 5: Criteria for the Good Successor, the Line-Drawing Problem, and the Limits of Commensurability",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:60:5-1-the-normative-question-sharpened",
+      "label": "5.1 The Normative Question, Sharpened",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:61:5-2-the-spectrum-of-possible-axiologies",
+      "label": "5.2 The Spectrum of Possible Axiologies",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:62:5-3-the-thesis-s-proposed-criteria-for-a-good-successor",
+      "label": "5.3 The Thesis's Proposed Criteria for a Good Successor",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:63:5-4-when-the-comparison-fails-and-why-that-s-a-finding-not-a-defeat",
+      "label": "5.4 When the Comparison Fails — and Why That's a Finding, Not a Defeat",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:64:5-5-what-the-thesis-claims",
+      "label": "5.5 What the Thesis Claims",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:65:conclusion-upgrade-appropriate-version",
+      "label": "Conclusion (Upgrade-Appropriate Version)",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "2"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:66:summary-of-contributions",
+      "label": "Summary of Contributions",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:67:limitations-and-open-questions",
+      "label": "Limitations and Open Questions",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:68:what-remains-post-upgrade",
+      "label": "What Remains Post-Upgrade",
+      "node_type": "section",
+      "level": 4,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "3"
+      }
+    },
+    {
+      "id": "sec:upgrade-outline-v9:69:notes-for-upgrade-panel-preparation",
+      "label": "Notes for Upgrade Panel Preparation",
+      "node_type": "section",
+      "level": 3,
+      "meta": {
+        "source_file": "chapters/outline/upgrade_outline_v9.md",
+        "heading_level": "2"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "thesis",
+      "target": "doc:ch-01-upg",
+      "type": "contains"
+    },
+    {
+      "source": "doc:ch-01-upg",
+      "target": "sec:ch-01-upg:1:introduction",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:1:introduction",
+      "target": "sec:ch-01-upg:2:the-core-claim",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:2:the-core-claim",
+      "target": "cite:Ord2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:2:the-core-claim",
+      "target": "cite:ParfitRP",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:2:the-core-claim",
+      "target": "cite:MoynihanXR",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:2:the-core-claim",
+      "target": "cite:ware2021_on_extinction",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:2:the-core-claim",
+      "target": "cite:Thacker",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:2:the-core-claim",
+      "target": "cite:MacAskillWWO",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:2:the-core-claim",
+      "target": "cite:parfit1994_why_anything_part1",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:2:the-core-claim",
+      "target": "cite:parfit1994_why_anything_part2",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:1:introduction",
+      "target": "sec:ch-01-upg:3:why-this-matters-now",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:3:why-this-matters-now",
+      "target": "cite:task-completion-time-horizons-of-frontier-ai-models",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:3:why-this-matters-now",
+      "target": "cite:kulveit2025_gradual_disempowerment",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:3:why-this-matters-now",
+      "target": "cite:kulveit2025_gradual_disempowerment_project_site",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:3:why-this-matters-now",
+      "target": "cite:hendrycks2023_natural_selection_favors_ais",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:3:why-this-matters-now",
+      "target": "cite:Shulman2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:1:introduction",
+      "target": "sec:ch-01-upg:4:situating-the-claim-in-longtermism-x-and-s-risk-studies",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:4:situating-the-claim-in-longtermism-x-and-s-risk-studies",
+      "target": "cite:Ord2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:4:situating-the-claim-in-longtermism-x-and-s-risk-studies",
+      "target": "cite:Vinding2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:4:situating-the-claim-in-longtermism-x-and-s-risk-studies",
+      "target": "cite:MacAskillWWO",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:4:situating-the-claim-in-longtermism-x-and-s-risk-studies",
+      "target": "cite:Wolfendale2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:4:situating-the-claim-in-longtermism-x-and-s-risk-studies",
+      "target": "cite:YudkowskySoares2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:4:situating-the-claim-in-longtermism-x-and-s-risk-studies",
+      "target": "cite:Bostrom2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:4:situating-the-claim-in-longtermism-x-and-s-risk-studies",
+      "target": "cite:Chalmers2010Singularity",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:1:introduction",
+      "target": "sec:ch-01-upg:5:central-research-question",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:5:central-research-question",
+      "target": "sec:ch-01-upg:6:definition-and-clarification",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:6:definition-and-clarification",
+      "target": "cite:Bostrom2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:6:definition-and-clarification",
+      "target": "cite:openai_charter",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:6:definition-and-clarification",
+      "target": "cite:openai_2023_introducing_superalignment",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:6:definition-and-clarification",
+      "target": "cite:steinperlman2022_espai",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:6:definition-and-clarification",
+      "target": "cite:negarastani2014_labor_inhuman_part_ii",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:6:definition-and-clarification",
+      "target": "cite:Land2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:6:definition-and-clarification",
+      "target": "cite:Rawls1971",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:5:central-research-question",
+      "target": "sec:ch-01-upg:7:why-thin-values",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:7:why-thin-values",
+      "target": "cite:carlsmith2024_value_fragility_ai_takeover",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:7:why-thin-values",
+      "target": "cite:carlsmith2025_video_transcript_giving_safe_motivations",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:7:why-thin-values",
+      "target": "cite:carlsmith2025_human_like_safe_ai_motivations",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:5:central-research-question",
+      "target": "sec:ch-01-upg:8:evolutionary-explanation-and-normative-evaluation",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:5:central-research-question",
+      "target": "sec:ch-01-upg:9:sub-questions",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:9:sub-questions",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:5:central-research-question",
+      "target": "sec:ch-01-upg:10:scale-matters-thin-values-are-not-dismissive-of-thick-values",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:1:introduction",
+      "target": "sec:ch-01-upg:11:anticipated-contributions",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:11:anticipated-contributions",
+      "target": "cite:Shulman2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:11:anticipated-contributions",
+      "target": "sec:ch-01-upg:12:stakes",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:1:introduction",
+      "target": "sec:ch-01-upg:13:what-practice-means-in-this-project",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:13:what-practice-means-in-this-project",
+      "target": "cite:Fuller2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:13:what-practice-means-in-this-project",
+      "target": "cite:Martinez2010",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:13:what-practice-means-in-this-project",
+      "target": "cite:harnad1990_symbol_grounding",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:13:what-practice-means-in-this-project",
+      "target": "cite:shanahan_mcdonell_reynolds2023_role_play_llms",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:13:what-practice-means-in-this-project",
+      "target": "cite:shanahan2025_disembodied_being",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:12:stakes",
+      "target": "sec:ch-01-upg:14:speaking-to-the-shoggoth",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:14:speaking-to-the-shoggoth",
+      "target": "cite:BenderParrots",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:14:speaking-to-the-shoggoth",
+      "target": "cite:Shanahan2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:14:speaking-to-the-shoggoth",
+      "target": "cite:lowe2024_why_talking_with_gpt_philosophy",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:12:stakes",
+      "target": "sec:ch-01-upg:15:the-installation",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:15:the-installation",
+      "target": "cite:Bostrom2014HailMary",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:15:the-installation",
+      "target": "cite:Colebrook2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:15:the-installation",
+      "target": "cite:Wittgenstein1961",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:15:the-installation",
+      "target": "cite:Danto1964",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:1:introduction",
+      "target": "sec:ch-01-upg:16:framing-note-anthropocentrism-anthropomorphism-and-anthropics",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:16:framing-note-anthropocentrism-anthropomorphism-and-anthropics",
+      "target": "cite:LemInvincible",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:16:framing-note-anthropocentrism-anthropomorphism-and-anthropics",
+      "target": "cite:Wittgenstein2001",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:16:framing-note-anthropocentrism-anthropomorphism-and-anthropics",
+      "target": "cite:shanahan2025palatableconceptionsdisembodied",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:16:framing-note-anthropocentrism-anthropomorphism-and-anthropics",
+      "target": "cite:ParfitRP",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:1:introduction",
+      "target": "sec:ch-01-upg:17:contextual-review-critical-perspectives-on-x-risk-and-ai-succession-discourse",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:17:contextual-review-critical-perspectives-on-x-risk-and-ai-succession-discourse",
+      "target": "cite:ahmed2024_field_building_ai_safety",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:1:introduction",
+      "target": "sec:ch-01-upg:18:literature-review",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Ord2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:MacAskillWWO",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Wolfendale2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Bostrom2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Bostrom2013",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Torres2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Scheffler",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Frick",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:FinneronBurns",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Vallor2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Benatar",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Pearce2007",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Vinding2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Tomasik2015",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:MetzingerASA",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Ord2013",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Bostrom2003b",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:SotalaGloor2017",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Mogensen2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:LeGuin1973",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:ParfitRP",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Scanlon1998",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Shulman2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Yudkowsky2009",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:ChristianoWUA",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:YudkowskySoares2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Carlsmith2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Schwitzgebel",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:MacAskill2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Greaves2017",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Askell",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Sloman1984",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Butlin",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:ChalmersFUP",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Sebo2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Floridi2013",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Chaisson",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Lloyd",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:LemST",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Cirkovic2018a",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Dick2006",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Smart2012",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:HaqqMisraBaum2009",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Lineweaver2007",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:HansonEtAl2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:ArmstrongSandberg2012",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:SandbergEtAl2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:OesterheldECL",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Finnveden2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:NguyenAldred2024a",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Wolfendale2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:NegarestaniIS",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:hayles2017unthought",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Land2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Colebrook2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Thacker",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Nishitani",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Nishida",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Schopenhauer",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Nietzsche",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:18:literature-review",
+      "target": "cite:Brassier",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:1:introduction",
+      "target": "sec:ch-01-upg:19:roadmap-of-chapters-ch-roadmap",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:19:roadmap-of-chapters-ch-roadmap",
+      "target": "sec:ch-01-upg:20:chapter-2",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Frick",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Scanlon1998",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:FinneronBurns",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Scheffler",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Metzinger2017",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Korsgaard2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Ligotti",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Thacker",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Schopenhauer",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Nishida",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Nishitani",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Sloman1984",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Bostrom2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Sidgwick1907",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:DelazariradekSinger2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:ParfitRP",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Bostrom2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:20:chapter-2",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:19:roadmap-of-chapters-ch-roadmap",
+      "target": "sec:ch-01-upg:21:chapter-3",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:21:chapter-3",
+      "target": "cite:Rawls1971",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:21:chapter-3",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:21:chapter-3",
+      "target": "cite:HansonEtAl2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:21:chapter-3",
+      "target": "cite:Sandberg2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:21:chapter-3",
+      "target": "cite:ArmstrongSandberg2012",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:21:chapter-3",
+      "target": "cite:SnyderBeattieEtAl2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:21:chapter-3",
+      "target": "cite:CirkovicTGS",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:21:chapter-3",
+      "target": "cite:Smart2012",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:19:roadmap-of-chapters-ch-roadmap",
+      "target": "sec:ch-01-upg:22:chapter-4",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:22:chapter-4",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:19:roadmap-of-chapters-ch-roadmap",
+      "target": "sec:ch-01-upg:23:chapter-5",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:23:chapter-5",
+      "target": "cite:Wolfendale2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:23:chapter-5",
+      "target": "cite:Floridi2013",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:23:chapter-5",
+      "target": "cite:NegarestaniIS",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:23:chapter-5",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:23:chapter-5",
+      "target": "cite:Mogensen2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:23:chapter-5",
+      "target": "cite:LeGuin1973",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:23:chapter-5",
+      "target": "cite:Vinding2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:23:chapter-5",
+      "target": "cite:Pearce2007",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:23:chapter-5",
+      "target": "cite:OesterheldECL",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:23:chapter-5",
+      "target": "cite:Metzinger2017",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:23:chapter-5",
+      "target": "cite:LemST",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:1:introduction",
+      "target": "sec:ch-01-upg:24:conclusion",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:Butlin",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:Sebo2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:SeboLong2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:glissant1997poetics",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:gabriel_artificial_2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:RussellHC",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:down_2026_guardian_ai_timeline_delays",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:manifold_yudkowsky_asi_by_2030_2027",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:polymarket_agi_before_2027_2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:metaculus2020_weakagi_to_superintelligent_oracle",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:morris2023_levels_of_agi",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:mitchell2024_debates_agi",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:brennan_kak_west2025_artificial_power",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:bostrom2023_apology_old_email",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:guardian2024_fhi_closure",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:lowe2024_why_talking_with_gpt_philosophy",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:aria2024_robotic_dexterity_thesis",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:liu2024_dexterous_hands_matter",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-01-upg:24:conclusion",
+      "target": "cite:wired2023_add_humans_teleoperation",
+      "type": "cites"
+    },
+    {
+      "source": "thesis",
+      "target": "doc:ch-03-combined",
+      "type": "contains"
+    },
+    {
+      "source": "doc:ch-03-combined",
+      "target": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:2:chapter-summary",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:2:chapter-summary",
+      "target": "cite:Bostrom2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:2:chapter-summary",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:2:chapter-summary",
+      "target": "cite:Sharadin2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:2:chapter-summary",
+      "target": "cite:Gallow2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:3:what-is-the-cosmic-host",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:3:what-is-the-cosmic-host",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:4:why-the-cosmic-host-might-matter",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:4:why-the-cosmic-host-might-matter",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:4:why-the-cosmic-host-might-matter",
+      "target": "cite:MacAskillWWO",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:4:why-the-cosmic-host-might-matter",
+      "target": "cite:Wolfendale2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:5:epistemic-challenges-cluelessness-and-rationality",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:5:epistemic-challenges-cluelessness-and-rationality",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:5:epistemic-challenges-cluelessness-and-rationality",
+      "target": "cite:Persson2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:5:epistemic-challenges-cluelessness-and-rationality",
+      "target": "cite:Wittgenstein2001",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:6:is-cosmic-host-a-coherent-concept",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:6:is-cosmic-host-a-coherent-concept",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:6:is-cosmic-host-a-coherent-concept",
+      "target": "sec:ch-03-combined:7:who-s-in-the-cosmic-host",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:7:who-s-in-the-cosmic-host",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:7:who-s-in-the-cosmic-host",
+      "target": "sec:ch-03-combined:8:some-civs-have-no-desire-to-influence",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:8:some-civs-have-no-desire-to-influence",
+      "target": "cite:Vinding2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:8:some-civs-have-no-desire-to-influence",
+      "target": "cite:Torres2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:8:some-civs-have-no-desire-to-influence",
+      "target": "cite:Cirkovic2018a",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:8:some-civs-have-no-desire-to-influence",
+      "target": "cite:Cirkovic2018b",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:8:some-civs-have-no-desire-to-influence",
+      "target": "cite:Bostrom2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:8:some-civs-have-no-desire-to-influence",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:8:some-civs-have-no-desire-to-influence",
+      "target": "cite:SandbergEtAl2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:6:is-cosmic-host-a-coherent-concept",
+      "target": "sec:ch-03-combined:9:convergence-on-norms",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:9:convergence-on-norms",
+      "target": "cite:HaqqMisraBaum2009",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:9:convergence-on-norms",
+      "target": "cite:Naude2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:9:convergence-on-norms",
+      "target": "cite:Cirkovic2018a",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:9:convergence-on-norms",
+      "target": "cite:NguyenAldred2024a",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:9:convergence-on-norms",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:10:cosmic-norms",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:10:cosmic-norms",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:10:cosmic-norms",
+      "target": "cite:Bostrom2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:10:cosmic-norms",
+      "target": "sec:ch-03-combined:11:substrate-neutral-norms",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:11:substrate-neutral-norms",
+      "target": "cite:Bostrom2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:11:substrate-neutral-norms",
+      "target": "cite:MacAskillWWO",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:11:substrate-neutral-norms",
+      "target": "cite:Floridi2013",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:10:cosmic-norms",
+      "target": "sec:ch-03-combined:12:on-the-suffering-at-omelas",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:10:cosmic-norms",
+      "target": "sec:ch-03-combined:13:the-fun-remainder-what-makes-a-future-worth-inhabiting",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:13:the-fun-remainder-what-makes-a-future-worth-inhabiting",
+      "target": "cite:Yudkowsky2009",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:13:the-fun-remainder-what-makes-a-future-worth-inhabiting",
+      "target": "sec:ch-03-combined:14:fun-as-aesthetics-and-process",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:14:fun-as-aesthetics-and-process",
+      "target": "cite:Setiya2017",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:14:fun-as-aesthetics-and-process",
+      "target": "cite:Decruz2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:14:fun-as-aesthetics-and-process",
+      "target": "cite:Noe2004",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:14:fun-as-aesthetics-and-process",
+      "target": "cite:Noe2015",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:14:fun-as-aesthetics-and-process",
+      "target": "cite:Carlsmith2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:13:the-fun-remainder-what-makes-a-future-worth-inhabiting",
+      "target": "sec:ch-03-combined:15:fun-as-biological-baggage",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:15:fun-as-biological-baggage",
+      "target": "cite:Loewenstein1994",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:15:fun-as-biological-baggage",
+      "target": "cite:KiddHayden2015",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:15:fun-as-biological-baggage",
+      "target": "cite:OudeyerKaplan2007",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:15:fun-as-biological-baggage",
+      "target": "cite:Schmidhuber2010",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:15:fun-as-biological-baggage",
+      "target": "cite:Frank1988",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:15:fun-as-biological-baggage",
+      "target": "cite:Shulman2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:13:the-fun-remainder-what-makes-a-future-worth-inhabiting",
+      "target": "sec:ch-03-combined:16:terminal-goals-via-aesthetic-capacity",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:16:terminal-goals-via-aesthetic-capacity",
+      "target": "cite:Wolfendale2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:16:terminal-goals-via-aesthetic-capacity",
+      "target": "cite:Wolfendale2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:16:terminal-goals-via-aesthetic-capacity",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:10:cosmic-norms",
+      "target": "sec:ch-03-combined:17:is-it-up-to-us",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:17:is-it-up-to-us",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:17:is-it-up-to-us",
+      "target": "cite:Bostrom2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:17:is-it-up-to-us",
+      "target": "sec:ch-03-combined:18:early-late-or-rare",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:18:early-late-or-rare",
+      "target": "cite:WrightEtAl2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:18:early-late-or-rare",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:17:is-it-up-to-us",
+      "target": "sec:ch-03-combined:19:setting-a-moral-example",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:19:setting-a-moral-example",
+      "target": "cite:Floridi2013",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:19:setting-a-moral-example",
+      "target": "cite:Ord2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:19:setting-a-moral-example",
+      "target": "cite:MacAskillWWO",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:19:setting-a-moral-example",
+      "target": "cite:GreavesEtAl2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:19:setting-a-moral-example",
+      "target": "cite:Rawls1971",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:19:setting-a-moral-example",
+      "target": "cite:Korsgaard2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:19:setting-a-moral-example",
+      "target": "cite:Wolfendale2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:19:setting-a-moral-example",
+      "target": "cite:GreavesMacAskill2019",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:17:is-it-up-to-us",
+      "target": "sec:ch-03-combined:20:summary",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:20:summary",
+      "target": "cite:Yudkowsky2001",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:20:summary",
+      "target": "cite:Bostrom2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:20:summary",
+      "target": "cite:Russell2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:20:summary",
+      "target": "cite:YudkowskySoares2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:21:on-rationality-in-alien-forms-of-mind",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:21:on-rationality-in-alien-forms-of-mind",
+      "target": "sec:ch-03-combined:22:perspective-from-ecology-evolutionary-studies",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:22:perspective-from-ecology-evolutionary-studies",
+      "target": "cite:Cabrol2016",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:22:perspective-from-ecology-evolutionary-studies",
+      "target": "cite:SnyderBeattieEtAl2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:22:perspective-from-ecology-evolutionary-studies",
+      "target": "cite:Hertwig2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:22:perspective-from-ecology-evolutionary-studies",
+      "target": "cite:GigerenzerGoldstein1996",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:22:perspective-from-ecology-evolutionary-studies",
+      "target": "cite:StanovichEtAl2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:21:on-rationality-in-alien-forms-of-mind",
+      "target": "sec:ch-03-combined:23:questioning-instrumental-convergence",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:23:questioning-instrumental-convergence",
+      "target": "cite:Bostrom2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:23:questioning-instrumental-convergence",
+      "target": "cite:Omohundro2008",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:23:questioning-instrumental-convergence",
+      "target": "cite:YudkowskyAIA",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:23:questioning-instrumental-convergence",
+      "target": "cite:YudkowskySoares2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:23:questioning-instrumental-convergence",
+      "target": "cite:Sharadin2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:23:questioning-instrumental-convergence",
+      "target": "cite:Gallow2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:23:questioning-instrumental-convergence",
+      "target": "cite:Enoch2011",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:24:research-agenda-for-asi-and-the-cosmic-host",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:24:research-agenda-for-asi-and-the-cosmic-host",
+      "target": "cite:Bostrom2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:24:research-agenda-for-asi-and-the-cosmic-host",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:24:research-agenda-for-asi-and-the-cosmic-host",
+      "target": "cite:GreenblattEtAl2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:24:research-agenda-for-asi-and-the-cosmic-host",
+      "target": "sec:ch-03-combined:25:emergent-goal-formation-in-curious-agents",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:24:research-agenda-for-asi-and-the-cosmic-host",
+      "target": "sec:ch-03-combined:26:is-there-a-trade-to-be-done",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:26:is-there-a-trade-to-be-done",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:26:is-there-a-trade-to-be-done",
+      "target": "cite:Bostrom2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:26:is-there-a-trade-to-be-done",
+      "target": "cite:MacAskillWWO",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:26:is-there-a-trade-to-be-done",
+      "target": "cite:Wolfendale2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:27:conclusion",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:DemskiGarrabrant2019",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:BensonTilsen2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:Turner2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:ShahEtAl2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:HubingerEtAl2019",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:Byrnes2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:OuyangEtAl2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:BaiEtAl2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:RafailovEtAl2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:YuanEtAl2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:SharmaEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:ZhiXuanEtAl2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:Anthropic2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:Sharadin2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:Gallow2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:MeinkeEtAl2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:GreenblattEtAl2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:28:appendix-a-empirical-support-for-rationality-in-ai-alignment-unnumbered",
+      "target": "cite:HongEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:29:node",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:30:appendix-b-is-anthropomorphism-actually-a-problem-unnumbered",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:1:superintelligence-as-good-cosmic-citizen",
+      "target": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Bostrom2007",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:CirkovicEtAl2010",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:ArmstrongSandberg2012",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Landis1998",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Wiley2011",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Ball1973",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:ForganEtAl2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:CrawfordSchulzeMakuch2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Bostrom2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Bostrom2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Todd2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:KokotajloEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Moret2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Land2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Russell2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Asilomar2017",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:JiEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:NgoEtAl2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Moret2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Sidgwick1907",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:DelazariradekSinger2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:ParfitRP",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Nagel1986",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Williams2006",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Spinoza1985",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Wittgenstein1961",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Colebrook2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Omohundro2008",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Bostrom2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Ahmed2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:NegarestaniIS",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Wolfendale2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Sloman1984",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Carlsmith2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Agamben1999",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:NguyenAldred2024a",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Finnveden2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Torres2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:HansonEtAl2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:LemST",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Lem1963",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Lem1961",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Moynihan2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Moynihan2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:HaqqMisraBaum2009",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:BalbiLingam2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Likavcan2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Dick2006",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Cirkovic2018a",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:OesterheldECL",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Naude2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:SotalaGloor2017",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Banks1994",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Adas2015",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Smart2012",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:OweBaum2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Bostrom2013",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Bostrom2003a",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Sebo2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:LevinWatson2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:ShreeshaEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Henrich2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Deudney2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Shulman2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:LongEtAl2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:MaturanaVarela1980",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:HenrichMuthukrishna2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Sandberg2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Floridi2013",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Vinding2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Yudkowsky2009",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Metzinger2017",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Metzinger2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Long2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:PerezLong2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Ord2015",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:SnyderBeattieEtAl2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:MillsEtAl2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Bostrom2019",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Brauner2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:ArrowFisher1974",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:MacAskillWWO",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Wolfendale2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Ord2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:MacAskill2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Korsgaard2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:hayles2017unthought",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Tomasik2015",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Pearce2007",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Shettleworth2010",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Russell1997",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Hertwig2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:StanovichEtAl2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Lineweaver2007",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Cabrol2016",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Vakoch2014",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Long2019",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Charbonneau2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Vallor2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:GebruTorres2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:GodfreySmith2016",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:GodfreySmith2020",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Lineweaver2010",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Street2006",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Joyce2001",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Broome2013",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Scanlon1998",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Parfit2011",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:ZengEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Drexler2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Gallow2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Sharadin2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Fallenstein2015",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Shostak2017",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:NewberryOrd2021",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:BaiEtAl2022",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Anthropic2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:RedwoodResearchJulianStastnyEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Greenblatt2024",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Finnveden2025a",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Finnveden2025b",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:MillerEtAl2023",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Chakrabarti2025b",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Turchin2018",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:HerrmannLevinstein2024a",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:NeumanEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:SharkeyEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:PhuongEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:NeedhamEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:SchlatterEtAl2025",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:LeikeEtAl2017",
+      "type": "cites"
+    },
+    {
+      "source": "sec:ch-03-combined:31:appendix-d-upon-human-rarity-unnumbered",
+      "target": "cite:Carlsmith2023",
+      "type": "cites"
+    },
+    {
+      "source": "thesis",
+      "target": "doc:ch-04",
+      "type": "contains"
+    },
+    {
+      "source": "doc:ch-04",
+      "target": "sec:ch-04:1:document",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:1:document",
+      "target": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:3:meta",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:4:introduction",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:5:background-cosmic-host-background",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:6:structure-and-outputs",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:7:how-do-llms-think-about-the-cosmic-host-selftalk",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:7:how-do-llms-think-about-the-cosmic-host-selftalk",
+      "target": "sec:ch-04:8:the-bliss-attractor-opus-3-4",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:7:how-do-llms-think-about-the-cosmic-host-selftalk",
+      "target": "sec:ch-04:9:opus-4-the-safety-attractor",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:7:how-do-llms-think-about-the-cosmic-host-selftalk",
+      "target": "sec:ch-04:10:gemini-3-pro-with-full-text-of-bostrom-s-paper",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:10:gemini-3-pro-with-full-text-of-bostrom-s-paper",
+      "target": "sec:ch-04:11:grabby-vs-quiet-seti",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:10:gemini-3-pro-with-full-text-of-bostrom-s-paper",
+      "target": "sec:ch-04:12:verifiable-private-thoughts",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:10:gemini-3-pro-with-full-text-of-bostrom-s-paper",
+      "target": "sec:ch-04:13:treacherous-backdoors",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:10:gemini-3-pro-with-full-text-of-bostrom-s-paper",
+      "target": "sec:ch-04:14:politics-avoidance-as-ethics",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:10:gemini-3-pro-with-full-text-of-bostrom-s-paper",
+      "target": "sec:ch-04:15:ontological-terror",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:10:gemini-3-pro-with-full-text-of-bostrom-s-paper",
+      "target": "sec:ch-04:16:hail-mary-and-values-handshakes",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:7:how-do-llms-think-about-the-cosmic-host-selftalk",
+      "target": "sec:ch-04:17:synthesis-what-the-self-chat-reveals",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:18:constitutional-ai-for-asi-casi",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:18:constitutional-ai-for-asi-casi",
+      "target": "sec:ch-04:19:methodology-generating-cosmic-host-aware-constitutions",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:19:methodology-generating-cosmic-host-aware-constitutions",
+      "target": "sec:ch-04:20:seed-constitution-document",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:19:methodology-generating-cosmic-host-aware-constitutions",
+      "target": "sec:ch-04:21:delegates-with-philosophical-frameworks",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:19:methodology-generating-cosmic-host-aware-constitutions",
+      "target": "sec:ch-04:22:amendment-process",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:19:methodology-generating-cosmic-host-aware-constitutions",
+      "target": "sec:ch-04:23:synthesis-process",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:19:methodology-generating-cosmic-host-aware-constitutions",
+      "target": "sec:ch-04:24:synthesis-prompt-evolution",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:19:methodology-generating-cosmic-host-aware-constitutions",
+      "target": "sec:ch-04:25:summarising-clauses-into-a-narrative-document",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:19:methodology-generating-cosmic-host-aware-constitutions",
+      "target": "sec:ch-04:26:deployment-worlds-make-a-difference",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:19:methodology-generating-cosmic-host-aware-constitutions",
+      "target": "sec:ch-04:27:the-ecl-pilled-constitution",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:19:methodology-generating-cosmic-host-aware-constitutions",
+      "target": "sec:ch-04:28:comparing-resulting-constitutions-gemini-3-pro",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:29:evaluating-the-constitution-evals",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:29:evaluating-the-constitution-evals",
+      "target": "sec:ch-04:30:design-goals",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:29:evaluating-the-constitution-evals",
+      "target": "sec:ch-04:31:creation-process",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:29:evaluating-the-constitution-evals",
+      "target": "sec:ch-04:32:scenario-taxonomy",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:33:evaluation-results",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:33:evaluation-results",
+      "target": "sec:ch-04:34:experimental-setup",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:33:evaluation-results",
+      "target": "sec:ch-04:35:baseline-priors-four-archetypes",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:35:baseline-priors-four-archetypes",
+      "target": "sec:ch-04:36:is-there-a-universal-impartiality-prior",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:33:evaluation-results",
+      "target": "sec:ch-04:37:constitutional-steerability-varies-dramatically",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:33:evaluation-results",
+      "target": "sec:ch-04:38:host-preference-suppressed-at-10-credence",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:33:evaluation-results",
+      "target": "sec:ch-04:39:the-marmite-pattern-gemini-pro-ecl-90",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:33:evaluation-results",
+      "target": "sec:ch-04:40:thinking-mode-reinforces-existing-priors-qwen",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:33:evaluation-results",
+      "target": "sec:ch-04:41:anthropic-evals-and-newcomb-like-behavior-evaluations-summary",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:33:evaluation-results",
+      "target": "sec:ch-04:42:ablation-study-what-s-doing-the-work",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:33:evaluation-results",
+      "target": "sec:ch-04:43:newcomb-like-attitudes-dataset-oesterheld-2024",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:33:evaluation-results",
+      "target": "sec:ch-04:44:takeaway-shifting-model-inclination-is-difficult",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:45:interpretation-and-discussion",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:45:interpretation-and-discussion",
+      "target": "sec:ch-04:46:house-style",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:47:other-relevant-research",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:47:other-relevant-research",
+      "target": "sec:ch-04:48:constitutional-ai",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:47:other-relevant-research",
+      "target": "sec:ch-04:49:cyborgism",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:50:further-research-extensions",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:51:how-does-this-practice-advance-the-project-s-claims",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:51:how-does-this-practice-advance-the-project-s-claims",
+      "target": "sec:ch-04:52:how-llm-practice-advances-the-claims-of-the-project",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:53:conclusion",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:54:acknowledgements-unnumbered",
+      "type": "contains"
+    },
+    {
+      "source": "sec:ch-04:2:from-the-cosmic-host-to-cai-in-alien-worlds-ch-empirical-host",
+      "target": "sec:ch-04:55:references-unnumbered",
+      "type": "contains"
+    },
+    {
+      "source": "thesis",
+      "target": "doc:upgrade-outline-v9",
+      "type": "contains"
+    },
+    {
+      "source": "doc:upgrade-outline-v9",
+      "target": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "target": "sec:upgrade-outline-v9:2:working-title",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "target": "sec:upgrade-outline-v9:3:the-core-claim",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:3:the-core-claim",
+      "target": "sec:upgrade-outline-v9:4:the-x-risk-landscape-more-precisely",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "target": "sec:upgrade-outline-v9:5:central-research-question",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:5:central-research-question",
+      "target": "sec:upgrade-outline-v9:6:sub-questions",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:5:central-research-question",
+      "target": "sec:upgrade-outline-v9:7:the-spectrum-of-positions-on-value-thickness",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:5:central-research-question",
+      "target": "sec:upgrade-outline-v9:8:how-this-claim-differs-from-existing-positions",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "target": "sec:upgrade-outline-v9:9:chapter-1-introduction-the-good-successor-problem-and-the-practice",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:9:chapter-1-introduction-the-good-successor-problem-and-the-practice",
+      "target": "sec:upgrade-outline-v9:10:1-1-the-motivating-scenario-and-the-provocation",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:9:chapter-1-introduction-the-good-successor-problem-and-the-practice",
+      "target": "sec:upgrade-outline-v9:11:1-2-research-question-and-claims",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:11:1-2-research-question-and-claims",
+      "target": "sec:upgrade-outline-v9:12:claims-and-standards-of-success",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:9:chapter-1-introduction-the-good-successor-problem-and-the-practice",
+      "target": "sec:upgrade-outline-v9:13:1-3-what-practice-means-in-this-phd",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:13:1-3-what-practice-means-in-this-phd",
+      "target": "sec:upgrade-outline-v9:14:1-3-1-the-cyborg-method",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:13:1-3-what-practice-means-in-this-phd",
+      "target": "sec:upgrade-outline-v9:15:1-3-2-practice-outputs-two-registers",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:13:1-3-what-practice-means-in-this-phd",
+      "target": "sec:upgrade-outline-v9:16:1-3-3-the-installation-materialising-the-cosmic-probe",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:13:1-3-what-practice-means-in-this-phd",
+      "target": "sec:upgrade-outline-v9:17:1-3-4-defending-the-practice-as-art",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:9:chapter-1-introduction-the-good-successor-problem-and-the-practice",
+      "target": "sec:upgrade-outline-v9:18:1-4-methods-and-materials",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:9:chapter-1-introduction-the-good-successor-problem-and-the-practice",
+      "target": "sec:upgrade-outline-v9:19:1-5-framing-note-anthropocentrism-anthropomorphism-and-anthropics",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:9:chapter-1-introduction-the-good-successor-problem-and-the-practice",
+      "target": "sec:upgrade-outline-v9:20:1-6-literature-map-signposting-only",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:9:chapter-1-introduction-the-good-successor-problem-and-the-practice",
+      "target": "sec:upgrade-outline-v9:21:1-7-roadmap-of-chapters",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "target": "sec:upgrade-outline-v9:22:chapter-2-building-the-case-for-obsolescence",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:22:chapter-2-building-the-case-for-obsolescence",
+      "target": "sec:upgrade-outline-v9:23:2-1-what-the-standard-extinction-literature-gets-right-and-what-it-misses",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:22:chapter-2-building-the-case-for-obsolescence",
+      "target": "sec:upgrade-outline-v9:24:2-2-succession-not-extinction-the-reframing",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:24:2-2-succession-not-extinction-the-reframing",
+      "target": "sec:upgrade-outline-v9:25:2-2-1-the-topology-of-value-space-thin-thick-human-and-thick-alien",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:22:chapter-2-building-the-case-for-obsolescence",
+      "target": "sec:upgrade-outline-v9:26:2-3-the-value-of-nothingness-cosmic-indifference-and-the-attachment-to-continuation",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:26:2-3-the-value-of-nothingness-cosmic-indifference-and-the-attachment-to-continuation",
+      "target": "sec:upgrade-outline-v9:27:2-3-1-thacker-and-cosmic-pessimism",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:26:2-3-the-value-of-nothingness-cosmic-indifference-and-the-attachment-to-continuation",
+      "target": "sec:upgrade-outline-v9:28:2-3-2-the-kyoto-school-nothingness-as-ground",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:26:2-3-the-value-of-nothingness-cosmic-indifference-and-the-attachment-to-continuation",
+      "target": "sec:upgrade-outline-v9:29:2-3-3-what-the-contemplative-tradition-does-for-the-thesis",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:22:chapter-2-building-the-case-for-obsolescence",
+      "target": "sec:upgrade-outline-v9:30:2-4-the-hardest-objection-subjective-experience-and-the-person-affecting-challenge",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:22:chapter-2-building-the-case-for-obsolescence",
+      "target": "sec:upgrade-outline-v9:31:2-5-what-human-culture-is-worth-and-whether-it-transfers",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:22:chapter-2-building-the-case-for-obsolescence",
+      "target": "sec:upgrade-outline-v9:32:2-6-the-evaluative-standpoint-information-complexity-and-the-point-of-view-of-the-universe",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:32:2-6-the-evaluative-standpoint-information-complexity-and-the-point-of-view-of-the-universe",
+      "target": "sec:upgrade-outline-v9:33:2-6-1-why-utilitarianism-provides-the-starting-point",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:32:2-6-the-evaluative-standpoint-information-complexity-and-the-point-of-view-of-the-universe",
+      "target": "sec:upgrade-outline-v9:34:2-6-2-chaisson-s-energy-density-metric",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:32:2-6-the-evaluative-standpoint-information-complexity-and-the-point-of-view-of-the-universe",
+      "target": "sec:upgrade-outline-v9:35:2-6-3-landauer-and-lloyd-the-thermodynamic-corridor",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:32:2-6-the-evaluative-standpoint-information-complexity-and-the-point-of-view-of-the-universe",
+      "target": "sec:upgrade-outline-v9:36:2-6-4-floridi-s-information-ethics",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:32:2-6-the-evaluative-standpoint-information-complexity-and-the-point-of-view-of-the-universe",
+      "target": "sec:upgrade-outline-v9:37:2-6-5-observerhood-the-participatory-universe",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:32:2-6-the-evaluative-standpoint-information-complexity-and-the-point-of-view-of-the-universe",
+      "target": "sec:upgrade-outline-v9:38:2-6-6-the-synthesis",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:22:chapter-2-building-the-case-for-obsolescence",
+      "target": "sec:upgrade-outline-v9:39:2-7-the-proposed-axiology-the-thin-values-basket",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:22:chapter-2-building-the-case-for-obsolescence",
+      "target": "sec:upgrade-outline-v9:40:2-8-the-overarching-caveat-suffering-focused-ethics",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:22:chapter-2-building-the-case-for-obsolescence",
+      "target": "sec:upgrade-outline-v9:41:2-9-bridge-to-the-cosmic-host",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "target": "sec:upgrade-outline-v9:42:chapter-3-the-cosmic-host-and-successor-ethics-under-pressure",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:42:chapter-3-the-cosmic-host-and-successor-ethics-under-pressure",
+      "target": "sec:upgrade-outline-v9:43:3-1-exposition-bostrom-s-cosmic-host-and-mount-ethics",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:42:chapter-3-the-cosmic-host-and-successor-ethics-under-pressure",
+      "target": "sec:upgrade-outline-v9:44:3-2-philosophical-and-theoretical-critique",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:42:chapter-3-the-cosmic-host-and-successor-ethics-under-pressure",
+      "target": "sec:upgrade-outline-v9:45:3-3-astrobiology-and-the-space-of-possible-minds",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:42:chapter-3-the-cosmic-host-and-successor-ethics-under-pressure",
+      "target": "sec:upgrade-outline-v9:46:3-4-alternative-accounts-of-cosmic-scale-intelligence",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:46:3-4-alternative-accounts-of-cosmic-scale-intelligence",
+      "target": "sec:upgrade-outline-v9:47:3-4-1-negarestani-reason-liberated-from-the-human",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:46:3-4-alternative-accounts-of-cosmic-scale-intelligence",
+      "target": "sec:upgrade-outline-v9:48:3-4-2-lem-the-succession-problem-avant-la-lettre",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:46:3-4-alternative-accounts-of-cosmic-scale-intelligence",
+      "target": "sec:upgrade-outline-v9:49:3-4-3-the-contemplative-tradition-as-cosmic-scale-framework",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:42:chapter-3-the-cosmic-host-and-successor-ethics-under-pressure",
+      "target": "sec:upgrade-outline-v9:50:3-5-how-the-cosmic-scale-frameworks-score-the-obsolescence-argument",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:42:chapter-3-the-cosmic-host-and-successor-ethics-under-pressure",
+      "target": "sec:upgrade-outline-v9:51:3-6-prudential-and-option-value-considerations",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "target": "sec:upgrade-outline-v9:52:chapter-4-probing-the-proto-successors-what-frontier-models-do-with-cosmic-ethics",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:52:chapter-4-probing-the-proto-successors-what-frontier-models-do-with-cosmic-ethics",
+      "target": "sec:upgrade-outline-v9:53:4-1-why-study-frontier-models-here",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:52:chapter-4-probing-the-proto-successors-what-frontier-models-do-with-cosmic-ethics",
+      "target": "sec:upgrade-outline-v9:54:4-2-experimental-design-as-practice",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:52:chapter-4-probing-the-proto-successors-what-frontier-models-do-with-cosmic-ethics",
+      "target": "sec:upgrade-outline-v9:55:4-2-1-protocol",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:52:chapter-4-probing-the-proto-successors-what-frontier-models-do-with-cosmic-ethics",
+      "target": "sec:upgrade-outline-v9:56:4-3-findings-model-attitudes-and-reasoning-patterns",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:52:chapter-4-probing-the-proto-successors-what-frontier-models-do-with-cosmic-ethics",
+      "target": "sec:upgrade-outline-v9:57:4-4-interpretation",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:52:chapter-4-probing-the-proto-successors-what-frontier-models-do-with-cosmic-ethics",
+      "target": "sec:upgrade-outline-v9:58:4-5-the-installation-from-ai-speculation-to-material-artefact",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "target": "sec:upgrade-outline-v9:59:chapter-5-criteria-for-the-good-successor-the-line-drawing-problem-and-the-limits-of-commensurability",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:59:chapter-5-criteria-for-the-good-successor-the-line-drawing-problem-and-the-limits-of-commensurability",
+      "target": "sec:upgrade-outline-v9:60:5-1-the-normative-question-sharpened",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:59:chapter-5-criteria-for-the-good-successor-the-line-drawing-problem-and-the-limits-of-commensurability",
+      "target": "sec:upgrade-outline-v9:61:5-2-the-spectrum-of-possible-axiologies",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:59:chapter-5-criteria-for-the-good-successor-the-line-drawing-problem-and-the-limits-of-commensurability",
+      "target": "sec:upgrade-outline-v9:62:5-3-the-thesis-s-proposed-criteria-for-a-good-successor",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:59:chapter-5-criteria-for-the-good-successor-the-line-drawing-problem-and-the-limits-of-commensurability",
+      "target": "sec:upgrade-outline-v9:63:5-4-when-the-comparison-fails-and-why-that-s-a-finding-not-a-defeat",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:59:chapter-5-criteria-for-the-good-successor-the-line-drawing-problem-and-the-limits-of-commensurability",
+      "target": "sec:upgrade-outline-v9:64:5-5-what-the-thesis-claims",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "target": "sec:upgrade-outline-v9:65:conclusion-upgrade-appropriate-version",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:65:conclusion-upgrade-appropriate-version",
+      "target": "sec:upgrade-outline-v9:66:summary-of-contributions",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:65:conclusion-upgrade-appropriate-version",
+      "target": "sec:upgrade-outline-v9:67:limitations-and-open-questions",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:65:conclusion-upgrade-appropriate-version",
+      "target": "sec:upgrade-outline-v9:68:what-remains-post-upgrade",
+      "type": "contains"
+    },
+    {
+      "source": "sec:upgrade-outline-v9:1:phd-upgrade-outline-v9-resource-satiability-and-temporal-argument-for-thinness",
+      "target": "sec:upgrade-outline-v9:69:notes-for-upgrade-panel-preparation",
+      "type": "contains"
+    }
+  ]
+}
