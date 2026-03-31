@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dissertation Argument Map</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dissertation Argument Map</h1>
+      <p>Click any node to drill down through argument flow → specific points → cited sources.</p>
+    </header>
+
+    <main>
+      <section id="map-panel">
+        <svg id="map" viewBox="0 0 1200 760" aria-label="Argument mind map"></svg>
+      </section>
+
+      <aside id="detail-panel">
+        <div class="controls">
+          <button id="home-btn" type="button">Back to Thesis Root</button>
+          <button id="up-btn" type="button">Up One Level</button>
+        </div>
+
+        <h2 id="focus-title">Loading…</h2>
+        <p id="focus-meta"></p>
+
+        <div class="columns">
+          <div>
+            <h3>Children</h3>
+            <ul id="children-list"></ul>
+          </div>
+
+          <div>
+            <h3>Cited Sources</h3>
+            <ul id="sources-list"></ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Path</h3>
+          <ol id="breadcrumb"></ol>
+        </div>
+      </aside>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
