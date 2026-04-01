@@ -9,6 +9,9 @@ const breadcrumb = document.getElementById("breadcrumb");
 
 const homeBtn = document.getElementById("home-btn");
 const upBtn = document.getElementById("up-btn");
+const hierarchyBtn = document.getElementById("mode-hierarchy-btn");
+const flatBtn = document.getElementById("mode-flat-btn");
+const flatFilters = document.getElementById("flat-filters");
 
 const colors = {
   root: getCssVar("--root"),
@@ -25,7 +28,7 @@ function clear(el) {
   while (el.firstChild) el.removeChild(el.firstChild);
 }
 
-function shortLabel(label, max = 30) {
+function shortLabel(label, max = 36) {
   return label.length <= max ? label : `${label.slice(0, max - 1)}…`;
 }
 
@@ -52,7 +55,7 @@ function graphIndex(graph) {
     incoming.get(edge.target).push(edge);
   }
 
-  return { nodesById, outgoing, incoming };
+  return { nodesById, outgoing, incoming, edges: graph.edges, nodes: graph.nodes };
 }
 
 function parentOf(id, idx) {
@@ -101,7 +104,80 @@ function setList(listEl, items, onClick) {
   }
 }
 
-function drawMap(focusId, idx, onSelect) {
+function drawEdge(edgeGroup, a, b, edgeType = "contains") {
+  const path = document.createElementNS(NS, "path");
+  const mx = (a.x + b.x) / 2;
+  const my = (a.y + b.y) / 2;
+  const c1x = (a.x + mx) / 2;
+  const c1y = (a.y + my) / 2 - 16;
+  const c2x = (b.x + mx) / 2;
+  const c2y = (b.y + my) / 2 + 16;
+  path.setAttribute("d", `M ${a.x} ${a.y} C ${c1x} ${c1y}, ${c2x} ${c2y}, ${b.x} ${b.y}`);
+  path.setAttribute("class", `edge ${edgeType}`);
+  edgeGroup.appendChild(path);
+}
+
+function renderNode(group, node, pos, radius, focused, onSelect, shapeMode = "circle") {
+  const nodeClass = `node ${node.node_type}${focused ? " focus" : ""}`;
+  group.setAttribute("class", nodeClass);
+  group.style.cursor = "pointer";
+
+  let shape;
+  if (shapeMode === "shape-key") {
+    if (node.node_type === "root") {
+      shape = document.createElementNS(NS, "rect");
+      shape.setAttribute("x", pos.x - radius);
+      shape.setAttribute("y", pos.y - radius);
+      shape.setAttribute("width", radius * 2);
+      shape.setAttribute("height", radius * 2);
+      shape.setAttribute("rx", "4");
+    } else if (node.node_type === "section") {
+      shape = document.createElementNS(NS, "rect");
+      shape.setAttribute("x", pos.x - radius);
+      shape.setAttribute("y", pos.y - radius * 0.8);
+      shape.setAttribute("width", radius * 2);
+      shape.setAttribute("height", radius * 1.6);
+      shape.setAttribute("rx", "10");
+    } else if (node.node_type === "source") {
+      shape = document.createElementNS(NS, "polygon");
+      shape.setAttribute(
+        "points",
+        `${pos.x},${pos.y - radius} ${pos.x + radius},${pos.y} ${pos.x},${pos.y + radius} ${pos.x - radius},${pos.y}`,
+      );
+    } else {
+      shape = document.createElementNS(NS, "circle");
+      shape.setAttribute("cx", pos.x);
+      shape.setAttribute("cy", pos.y);
+      shape.setAttribute("r", radius);
+    }
+  } else {
+    shape = document.createElementNS(NS, "circle");
+    shape.setAttribute("cx", pos.x);
+    shape.setAttribute("cy", pos.y);
+    shape.setAttribute("r", radius);
+  }
+
+  shape.setAttribute("fill", colors[node.node_type] || "#888");
+
+  const text = document.createElementNS(NS, "text");
+  text.setAttribute("x", pos.x + radius + 8);
+  text.setAttribute("y", pos.y + radius + 12);
+  text.setAttribute("class", "node-label");
+  text.textContent = shortLabel(node.label, node.node_type === "source" ? 28 : 44);
+
+  const type = document.createElementNS(NS, "text");
+  type.setAttribute("x", pos.x + radius + 8);
+  type.setAttribute("y", pos.y + radius + 27);
+  type.setAttribute("class", "node-type");
+  type.textContent = node.node_type;
+
+  group.appendChild(shape);
+  group.appendChild(text);
+  if (!focused) group.appendChild(type);
+  group.addEventListener("click", () => onSelect(node.id));
+}
+
+function drawHierarchyMap(focusId, idx, onSelect) {
   clear(svg);
   const focusNode = idx.nodesById.get(focusId);
   if (!focusNode) return;
@@ -116,13 +192,11 @@ function drawMap(focusId, idx, onSelect) {
 
   const positions = new Map();
   positions.set(focusId, { x: cx, y: cy });
-
   if (parentId) positions.set(parentId, { x: cx, y: cy - 215 });
 
   childNodes.forEach((child, i) => {
     positions.set(child.id, polar(cx, cy, 225, i, Math.max(childNodes.length, 1)));
   });
-
   sourceNodes.forEach((source, i) => {
     positions.set(source.id, polar(cx, cy, 320, i, Math.max(sourceNodes.length, 1)));
   });
@@ -134,60 +208,66 @@ function drawMap(focusId, idx, onSelect) {
 
   const edgeGroup = document.createElementNS(NS, "g");
   svg.appendChild(edgeGroup);
-
-  function drawEdge(aId, bId) {
-    const a = positions.get(aId);
-    const b = positions.get(bId);
-    if (!a || !b) return;
-    const path = document.createElementNS(NS, "path");
-    const mx = (a.x + b.x) / 2;
-    const my = (a.y + b.y) / 2;
-    const c1x = (a.x + mx) / 2;
-    const c1y = (a.y + my) / 2 - 16;
-    const c2x = (b.x + mx) / 2;
-    const c2y = (b.y + my) / 2 + 16;
-    path.setAttribute("d", `M ${a.x} ${a.y} C ${c1x} ${c1y}, ${c2x} ${c2y}, ${b.x} ${b.y}`);
-    path.setAttribute("class", "edge");
-    edgeGroup.appendChild(path);
-  }
-
-  if (parentId) drawEdge(parentId, focusId);
-  for (const child of childNodes) drawEdge(focusId, child.id);
-  for (const source of sourceNodes) drawEdge(focusId, source.id);
+  if (parentId) drawEdge(edgeGroup, positions.get(parentId), positions.get(focusId), "contains");
+  for (const child of childNodes) drawEdge(edgeGroup, positions.get(focusId), positions.get(child.id), "contains");
+  for (const source of sourceNodes) drawEdge(edgeGroup, positions.get(focusId), positions.get(source.id), "cites");
 
   const nodeGroup = document.createElementNS(NS, "g");
   svg.appendChild(nodeGroup);
-
   for (const id of renderIds) {
     const node = idx.nodesById.get(id);
-    const { x, y } = positions.get(id);
+    const pos = positions.get(id);
     const group = document.createElementNS(NS, "g");
-    group.setAttribute("class", `node${id === focusId ? " focus" : ""}`);
-    group.style.cursor = "pointer";
+    const radius = node.node_type === "root" ? 42 : node.node_type === "source" ? 18 : 28;
+    renderNode(group, node, pos, radius, id === focusId, onSelect, "circle");
+    nodeGroup.appendChild(group);
+  }
+}
 
-    const circle = document.createElementNS(NS, "circle");
-    const radius = node.node_type === "root" ? 50 : node.node_type === "source" ? 24 : 34;
-    circle.setAttribute("cx", x);
-    circle.setAttribute("cy", y);
-    circle.setAttribute("r", radius);
-    circle.setAttribute("fill", colors[node.node_type] || "#888");
+function visibleTypes() {
+  return new Set(
+    Array.from(flatFilters.querySelectorAll('input[type="checkbox"]:checked')).map((input) => input.dataset.type),
+  );
+}
 
-    const text = document.createElementNS(NS, "text");
-    text.setAttribute("x", x);
-    text.setAttribute("y", y + 4);
-    text.textContent = shortLabel(node.label, node.node_type === "source" ? 18 : 24);
+function drawFlatOntologyMap(focusId, idx, onSelect) {
+  clear(svg);
+  const allowed = visibleTypes();
+  const nodes = idx.nodes.filter((n) => allowed.has(n.node_type));
+  const view = svg.viewBox.baseVal;
 
-    const label2 = document.createElementNS(NS, "text");
-    label2.setAttribute("x", x);
-    label2.setAttribute("y", y + radius + 16);
-    label2.setAttribute("fill", "#9ca4be");
-    label2.textContent = node.node_type;
+  const order = ["root", "document", "section", "source"];
+  const typeGroups = new Map(order.map((t) => [t, []]));
+  for (const node of nodes) typeGroups.get(node.node_type)?.push(node);
 
-    group.appendChild(circle);
-    group.appendChild(text);
-    if (id !== focusId) group.appendChild(label2);
+  const columnX = new Map();
+  order.forEach((type, i) => columnX.set(type, ((i + 1) * view.width) / (order.length + 1)));
 
-    group.addEventListener("click", () => onSelect(id));
+  const positions = new Map();
+  for (const type of order) {
+    const group = typeGroups.get(type) || [];
+    group.forEach((node, i) => {
+      const step = view.height / (group.length + 1);
+      positions.set(node.id, {
+        x: columnX.get(type),
+        y: (i + 1) * step,
+      });
+    });
+  }
+
+  const edgeGroup = document.createElementNS(NS, "g");
+  svg.appendChild(edgeGroup);
+  for (const edge of idx.edges) {
+    if (!positions.has(edge.source) || !positions.has(edge.target)) continue;
+    drawEdge(edgeGroup, positions.get(edge.source), positions.get(edge.target), edge.type);
+  }
+
+  const nodeGroup = document.createElementNS(NS, "g");
+  svg.appendChild(nodeGroup);
+  for (const node of nodes) {
+    const group = document.createElementNS(NS, "g");
+    const radius = node.node_type === "root" ? 18 : node.node_type === "source" ? 12 : 15;
+    renderNode(group, node, positions.get(node.id), radius, node.id === focusId, onSelect, "shape-key");
     nodeGroup.appendChild(group);
   }
 }
@@ -216,11 +296,35 @@ function updatePanel(focusId, idx, onSelect) {
 function init(graph) {
   const idx = graphIndex(graph);
   let focusId = "thesis";
+  let viewMode = "hierarchy";
+
+  function setMode(mode) {
+    viewMode = mode;
+    hierarchyBtn.classList.toggle("active", mode === "hierarchy");
+    flatBtn.classList.toggle("active", mode === "flat");
+    flatFilters.classList.toggle("hidden", mode !== "flat");
+    render();
+  }
+
+  function render() {
+    if (viewMode === "flat") {
+      drawFlatOntologyMap(focusId, idx, select);
+    } else {
+      drawHierarchyMap(focusId, idx, select);
+    }
+    updatePanel(focusId, idx, select);
+  }
 
   function select(id) {
     focusId = id;
-    drawMap(focusId, idx, select);
-    updatePanel(focusId, idx, select);
+    render();
+  }
+
+  hierarchyBtn.addEventListener("click", () => setMode("hierarchy"));
+  flatBtn.addEventListener("click", () => setMode("flat"));
+
+  for (const input of flatFilters.querySelectorAll('input[type="checkbox"]')) {
+    input.addEventListener("change", render);
   }
 
   homeBtn.addEventListener("click", () => select("thesis"));
@@ -229,7 +333,7 @@ function init(graph) {
     if (parent) select(parent);
   });
 
-  select(focusId);
+  setMode("hierarchy");
 }
 
 loadGraph().then(init).catch((err) => {

@@ -32,11 +32,25 @@ main {
   min-height: calc(100vh - 88px);
 }
 
-#map-panel { border-right: 1px solid #2a2f46; }
+#map-panel { border-right: 1px solid #2a2f46; display: flex; flex-direction: column; }
+#view-toolbar {
+  padding: 0.75rem 0.9rem;
+  border-bottom: 1px solid #2a2f46;
+  background: #151726;
+}
+#flat-filters.hidden { display: none; }
+#flat-filters label {
+  font-size: 0.9rem;
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-right: 0.35rem;
+}
 #map {
   width: 100%;
   height: 100%;
-  min-height: calc(100vh - 88px);
+  min-height: calc(100vh - 146px);
   background: radial-gradient(circle at center, #17192a 0%, #11121a 60%);
 }
 
@@ -45,7 +59,7 @@ main {
   overflow: auto;
   background: var(--panel);
 }
-.controls { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; }
+.controls { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; flex-wrap: wrap; }
 button {
   background: #2f3655;
   color: var(--text);
@@ -55,6 +69,7 @@ button {
   cursor: pointer;
 }
 button:hover { background: #3d4670; }
+button.active { background: #4d5f9b; border-color: #6e86d7; }
 
 h2 { margin: 0.2rem 0 0.2rem; }
 #focus-meta { margin-top: 0; color: var(--muted); font-size: 0.92rem; }
@@ -67,20 +82,64 @@ li button.linkish {
   color: var(--link);
 }
 
-.node circle {
-  stroke: #ffffff26;
+.legend {
+  border: 1px solid #2a2f46;
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 0.8rem;
+  background: #171a2b;
+}
+.legend h3 { margin: 0 0 0.45rem; font-size: 0.95rem; }
+.legend ul { margin: 0; padding-left: 1.1rem; }
+.swatch {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 3px;
+  margin-right: 0.3rem;
+  border: 1px solid #ffffff4a;
+}
+.swatch.root { background: var(--root); }
+.swatch.document { background: var(--document); }
+.swatch.section { background: var(--section); }
+.swatch.source { background: var(--source); }
+
+.node circle,
+.node rect,
+.node polygon {
+  stroke: #ffffff2e;
   stroke-width: 1;
 }
-.node text {
+.node-label {
   font-size: 12px;
-  text-anchor: middle;
-  fill: var(--text);
+  text-anchor: start;
+  fill: #e8ebf8;
+  paint-order: stroke;
+  stroke: #0c0e17;
+  stroke-width: 3px;
+  pointer-events: none;
+}
+.node-type {
+  font-size: 10px;
+  text-anchor: start;
+  fill: #9ca4be;
   pointer-events: none;
 }
 .edge {
   stroke: #ffffff24;
-  stroke-width: 1.2;
+  stroke-width: 1.1;
   fill: none;
 }
-.node.focus circle { stroke: #fff; stroke-width: 2; }
-.node:hover circle { stroke: #fff; stroke-width: 2; }
+.edge.cites {
+  stroke: #ffb4bf63;
+  stroke-dasharray: 4 3;
+}
+.node.focus circle,
+.node.focus rect,
+.node.focus polygon,
+.node:hover circle,
+.node:hover rect,
+.node:hover polygon {
+  stroke: #fff;
+  stroke-width: 2;
+}
