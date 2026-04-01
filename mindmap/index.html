@@ -9,12 +9,25 @@
   <body>
     <header>
       <h1>Dissertation Argument Map</h1>
-      <p>Click any node to drill down through argument flow → specific points → cited sources.</p>
+      <p>Use Hierarchy to drill down, or Flat Ontology for a wall-map style gestalt view.</p>
     </header>
 
     <main>
       <section id="map-panel">
-        <svg id="map" viewBox="0 0 1200 760" aria-label="Argument mind map"></svg>
+        <div id="view-toolbar">
+          <div class="controls">
+            <button id="mode-hierarchy-btn" type="button">Hierarchy View</button>
+            <button id="mode-flat-btn" type="button">Flat Ontology View</button>
+          </div>
+          <div id="flat-filters" class="controls">
+            <label><input type="checkbox" data-type="root" checked /> Root</label>
+            <label><input type="checkbox" data-type="document" checked /> Chapter</label>
+            <label><input type="checkbox" data-type="section" checked /> Section / Claim</label>
+            <label><input type="checkbox" data-type="source" checked /> Source</label>
+          </div>
+        </div>
+
+        <svg id="map" viewBox="0 0 1200 760" aria-label="Argument map"></svg>
       </section>
 
       <aside id="detail-panel">
@@ -25,6 +38,16 @@
 
         <h2 id="focus-title">Loading…</h2>
         <p id="focus-meta"></p>
+
+        <div class="legend">
+          <h3>Color + shape key</h3>
+          <ul>
+            <li><span class="swatch root"></span> Root thesis (square)</li>
+            <li><span class="swatch document"></span> Chapters/documents (circle)</li>
+            <li><span class="swatch section"></span> Sections/claims (rounded rectangle)</li>
+            <li><span class="swatch source"></span> Sources (diamond)</li>
+          </ul>
+        </div>
 
         <div class="columns">
           <div>
