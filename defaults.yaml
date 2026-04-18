@@ -1,5 +1,5 @@
 metadata:
-  title: "Reasons for Persons: An Obsolescence Solution to The Good Successor Problem"
+  title: "The Good Successor Problem: on the Badness of (Human) Non-continuation in Large Worlds with Other Minds"
   author: "Kanad Chakrabarti"
   date: "February 2026"
   papersize: letter
@@ -13,6 +13,20 @@ metadata:
   toc: true
   toc-depth: 6
   numbersections: true
+  abstract: |
+    This project's central question is: "What ought to become of humanity once AIs vastly exceed it in capability and number, and how does the answer change if such beings encounter other civilisations?" This is the Good Successor Problem; it is a live issue (under short timelines to AGI), spanning existential risk, longtermism, and the welfare of digital minds.
+
+    The thesis advances what it calls the obsolescence argument: that the continuation of humanity, and of the full complexity of human values, may not be necessary for the far future to count as good, when assessed from a maximally impartial standpoint. This claim is conditional in three linked respects: it rests on the adoption of a maximally impartial evaluative standpoint (the "point of view of the universe"); it assumes that "superintelligence" names a coherent kind of successor agency; and it assumes that value-content can be meaningfully ranked by thickness under that standpoint. Unlike arguments from ecological harm or the balance of suffering, the obsolescence argument proposes a distinct path: that humanity might become obsolete not because human life is valueless, but because a successor could realise certain relevant goods without preserving the full thickness of the human evaluative texture.
+
+    The question is sharpened if one distinguishes between the preservation of (a) biological humans, versus (b) human values. This project proposes value-thickness as a tractable axis of variation for (b). "Thick" values relate to caring, relationships, beauty, meaning; "thin" values prioritise understanding, exploration, non-production of suffering. Existential-risk and longtermist discourse assumes an axiologically good future must retain thick, human-like value-content; the thesis argues that this assumption is insufficiently defended against thinner alternatives. The project defends a specific thin-value set: non-production of astronomical suffering, resource satiability, stewardship of information, and (provisionally) cooperation. Crucially, this is a layered claim: thin values govern at the scale of cosmic governance, while thick values persist at the scale of local human life. The thesis is not dismissive of thick values but argues that local meaning does not entail cosmic necessity.
+
+    Three independent philosophical traditions support this thinness challenge: information ethics and complexity science (Floridi, Chaisson), where observation and information-generation are treated as cosmically relevant goods that a successor intelligence could perform at greater scale; a posthumanist strand (Negarestani, Wolfendale, Lem) that treats reason as humanity's transferable contribution, whose telos is to liberate itself from parochial containers including human biology, though this strand is internally contested (Wolfendale argues that aesthetic excellence and genuine autonomy are non-negotiable even for thin successors); and contemplative traditions (Thacker, Metzinger, Nishitani) that question existence-preference itself, whether at individual or species level.
+
+    The project argues that the evaluative standpoint required for successor-ethics must be maximally impartial: Sidgwick's "point of view of the universe," pursued most systematically within the consequentialist tradition. Nick Bostrom's cosmic host hypothesis generalises this impartial standpoint to multiverse and simulation-wide scales. The thesis offers a close reading of Bostrom's framework as a cosmic extension of Rawls's original position, a "veil of ignorance" applied under conditions of ontological uncertainty, and critiques it through evolutionary biology and astrobiology.
+
+    The thesis defines and defends a practice-based method: iterative, documented engagements with frontier language models, in which the models function as philosophical interlocutors, experimental subjects, and proto-successors. This "peripatetic cyborg" practice is distributed across walking, dictation, and model dialogue on multiple devices, with later consolidation in conventional writing and coding environments. It is not a convenience but a methodological commitment, reflecting the thesis's claim that inquiry is already being reshaped through collaboration with proto-successor systems. These engagements are stress-tested through candidate constitutions for superintelligent successors, revealing persistent anthropocentric anchoring that resists constitutional manipulation, a result with implications for both alignment research and the question of what kind of successor we are building. The models' speculative outputs, including designs for communication across radical cognitive and temporal distance, are materialised as an installation that enacts the legibility problem: viewers encounter an artefact addressed to an intelligence whose standards of meaning they do not share.
+
+    The project's contribution is fourfold. It establishes that the standard thickness-assumption in existential-risk discourse is insufficiently defended against thinner alternatives. It maps the philosophical commitment-space, showing which positions on consciousness, information, rationality, and existence-preference yield which conclusions about human succession. It documents, through both a reproducible experimental protocol and installation practice, how current frontier models reason about cosmic-scale ethics under pressure. And it develops a hybrid methodology, the peripatetic cyborg method, that treats human-AI collaboration not as a tool for scholarship but as a form of it.
   geometry:
     - top=35mm
     - left=25mm
@@ -21,4 +35,4 @@ metadata:
 top-level-division: chapter
 include-in-header: templates/preamble.tex
 citeproc: true
-csl: https://www.zotero.org/styles/chicago-author-date
+# csl: https://www.zotero.org/styles/chicago-author-date
