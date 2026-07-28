@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a **writing-first project** — a PhD dissertation by Kanad Chakrabarti, "On Succession: How Bad is Human Non-continuation in Large Worlds with Other Minds?" The work covers AI ethics, cosmic-scale moral philosophy, and constitutional alignment for superintelligent AI. Research includes embedded LLM experiment transcripts and analyses.
+This is a **writing-first project** — a PhD dissertation by Kanad Chakrabarti, "Reasons for Persons, or The Good Successor Problem." The work covers AI ethics, cosmic-scale moral philosophy, and constitutional alignment for superintelligent AI. Research includes embedded LLM experiment transcripts and analyses.
 
 Work here is primarily prose editing, structural reorganization, and citation management — not software development. Code may appear occasionally but is not the focus. Edits may come from Claude Code, Codex, or manual editing in Sublime Text / VS Code. The **rendered PDF is the source of truth** for how the document should look.
 
@@ -25,7 +25,7 @@ Both scripts use `defaults.yaml` for Pandoc configuration and glob `chapters/*.m
 - `chapters/gdocs/` — Google Docs export backups of earlier drafts
 - `defaults.yaml` — Pandoc config: metadata, geometry, bibliography, LaTeX preamble
 - `bib/` — Bibliography files (referenced as `bib/bibliography_ukc.bib`)
-- `templates/` — LaTeX preamble and abstract (`preamble.tex`, `abstract.tex`)
+- `templates/` — LaTeX preamble (referenced in defaults.yaml but may not yet exist)
 - `assets/` — Images and diagrams
 - `drafts/` — Exploratory or abandoned text
 - `milestones/` — Submitted/checkpoint PDFs
@@ -36,7 +36,7 @@ Both scripts use `defaults.yaml` for Pandoc configuration and glob `chapters/*.m
 - **Before modifying any source file** (`.md`, `.bib`, `.sh`, or similar data/code files), make a backup copy with a `~` suffix (e.g., `ch_03.md` → `ch_03.md~`). This follows the Unix convention for backup files.
 - All thesis content is authored in Markdown with Pandoc-flavored extensions (citations, LaTeX math, cross-references).
 - Build artifacts (PDF, HTML, LaTeX aux files) are gitignored.
-- **Abstract**: The abstract lives in two files that must be kept in sync. `abstract.md` (repo root) is the markdown source of truth for reading and editing. `templates/abstract.tex` is the LaTeX version that Pandoc actually renders into the PDF (included via `include-before-body` in `defaults.yaml`). The LaTeX file uses `\emph{}` for italics and LaTeX curly quotes (` `` ... '' `). If the abstract changes, update both files. The abstract is *not* in `defaults.yaml`.
+- **Abstract**: The source of truth for the abstract is `abstract.md` (repo root). Its content is duplicated into the `abstract` field in `defaults.yaml` so Pandoc renders it on the title page. If the abstract changes, update both places (or update `abstract.md` and copy into `defaults.yaml`).
 - Chapter files are named with `ch_` prefix and ordered alphabetically for correct Pandoc concatenation.
 - Commits tend to be checkpoint-style rather than continuous.
 - **No em-dashes**: Do not use em-dashes (—) in prose. Use commas, colons, semicolons, or parentheses instead. En-dashes (–) for ranges (e.g. "2022–2024") are fine.
