@@ -33,7 +33,7 @@ In this project, I shall primarily consider Q0, and Q2.^[Q1 motivates the alignm
 
 ## Audience: Situating the Project
 
-This project is centrally in dialogue with the study of human extinction (existential risk or x-risk [@Ord2020; @Moynihan2020]); the study of suffering on an astronomical scale (suffering risk or s-risk [@Vinding2020]), and the possibility that the future has significant value or disvalue, and the consequent moral stakes (longtermism [@MacAskillWWO; @Wolfendale2022; @Parfit1984; @moore1903principia]). It also touches the literature around consciousness and sentience in natural and artificial systems ([@Sebo2025; @hayles2017unthought; @Nagel1986]).
+This project is centrally in dialogue with the study of human extinction (existential risk or x-risk [@Ord2020; @Moynihan2020]); the study of suffering on an astronomical scale (suffering risk or s-risk [@Vinding2020]), and the possibility that the future has significant value or disvalue, and the consequent moral stakes (longtermism [@MacAskillWWO; @Wolfendale2022; @ParfitRP; @moore1903principia]). It also touches the literature around consciousness and sentience in natural and artificial systems ([@Sebo2025; @hayles2017unthought; @Nagel1986]).
 
 These are substantial literatures in their own right, but I'm interested in how they interact with the risks of advanced AI systems and the possibility of extraterrestrial intelligences (ETIs).
 
@@ -69,6 +69,16 @@ Third, the emergence of digital minds is now a live area of inquiry.[^ch1-digita
 Fourth, artificial agents may eventually come to vastly outnumber humans. The ratio of model instances to human beings is already large and growing. This numerical dominance changes the stakes of value design: the values embedded in the majority of cognitive agents will shape the character of the future more than human preferences alone.[@Shulman2021]
 
 Fifth, present systems are already shaping their successors. Within AI discourse this is sometimes called "writing for the Shoggoth": public discourse with models contributes, at the margins, to what their successors become. Value design under uncertainty matters now, because the window in which humans can influence the trajectory is finite.
+
+### OLD STAKES SECTION [SHD BE INTEGRATED W/ ABOVE]
+
+The stakes of this project are not only whether a particular philosophical conclusion about succession is correct, but what becomes thinkable, sayable, and practicable once “the future” is no longer assumed to be a human future. The central conceptual stake is the uncoupling of two questions that have historically been entangled: whether human beings continue, and whether anything like value continues in our future light cone. The possibility of machine successors breaks the traditional linkage between biological continuity and evaluative continuity; it forces a new kind of position space in which one can be agnostic about human continuation while still taking a stand on the permissibility, desirability, or content of long-run value. This is not merely a reframing: it changes what counts as a coherent view about the future at all. 
+
+A second stake is methodological, and it is specifically practice-based. The “peripatetic cyborg” method is not an aesthetic garnish or a personal anecdote; it is a way of making the thesis’s embodiment claims operational. The practice begins from a simple asymmetry: the human researcher is an embodied agent with physical constraints, while the interlocutors are language models that lack human embodiment yet operate under their own constraints—context windows, cloud-synchronisation, provider-specific “house styles,” and opaque training histories. The result is that the researcher must actively maintain a scaffold across devices, accounts, and model families, tracking which system is doing what, and learning empirically which models are reliable for which kinds of conceptual work. The stake here is that inquiry is already being reshaped by collaboration with systems that may be proto-successors: the practice produces not just text, but a disciplined record of how contemporary models stabilise, evade, or transform arguments about human obsolescence when pressed.
+
+A third stake is aesthetic and art-theoretical. The installation component is designed to enact the project’s central problem (communication and evaluation across radical cognitive and temporal distance) rather than to “illustrate” an argument already settled elsewhere. By treating model output as a design brief and refusing to optimise for immediate human legibility, the work confronts the viewer with the legibility problem in a visceral register: the object presupposes a framework the viewer does not share and may not be able to share. This is one way of making concrete the project’s claim that successor ethics involves incommensurability, not merely disagreement. At the same time, the installation raises a specifically artworld-internal question: if an object is deliberately minimally legible to the human viewer—because it purports to be addressed to nonhuman intelligence, or to a timescale on which human viewing is irrelevant, then does it remain an art object at all, or does it collapse into a mere data artefact? The work is therefore suspended in the tension Danto identifies between material object and the “atmosphere of theory” that makes it visible as art.
+
+Finally, there is a reflexive or performative stake. Treating models as interlocutors in a public-facing scholarly practice creates a feedback loop: artefacts produced through human–model dialogue can enter circulation and become part of the discursive environment from which future systems are trained. Within AI discourse this is sometimes glossed as “writing for the shoggoth,” and it has a mildly hyperstitional character: the act of describing and arguing about successor norms can, at the margins and without any grand claim of influence, contribute to the conditions under which successor systems are built and interpreted. The project therefore does not only study succession; it makes explicit what it means to conduct scholarship inside a live socio-technical system whose outputs are already part of its own future substrate.
 
 ## Methodology {#ch:methodology}
 
@@ -161,16 +171,7 @@ This raises the question for the viewer:
 A further element of practice motivated by the manifold is polling or surveying both language models and humans regarding their preferences across different points on the manifold; that is, across different versions of future worlds. These responses can then be used to construct a measure of sorts, the results of which are reported and analysed within the project.
 
 
-
-
-
-#### Upon Being a Bracewell-von Neumann Probe
-
-
-
-#### Where do Today's Agents (human and AI) Sit?
-
-## Older stuff
+## Scoping[SHOULD PROBABLY BE MOVED/DELETED]
 
 The thesis's target is not any single position but the shared assumption across most of these positions that the value-content of a good future must be *at least as thick as* human values (or their idealised extrapolation). The obsolescence argument challenges this by asking: what if much thinner values suffice? And, drawing on Carlsmith: what if the successor develops thick values that are good but simply *other*?
 
@@ -187,13 +188,7 @@ Much work in existential risk (x-risk) studies and in AI research takes for gran
 
 
 
-
-
-## Situating the Claim in Longtermism, X- and S-risk Studies
-
-
-
-## Central Research Question
+## Candidate solution
 
 [THIS IS GOOD BUT ORPHANED -- MOVE IT]
 
@@ -207,7 +202,7 @@ First, my claim is conditional on a certain conception of superintelligence. I s
 
 Related operationalisations include: forecasters often use HLMI (Human level machine intelligence i.e. “unaided machines can accomplish every task better and more cheaply than human workers”) as a measurable proxy, and AI policy discourse often uses Transformative AI to denote systems whose effects are comparable to an industrial or agricultural revolution. Here “AGI” is used in the common sense of general-purpose AI that matches or exceeds human capability across a broad range of tasks (often proxied as “most economically valuable work”); it is typically treated as a nearer (and somewhat more operationalisable) target than “superintelligence,” which denotes a further capability regime beyond human level. [@openai_charter; @openai_2023_introducing_superalignment; @steinperlman2022_espai] 
 
-The definition and the citations above largely confined themselves to talking about the AI->AGI->ASI in the context of capability/economic proxies anchored to current institutions, creating a slight confusion around how different ASI really would be from any of the other terms used above. Part of the problematic in this project is to devise an expansive but still somewhat concrete version of what an ASI with inhuman or non-anthropomorphic agency *would do* [@negarastani2014_labor_inhuman_part_ii;@Land2023], rather than merely a much better chatbot or coding agent. For example, one might consider that such a system would have substantial ability to act in the physical world, and might operate not only on Earth but also in near space, and perhaps in deep space. This is a *provisional* definition for the purposes of the thesis: it fixes what I mean when I later evaluate “succession” claims. I do not assume such a system is inevitable; it is treated as one plausible pathway among several. Nor do I claim the concept is uncontroversial: critics dispute both its coherence and the inference from present scaling to general capability. I bracket those disputes here in order to examine what would follow *if* such systems were to exist. As described in \ref{#ch:methodology} I construct a thought experiment [@dennett2013intuition; @gendler2002; @sep-thought-experiment] that systematically varies parameters or knobs in order to help the reader develop intuitions that might allow for evaluating the thesis' propositions or claims.
+The definition and the citations above largely confined themselves to talking about the AI->AGI->ASI in the context of capability/economic proxies anchored to current institutions, creating a slight confusion around how different ASI really would be from any of the other terms used above. Part of the problematic in this project is to devise an expansive but still somewhat concrete version of what an ASI with inhuman or non-anthropomorphic agency *would do* [@negarastani2014_labor_inhuman_part_ii;@Land2023], rather than merely a much better chatbot or coding agent. For example, one might consider that such a system would have substantial ability to act in the physical world, and might operate not only on Earth but also in near space, and perhaps in deep space. This is a *provisional* definition for the purposes of the thesis: it fixes what I mean when I later evaluate “succession” claims. I do not assume such a system is inevitable; it is treated as one plausible pathway among several. Nor do I claim the concept is uncontroversial: critics dispute both its coherence and the inference from present scaling to general capability. I bracket those disputes here in order to examine what would follow *if* such systems were to exist. As described in \ref{ch:methodology} I construct a thought experiment [@dennett2013intuition; @gendler2002; @sep-thought-experiment] that systematically varies parameters or knobs in order to help the reader develop intuitions that might allow for evaluating the thesis' propositions or claims.
 
 To be clear, this is not to say that such a system would be omniscient or omnipotent. It would remain constrained by the laws of physics, by limited resources, by bounds on computability, by imperfect information, and by the practical difficulties faced by any engineered system acting in the world. It would not be a god.
 
@@ -270,13 +265,9 @@ The key insight is that local meaning does not entail cosmic dominance. A rich, 
 
 
 
-## Anticipated contributions
+## Anticipated contributions[DELETED TO SAVE SPACE]
 
-[DELETED TO SAVE SPACE]
-
-### Stakes
-
-[DELETED TO SAVE SPACE]
+### Stakes[DELETED TO SAVE SPACE]
 
 ## Practice and thought experiments
 
@@ -373,6 +364,14 @@ Finally, the installation makes visceral what the thesis later calls the legibil
 Finally, a meta-observation: the installation confronts an inescapable tension. Art that aspires to address a nonhuman or future audience cannot simply discard the human viewer without consequences. To do so would be to abandon the materials, formalism, and discursive context that constitute it as art — to fall out of Danto's "artworld," the atmosphere of theory and history without which something cannot be seen as art at all [@Danto1964]. The work would collapse into a datafile, a machine learning research log. Yet the opposite move is equally unavailable. The tradition of radically open works (Rauschenberg's *White Paintings*, Cage's *4'33"*) shows that when artistic intention is emptied out, the vacuum is immediately filled by the human viewer's own presence: ambient light, bodily noise, the audience hearing itself. These works are not steps toward nonhuman address but its negation, *tabulae rasae* that make the work maximally dependent on human environment and attention. The installation is thus caught between two collapses: toward pure data (where removing the human viewer removes what many might understand as the art) and toward pure receptivity (where removing the content returns everything to the human viewer). There is no stable position between these poles. We are trapped, yet again, in an anthropocentric cage, the thesis central problematic.
 
 
+#### Upon Being a Bracewell-von Neumann Probe [MERGE WITH ABOVE]
+
+
+
+#### Where do Today's Agents (human and AI) Sit? [MERGE WITH ABOVE]
+
+
+
 ## Framing Note: Anthropocentrism, Anthropomorphism, and Anthropics
 
 Katherine Hayles's prologue to Lem's *The Invincible* observes that our notion of the value of life reflects assumptions specific to our evolutionary trajectory and biology; different biological or evolutionary pathways might lead to different values, for instance those of the swarm in that book [@LemInvincible]. Her observation has a natural Wittgensteinian resonance: his study of language in a person's "form-of-life" [@Wittgenstein2001]. In the context of this project, this creates an obvious problem: we are reasoning about what are, so far, hypothetical entities (such as ASI or ETIs) who likely have different, so to speak, forms-of-life, using a tool (language) developed for and in the human context.
@@ -421,6 +420,12 @@ Finally, the thesis draws on contemplative and pessimist traditions. Eugene Thac
 
 ## Roadmap of Chapters {#ch:roadmap}
 
+### Chapter 0
+
+[THIS CHAPTER]
+
+### Chapter 1
+
 ### Chapter 2
 
 Chapter 2 maps the landscape of opinion within x-risk and AI safety regarding human extinction, and identifies the gap the thesis fills. Positions in the field range from the view that biological humans must continue indefinitely to the weaker claim that human values must persist even if humans do not. These positions have shifted over time and are held with varying degrees of conviction, but they share an assumption the thesis will challenge: that some form of human continuity is cosmically necessary.
@@ -449,7 +454,7 @@ This background sets the stage for Chapters 3 and 4, where Bostrom's cosmic host
 
 Chapter 3 will increase precision in this discussion of values by considering the idea of rationality, a term that does significant work within AI conversations but has a rich history within evolutionary biology as well as astrobiology.
 
-Chapter 2 established that evaluating the succession question requires an impartial standpoint (what Sidgwick called "the point of view of the universe"). An evaluative standpoint [@Rawls1971] typically implies some mechanism or method of making moral judgements (its structure); as well as the substantive content (what moral commitments the standpoint actually requires). This chapter examines the *structure* of the standpoint, or how to reason from it at cosmic scales. Chapter 5 will define the *content* of the cosmically-impartial standpoint, or what the standpoint argues for (information-generation, complexity, observerhood) from the information-theoretic tradition.
+Chapter 2 established that evaluating the succession question requires an impartial standpoint (what Sidgwick called "the point of view of the universe"). An evaluative standpoint [@Rawls1971] typically implies some mechanism or method of making moral judgements (its structure); as well as the substantive content (what moral commitments the standpoint actually requires). This chapter examines the *structure* of the standpoint, or how to reason from it at cosmic scales. 
 
 
 
@@ -460,6 +465,8 @@ Chapter 2 established that evaluating the succession question requires an impart
 ### Chapter 5
 
 *Note: This chapter is the most tentative or provisional as it is where a significant portion of the argument is being brought to work. As such, it more reflective of intuitions combined with somewhat structured reasoning.*
+
+Chapter 5 will define the *content* of the cosmically-impartial standpoint, or what the standpoint argues for (information-generation, complexity, observerhood) from the information-theoretic tradition.
 
 In Chapter 3, I showed that Bostrom's cosmic host argument, if read as a version of the point of view of the universe, does not actually tell us what the cosmic host's preferred values would be. There is a possible reading of Bostrom that suggests these might be things like cooperation, but one could also argue for suffering minimization. And if Peter Wolfendale's arguments [@Wolfendale2025] hold up, there could be a case for aesthetic excellence, the search for beauty, or freedom and autonomy in respect of rational beings. Moreover, Bostrom's arguments about convergence, rationality, and the desire of cosmic host members to influence parts of the universe or multiverse they do not control might also be challenged from evolutionary biology and astrobiology.
 
