@@ -26,7 +26,7 @@ Another possible question, let's call it Q4 (distinct from Q1), is an engineerin
 
 # The thought experiment as method
 
-The questions above intersect philosophy, particularly ethics, future studies, and, of course, AI. Many such questions cannot be studied empirically, of course, and philosophers thus use thought experiments ([SEP/Brown-Fehige](https://plato.stanford.edu/entries/thought-experiment/)).
+The questions above intersect philosophy, particularly ethics, as well as axiology, whether moral realism is plausible and, of course, AI.  Many such questions cannot be studied empirically, of course, and philosophers thus use thought experiments ([SEP/Brown-Fehige](https://plato.stanford.edu/entries/thought-experiment/)).
 
 However, unlike many topics in ethics, they only partially can draw upon human and human society-based intuitions; there is a frame problem, an ontological chasm between humans and future AIs. Further, unlike most philosophical thought experiments, which have the structure of a scenario, a question for the reader, and then a verdict based on the reader's intuition as an evaluative standpoint, the questions above might not be straightforwardly evaluated based on intuition ([Van Inwagen 1998](https://andrewmbailey.com/pvi/Modal_Epistemology.pdf), [Hare 1981](https://archive.org/details/moralthinkingits0000hare)).
 
