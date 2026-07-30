@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Build a single chapter to DOCX with bibliography
-# Usage: ./scripts/build_docx.sh ch_00_intro
-# Or:    ./scripts/build_docx.sh chapters/ch_00_intro.md
+# Usage: ./scripts/build_docx.sh ch_01_upg
+# Or:    ./scripts/build_docx.sh chapters/ch_01_upg.md
 
 set -e
 
 if [ -z "$1" ]; then
   echo "Usage: $0 <chapter_name>"
-  echo "Example: $0 ch_00_intro"
-  echo "     or: $0 chapters/ch_00_intro.md"
+  echo "Example: $0 ch_01_upg"
+  echo "     or: $0 chapters/ch_01_upg.md"
   exit 1
 fi
 

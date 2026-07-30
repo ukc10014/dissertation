@@ -14,7 +14,7 @@ A 3-level interactive map:
 
 The core source files are already well-structured for this workflow:
 
-- Introduction: `chapters/ch_00_intro.md`
+- Introduction: `chapters/ch_01_upg.md`
 - Main chapter drafts: `chapters/ch_03_combined.md`, `chapters/ch_04.md`
 - Structural skeleton of whole thesis: `chapters/outline/upgrade_outline_v9.md`
 - Bibliography source: `bib/bibliography_ukc.bib`

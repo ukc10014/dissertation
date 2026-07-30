@@ -1,3 +1,5 @@
+\setcounter{chapter}{-1}
+
 # Introduction
 
 One might hold the common view that if the human species, or human cultures, were not to survive into the future, this would be straightforwardly bad. This project critiques this intuition in context of advanced AI systems. In this chapter, I shall start by breaking this question into its parts and setting out why this seems uniquely important at the present historical moment. I shall next site the discussion in relevant discourses; followed by an overview of the methodology I shall use: the thought experiment, experiments with AIs, and art practice.
