@@ -1,4 +1,4 @@
-# Superintelligence as Good Cosmic Citizen
+# Superintelligence as Good Cosmic Citizen {#ch:cosmic-host}
 
 \setcounter{footnote}{0}
 

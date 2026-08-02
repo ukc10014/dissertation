@@ -1,4 +1,4 @@
-# Thin Values
+# Thin Values {#ch:thin-values}
 
 \setcounter{footnote}{0}
 

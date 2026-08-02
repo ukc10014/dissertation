@@ -1,7 +1,7 @@
 metadata:
-  title: "Reasons for Persons: An Obsolescence Solution to The Good Successor Problem"
+  title: "Who's Afraid of Red, Yellow, and Blue Paperclips; or, Upon Human Non-continuation in Worlds with Other Minds"
   author: "Kanad Chakrabarti"
-  date: "February 2026"
+  date: "August 2026"
   papersize: letter
   fontsize: 11pt
   documentclass: report
@@ -20,5 +20,6 @@ metadata:
     - bottom=33mm
 top-level-division: chapter
 include-in-header: templates/preamble.tex
+include-before-body: templates/abstract.tex
 citeproc: true
-csl: https://www.zotero.org/styles/chicago-author-date
+# csl: https://www.zotero.org/styles/chicago-author-date
