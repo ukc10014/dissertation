@@ -86,7 +86,7 @@ This contextual framing does not refute the internal arguments of x-risk or long
 
 ## Methodology {#ch:methodology}
 
-The questions above intersect AI with philosophy (particularly ethics, as well as axiology, and implicate moral realism as well as aesthetics). Not for the first time in this project, it is unclear whether intuitions, philosophical or otherwise, garnered within largely human contexts could be straightforwardly transferable to extremely unfamiliar situations, such as where there are few or no humans, or one where such rational beings as exist, are instead AI systems or aliens. This inferential gap has been analysed extensively in the literature around thought experiments, i.e. [@gendler2002; @sep-thought-experiment; @vaninwagen1998modal; @hare1981moral]. 
+The questions above intersect AI with philosophy (particularly ethics, as well as axiology, and implicate moral realism as well as aesthetics). Not for the first time in this project, it is unclear whether intuitions, philosophical or otherwise, garnered within largely human contexts could be straightforwardly transferable to extremely unfamiliar situations, such as where there are few or no humans, or one where such rational beings as exist, are instead AI systems or aliens. This inferential gap has been analysed extensively in the literature around thought experiments, i.e. [@gendler2002; @sep-thought-experiment; @vaninwagen1998modal; @hare1981modal]. 
 
 More generally, at the level of metaethics and axiology, theories of value remain contested: for instance, the idea of an impartial or view from nowhere perspective is heavily challenged within and outside the analytic philosophy tradition, and the definition of the good is only somewhat more clear now than when Plato, Sidgwick, or Moore were writing.
 
@@ -168,9 +168,9 @@ I can think of axes along which this space might be organised, in order to disti
 #### A formal specification
 
 A given world could be specified as follows:
-$$
+\[
 W = \langle C, A, V, G, R, O, H \rangle
-$$
+\]
 
 where:
 
