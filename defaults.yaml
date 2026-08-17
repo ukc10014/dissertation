@@ -24,4 +24,4 @@ top-level-division: chapter
 include-in-header: templates/preamble.tex
 include-before-body: templates/abstract.tex
 citeproc: true
-# csl: https://www.zotero.org/styles/chicago-author-date
+

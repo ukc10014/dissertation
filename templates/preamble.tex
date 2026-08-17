@@ -2,6 +2,13 @@
 \usepackage{datetime2}
 \usepackage{fontawesome5}
 
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{ragged2e}
+
+\newcolumntype{P}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\small\nouppercase{\leftmark}}
