@@ -1,6 +1,85 @@
-# Building the Case for Obsolescence
+# Building the Case for Obsolescence {#ch:value-spectrum}
 
 \setcounter{footnote}{0}
 
-*This chapter argues that the standard reasons for valuing human continuation are either transferable to a successor, not cosmically necessary, or dependent on the undefended assumption that existence is inherently preferable to non-existence. It constructs the evaluative standpoint and proposes (without assuming) a positive axiology. See [Introduction](#roadmap) for more detail.*
+*This chapter argues that the standard reasons for valuing human continuation are either transferable to a successor, not cosmically necessary, or dependent on the undefended assumption that existence is inherently preferable to non-existence. It constructs the evaluative standpoint and proposes (without assuming) a positive axiology. See [Introduction](#ch:roadmap) for more detail.*
 
+## Holding area for content
+
+### What this chapter might do [MOVED FROM CH_00]
+
+Chapter 2 maps the landscape of opinion within x-risk and AI safety regarding human extinction, and identifies the gap the thesis fills. Positions in the field range from the view that biological humans must continue indefinitely to the weaker claim that human values must persist even if humans do not. These positions have shifted over time and are held with varying degrees of conviction, but they share an assumption the thesis will challenge: that some form of human continuity is cosmically necessary.
+
+These discursive biases in favour of human continuation, whether of biological humans or of human values, can be traced to a number of sources. Most straightforwardly, it is hard to imagine how the human race might pass out of existence without causing great suffering, anticipatory despair, loss of relationships, and inability to complete projects. These intuitions have solid philosophical support, for instance from [@Frick; @Scanlon1998; @FinneronBurns; @Scheffler]. But the bias itself has also been diagnosed from several critical angles: [@Metzinger2017]'s concept of the existence bias (which applies to the individual but, as his BAAN scenario suggests, can be extended to the species); [@Korsgaard2018]'s Kantian account of species-being (drawing on Feuerbach and Marx) as a deep structural feature of human practical identity; and [@Ligotti]'s pessimist "conspiracy" diagnosis, in which the very commitment to continuation is itself a form of self-deception. These complement the philosophical analysis [@Thacker] gives, which traces a counter-tradition from at least [@Schopenhauer] onwards that challenges the adequacy of human-centric thought when confronted with a "world-without-us." Against this backdrop, I propose the Kyoto School's [@Nishida; @Nishitani] embrace of nothingness (*mu*) as an alternative position that neither assumes human continuation nor treats its absence as catastrophic.
+
+The chapter then introduces the space of possible minds: this concept was developed in [@Sloman1984], and revisited by Anders Sandberg (in a talk). Such a concept is indispensable for thinking about values an entity might have, at familiar Earthly scales or at a cosmic scale. The reason is straightforward: the values an entity holds depend on the kind of mind it has and the kind of society it inhabits. If we want to ask what values a successor intelligence might hold, we need some account of what kinds of minds are possible. However, (in context of ASI or ETIs) this mapping is speculative. It must be. We are reasoning about entities that do not yet exist and may be radically unlike anything in our experience. But the speculation is disciplined, and it reveals a question that the existing literature has not adequately addressed: how do values vary across mind types?
+
+The most conservative answer is that the only good value structure, from a cosmic standpoint, is the human one, insofar as that can be coherently specified across eight billion individuals.[^ch1-humanvalues] [^ch1-value] This position is maximally anthropomorphic. It may also be correct. But there are reasons for doubt.
+
+If human-shaped values occupy a small region of the value manifold, then any process that builds a mind, whether biological evolution or machine learning optimisation, would be unlikely to converge on that region unless specifically constrained to do so. We should expect alien minds to hold alien values, just as we should expect alien biology to differ from terrestrial biology. The question is whether "alien" necessarily means "worse".
+
+To progress the argument, I consider the geometry of the value space. It might be one-dimensional: a spectrum running from human values through animal-like values (to the extent animals can be said to have values) out to paperclips, as in [@Bostrom2014]'s familiar formulation. On this picture, departure from human values is straightforward or monotonic loss. But the manifold might have richer structure. There could be value systems at points distant from the human basin that are as complex, as internally coherent, and as capable of grounding a civilisation as our own, yet utterly unlike ours. Since we are at the limits of what can be empirically determined, fiction offers guidance: Lem's *Solaris* and *The Invincible*  imagine forms of intelligence whose values are not degraded versions of human values but orthogonal to them. In the ASI context, Carlsmith's analysis of scheming and alien values is relevant.
+
+A further axis of variation is the distinction between thin and thick values. Thick values are specific, culturally embedded, and richly textured: the kinds of values that make a life recognisably human. One might point to caring, love, an appreciation of beauty, and perhaps also hatred or envy. Thin values are more abstract: principles like understanding, truth-seeking, exploration, or the avoidance of suffering, which might be shared across radically different mind types.  Chapter 5 will argue that thin values are most appropriate for the current transition from biological to silicon-based intelligence, and possibly beyond.
+
+Returning to Chapter 2: thus far, the discussion has concerned what values are possible across different minds. But the thesis asks a normative question: which values are good, specifically, good from a cosmic standpoint? This requires an evaluative standpoint from which to adjudicate.
+
+I begin with the phrase "the point of view of the universe," introduced in [@Sidgwick1907] and refined through a lineage running from Bentham through Singer to Parfit and, I argue, to Bostrom (see [@DelazariradekSinger2014, @ParfitRP, @Bostrom2022, @Bostrom2024]). This concept sits alongside related notions, such as Nagel's "view from nowhere" and Spinoza's *sub specie aeternitatis*, but the specific Sidgwickian lineage matters. What the point of view of the universe attempts is a move toward maximal impartiality: a standpoint from which the interests of no individual, species, or epoch are privileged over any other.
+
+This move toward impartiality has, in practice, been carried out within a consequentialist framework. That is not accidental. When the populations are large, the time horizons long, and the spatial scales cosmic, consequentialism has proved more tractable than its rivals. Contractualism struggles to specify the parties to the contract across species and centuries. Virtue ethics depends on a conception of flourishing that may not generalise beyond human life. Deontology faces the problem of specifying duties toward entities whose nature is unknown. None of this means consequentialism is correct: only that it is the framework the relevant fields have found most workable for the questions they ask, and the thesis must engage with it on those terms.
+
+This background sets the stage for Chapters 3 and 4, where Bostrom's cosmic host hypothesis is examined as a specific proposal for what the point of view of the universe demands.
+
+### Mapping value(s)
+
+### The Spectrum of Positions on Value-Thickness
+
+<!-- TODO: NEW FRAMING — imported from presentation slide 7. Distinguishes two dimensions of the succession question (substrate and values) which the original chapter conflated. -->
+The succession question has two dimensions that must be distinguished. The first concerns *substrate*: what sort of entity succeeds humans, if anything? Options range from biological preservation through augmented humanity, digital uploads, to pure ASI. The second concerns *values*: what normative content gets transmitted to the future? Options range from preserving the full complexity of human values to transmitting nothing at all.
+
+What makes this two-axis framing historically unusual is that, for most of human history, *human continuation* and *the continuation of human values* were largely entangled. Values persisted primarily through bodies, reproduction, and cultural inheritance. The possibility of machine successors might break that coupling: one can now be agnostic about whether *humans* continue while still holding strong views about whether *any* value-content should persist in our future light cone, and if so which. The thesis treats this uncoupling as a genuinely new philosophical situation, not merely a new iteration of older debates about cultural change. Again, the usual extinction question considered in the mainstream x-risk discourse is a relatively minor part of this thesis; the main work is (i) what value survives and (ii) what sort of agent counts as the successor.
+
+The assertion above is provisional: posthumanist or critical-AI theorists might note that the very idea of “transmitting human values” to a nonhuman or differently embodied successor may be a category mistake, since values are often treated as inseparable from forms of life and material conditions; I return to this worry in the practice and embodiment sections.
+
+This project focuses primarily on the value axis: not *whether* to preserve values in a successor, but *which* values, and *how thick*.
+
+The thesis maps a spectrum of positions on how thick the value-content of a good future must be:
+
+| Position | What must survive | How thick? | Philosophical commitments |
+|---|---|---|---|
+| Full complexity of value (Yudkowsky) | The entire structure of human values | Maximally thick | Thick observation; lose any dimension and future is worthless |
+| Long reflection (Ord, MacAskill) | Optionality; don't lock in prematurely | Agnostic | Epistemic humility; the point is to not decide yet |
+| Wolfendale | Beauty, excellence, autonomy, freedom (substrate-neutral) | Thick but substrate-neutral | Autotelic surplus as intrinsic good |
+| **This thesis (proposed)** | **Understanding, exploration, information stewardship, non-suffering, resource-satiability** | **Deliberately thin** | **Observation sufficient; increase information and complexity according to Chaisson metric; rational convergence** |
+| Suffering-focused (NU) | Only suffering-minimisation | Very thin | Negative valence uniquely relevant |
+| Strong contemplative / nihilism | Nothing needs to survive | No thickness required | Existence-preference is attachment |
+
+The thesis's contribution is to show that *wherever* you draw the thickness line, you are making philosophical commitments that can be identified and examined. The mainstream positions cluster at the thick end without adequately defending that placement against thinner alternatives.
+
+<!-- TODO: NEW DIAGRAM — two-axis value landscape from presentation slide 12. The one-dimensional thickness table above is kept; this adds the local-to-cosmic axis which significantly enriches the picture. Rendered in ASCII. Consider whether to also generate a proper figure. -->
+These positions can also be mapped on two axes: the thickness of value (from thin to thick) and the scope of application (from local to cosmic). The resulting landscape reveals that most positions in the x-risk literature cluster in the thick-cosmic quadrant, and that the thin-cosmic quadrant (where this thesis sits) is underexplored:
+
+```
+   THICK |
+         |  Folk morality        Nussbaum (capabilities)
+         |  (community-          Korsgaard ("human project")
+         |   specific)           Williams (continuation)
+         |                                          Yudkowsky
+         |                                          (full complexity,
+         |                                           cosmic scope)
+         |
+         |
+         |              Classical utilitarianism
+         |              (thin values, wide scope)
+         |
+         |                              * THIS THESIS
+         |                              (thin values,
+         |                               cosmic scope)
+         |
+         |                                    Cosmic pessimism
+    THIN |                                    (Thacker, Ligotti)
+         +--------------------------------------------------
+         LOCAL                                        COSMIC
+```
+
+Relative to human-values preservation views, I argue that thick human value is not cosmically necessary; much thinner cross-agent commitments can still ground a good future. Relative to “long reflection” positions, I agree about avoiding premature lock-in but claim the acceptable-futures space is wider than often assumed, including futures with deliberately thin value content. Relative to cosmic host–style impartiality, I make the more committal move of testing specific thin-value candidates rather than remaining deliberately underspecified. And relative to accelerationist or cosmic-pessimist framings, I treat successor indifference as neither sufficient nor inevitable: the project offers a constructive normative proposal under conditions of radical uncertainty.

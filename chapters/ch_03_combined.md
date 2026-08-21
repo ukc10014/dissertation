@@ -4,7 +4,7 @@
 
 <!-- TODO: Somewhere in here, we should frame the cosmic host as or through a Rawls original position perspective. Thinking maybe of the genealogy from Sidgwick through Parfit, Rawls has a certain part in that, and the cosmic host seems to generalize that to environments where we are even ontologically uncertain rather than kind of positionally uncertain within society. And that seems like kind of an interesting point and makes this chapter 3 link quite nicely with chapter 2.-->
 
-<!-- TODO: **WHEN WE REWRITE THIS CHAPTER, LOOK AT GPT CONVERSATION ON WHERE EXACTLY BOSTROM SITS IN THE {OCCUPIED, UNOCCUPIED, IMPARTIAL, WELFARE-BASED, etc} TAXONOMY. BELOW IS FROM GPT...LOOK ALSO AT CHAPTER 1, SECTION {#ch1:definitions}.**
+<!-- TODO: **WHEN WE REWRITE THIS CHAPTER, LOOK AT GPT CONVERSATION ON WHERE EXACTLY BOSTROM SITS IN THE {OCCUPIED, UNOCCUPIED, IMPARTIAL, WELFARE-BASED, etc} TAXONOMY. BELOW IS FROM GPT...LOOK ALSO AT CHAPTER 1, SECTION {#ch0:definitions}.**
 
 Your read is basically right, but I would make two adjustments.
 
